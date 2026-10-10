@@ -1,5 +1,5 @@
 // Headroom service worker: app shell works offline; news data is network-first.
-const CACHE = "headroom-v6";
+const CACHE = "headroom-v7";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/icon.svg"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));

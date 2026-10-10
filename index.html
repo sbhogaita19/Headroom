@@ -147,6 +147,8 @@ th{color:var(--mute);font:500 11px/1.3 var(--mono);text-transform:uppercase;lett
 .num{width:28px;height:28px;border-radius:6px;background:var(--accsoft);color:var(--acc);display:flex;align-items:center;justify-content:center;font:600 13px/1 var(--mono);flex:none}
 @media (max-width:420px){h1{font-size:26px}.col{padding-left:16px;padding-right:16px}}
 /* polish */
+.eyebrow{display:flex;gap:6px;font:500 11.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin-bottom:12px}
+.eyebrow b{color:var(--acc);font-weight:600}
 header{padding:34px 0 10px}
 h1{font-size:34px}
 .lead{font-size:15.5px;line-height:1.55;max-width:56ch}
@@ -488,7 +490,7 @@ function srcRow(s){
     h("div",{class:"body"},h("div",{class:"t"},s.title),h("div",{class:"s"},tierBadge(s.tier),s.org),h("div",{class:"s"},s.blurb)),
     h("span",{class:"chev","aria-hidden":"true"},"↗"));
 }
-function setHeader(title,sub){$("#hdr").replaceChildren(h("h1",{},title),h("p",{class:"lead"},sub))}
+function setHeader(title,sub){$("#hdr").replaceChildren(...(title==="Headroom"?[]:[h("div",{class:"eyebrow"},h("b",{},"headroom"),h("span",{},"/ "+title.toLowerCase()))]),h("h1",{},title),h("p",{class:"lead"},sub))}
 function vfilter(){return seg(VENDORS,state.vendor,k=>{state.vendor=k;render()})}
 function go(tab){state.tab=tab;render();window.scrollTo(0,0)}
 
