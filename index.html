@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Headroom — agentic coding, made clear</title>
+<meta name="description" content="Live agentic-AI news, a model picker for your tool suite, and daily habits.">
+<meta name="theme-color" content="#007aff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Headroom">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>
+:root{
+  --bg:#f2f2f7;--card:#ffffff;--ink:#1c1c1e;--mute:#6c6c70;--line:rgba(60,60,67,.16);--fill:rgba(118,118,128,.12);
+  --acc:#007aff;--acc-ink:#ffffff;--accsoft:rgba(0,122,255,.10);--ok:#248a3d;--oksoft:rgba(52,199,89,.14);--warn:#b25000;--warnsoft:rgba(255,149,0,.15);--code:#f0f0f4;
+  --blur:rgba(249,249,251,.82);
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#000;--card:#1c1c1e;--ink:#f2f2f7;--mute:#98989f;--line:rgba(84,84,88,.55);--fill:rgba(118,118,128,.24);--acc:#0a84ff;--accsoft:rgba(10,132,255,.18);--ok:#30d158;--oksoft:rgba(48,209,88,.16);--warn:#ffb340;--warnsoft:rgba(255,159,10,.18);--code:#2c2c2e;--blur:rgba(28,28,30,.82)}
+}
+:root[data-theme="dark"]{--bg:#000;--card:#1c1c1e;--ink:#f2f2f7;--mute:#98989f;--line:rgba(84,84,88,.55);--fill:rgba(118,118,128,.24);--acc:#0a84ff;--accsoft:rgba(10,132,255,.18);--ok:#30d158;--oksoft:rgba(48,209,88,.16);--warn:#ffb340;--warnsoft:rgba(255,159,10,.18);--code:#2c2c2e;--blur:rgba(28,28,30,.82)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased}
+.col{max-width:760px;margin:0 auto;padding:0 16px calc(104px + env(safe-area-inset-bottom,0px))}
+header{padding:22px 0 6px}
+h1{font-size:34px;line-height:1.1;margin:0;letter-spacing:-.022em;font-weight:700}
+.lead{color:var(--mute);margin:6px 0 0;font-size:15px}
+h2{font-size:22px;letter-spacing:-.015em;margin:28px 0 8px;font-weight:700}
+h3{font-size:17px;margin:0;font-weight:600}
+.cap{font-size:13px;color:var(--mute);text-transform:uppercase;letter-spacing:.04em;margin:24px 4px 6px;font-weight:500}
+p{margin:6px 0}
+.mute{color:var(--mute);font-size:14px}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+/* tab bar / sidebar */
+nav{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--blur);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);border-top:.5px solid var(--line);padding:6px 6px calc(6px + env(safe-area-inset-bottom,0px))}
+nav .in{display:flex;max-width:620px;margin:0 auto;gap:2px}
+nav .logo{display:none}
+nav button{flex:1;border:0;background:none;color:var(--mute);font:inherit;font-size:10.5px;font-weight:500;padding:5px 2px;border-radius:10px;display:flex;flex-direction:column;align-items:center;gap:2px;min-height:48px;cursor:pointer}
+nav button .i{font-size:21px;line-height:1}
+nav button[aria-selected="true"]{color:var(--acc)}
+@media (min-width:900px){
+  nav{right:auto;top:0;bottom:0;width:236px;border-top:0;border-right:.5px solid var(--line);padding:calc(24px + env(safe-area-inset-top,0px)) 12px 20px}
+  nav .in{flex-direction:column;max-width:none;gap:2px}
+  nav .logo{display:block;font-size:20px;font-weight:700;letter-spacing:-.02em;padding:0 10px 14px}
+  nav button{flex:none;flex-direction:row;font-size:15px;gap:10px;padding:9px 10px;min-height:40px;justify-content:flex-start}
+  nav button .i{font-size:18px;width:24px;text-align:center}
+  nav button[aria-selected="true"]{background:var(--accsoft)}
+  .col{margin-left:236px;max-width:none;padding:0 40px 60px}
+  .col>*{max-width:760px}
+}
+/* grouped list (iOS inset) */
+.group{background:var(--card);border-radius:14px;overflow:hidden}
+.row{display:flex;gap:12px;align-items:center;padding:12px 14px;border-top:.5px solid var(--line);color:inherit;text-decoration:none;min-height:52px}
+.group>.row:first-child,.group>details:first-child summary,.group>*:first-child{border-top:0}
+a.row:active{background:var(--fill)}
+a.row:hover{text-decoration:none;background:var(--fill)}
+.row .body{flex:1;min-width:0}
+.row .t{font-size:16.5px;font-weight:500;line-height:1.25}
+.row .s{font-size:13.5px;color:var(--mute);margin-top:2px}
+.row .chev{color:var(--mute);opacity:.6;font-size:15px;flex:none}
+.pad{padding:14px;border-top:.5px solid var(--line)}
+.group>.pad:first-child{border-top:0}
+.card{background:var(--card);border-radius:14px;padding:14px;margin:10px 0}
+.badge{display:inline-block;font-size:11px;font-weight:600;border-radius:6px;padding:2px 7px;margin-right:6px;vertical-align:1px;white-space:nowrap}
+.b-official{background:var(--oksoft);color:var(--ok)}
+.b-author{background:var(--accsoft);color:var(--acc)}
+.b-community{background:var(--fill);color:var(--mute)}
+.b-lead{background:var(--warnsoft);color:var(--warn)}
+.vtag{font-size:11px;color:var(--mute);border:.5px solid var(--line);border-radius:99px;padding:1px 7px;margin-right:4px;white-space:nowrap}
+/* segmented / chips */
+.seg{display:flex;gap:6px;overflow-x:auto;padding:2px 0 6px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.seg::-webkit-scrollbar{display:none}
+.seg button{flex:none;border:0;background:var(--fill);color:var(--ink);border-radius:99px;padding:7px 14px;font:inherit;font-size:14px;font-weight:500;cursor:pointer;min-height:36px}
+.seg button[aria-pressed="true"]{background:var(--acc);color:var(--acc-ink)}
+/* buttons / inputs */
+button.btn,a.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--acc);color:var(--acc-ink);border:0;border-radius:12px;padding:11px 16px;font:inherit;font-size:16px;font-weight:600;cursor:pointer;min-height:44px;text-decoration:none}
+button.btn.soft{background:var(--accsoft);color:var(--acc)}
+button:disabled{opacity:.5}
+input[type=search],input[type=text],input[type=number],select,textarea{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--fill);border:0;border-radius:10px;padding:10px 12px;outline:none}
+input:focus,select:focus,textarea:focus{box-shadow:0 0 0 2px var(--acc)}
+textarea{min-height:160px;resize:vertical;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px}
+label{display:block;font-size:13px;color:var(--mute);margin:12px 4px 4px}
+input[type=range]{width:100%;accent-color:var(--acc)}
+pre,code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}
+pre{background:var(--code);border-radius:10px;padding:12px;overflow-x:auto;margin:8px 0;white-space:pre}
+code{background:var(--code);border-radius:5px;padding:1px 5px}
+pre code{background:none;padding:0}
+details>summary{list-style:none;cursor:pointer}
+details>summary::-webkit-details-marker{display:none}
+details>summary.row::after{content:"›";color:var(--mute);font-size:22px;transform:rotate(0);transition:transform .15s;flex:none;opacity:.6}
+details[open]>summary.row::after{transform:rotate(90deg)}
+.callout{border-radius:12px;padding:12px 14px;font-size:14.5px;margin:12px 0;background:var(--warnsoft)}
+.callout.info{background:var(--accsoft)}
+.why{border-left:3px solid var(--acc);padding:2px 0 2px 10px;margin:10px 0 6px;font-size:15px}
+.big{font-size:30px;font-weight:700;letter-spacing:-.02em}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.bar{display:flex;height:20px;border-radius:7px;overflow:hidden;background:var(--fill);margin:10px 0}
+.bar span{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--mute)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:4px;vertical-align:-1px}
+.prog{height:6px;border-radius:99px;background:var(--fill);overflow:hidden;margin:8px 0}
+.prog span{display:block;height:100%;background:var(--acc);transition:width .25s}
+.check{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-top:.5px solid var(--line)}
+.check:first-child{border-top:0}
+.check input{width:22px;height:22px;margin-top:1px;accent-color:var(--acc);flex:none}
+.check label{margin:0;color:var(--ink);font-size:16px}
+.out{white-space:pre-wrap;word-break:break-word;font-size:15.5px}
+ol.steps{margin:6px 0 6px 20px;padding:0}
+ol.steps li{margin:4px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}
+td,th{text-align:left;padding:8px 10px;border-top:.5px solid var(--line);vertical-align:top}
+th{color:var(--mute);font-weight:500;font-size:12px;text-transform:uppercase;letter-spacing:.03em}
+.scroll{overflow-x:auto}
+.hero{background:var(--card);border-radius:18px;padding:18px;margin:12px 0}
+.hero h3{font-size:20px;letter-spacing:-.01em}
+.flow{display:flex;flex-direction:column;gap:6px;margin:10px 0}
+.flow div{background:var(--fill);border-radius:10px;padding:9px 12px;font-size:14.5px}
+.flow b{color:var(--acc)}
+.num{width:28px;height:28px;border-radius:99px;background:var(--accsoft);color:var(--acc);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;flex:none}
+nav button{min-width:0}
+</style>
+</head>
+<body>
+<nav aria-label="Sections"><div class="in" role="tablist" id="tabs"><div class="logo">Headroom</div></div></nav>
+<div class="col"><header id="hdr"></header><main id="view" tabindex="-1"></main></div>
+
+<script>
+"use strict";
+/* =====================================================================
+   DATA — snapshot compiled 10 Oct 2026. Refresh by asking Claude.
+   Trust labels: official = vendor's / standard's own docs or repo ·
+   author = creator's own repo or site · community = third party.
+   ===================================================================== */
+const SNAP="2026-10-10";
+const VENDORS=[["all","All"],["claude","Claude"],["openai","OpenAI"],["google","Gemini"],["mistral","Mistral"],["deepseek","DeepSeek"],["qwen","Qwen"],["tools","Editors & CLIs"]];
+const VLABEL={claude:"Claude",openai:"OpenAI",google:"Gemini",mistral:"Mistral",deepseek:"DeepSeek",qwen:"Qwen",tools:"Tools",open:"Any model"};
+
+const SRC=[
+ /* ---- repos ---- */
+ {id:"pocock",type:"repo",tier:"author",v:["open"],title:"mattpocock/skills",org:"Matt Pocock · GitHub",url:"https://github.com/mattpocock/skills",
+  blurb:"“Skills for Real Engineers”: MIT-licensed agent skills for grilling a plan, TDD, code review, domain modelling, handoffs and architecture review."},
+ {id:"anth-skills",type:"repo",tier:"official",v:["claude","open"],title:"anthropics/skills",org:"Anthropic · GitHub",url:"https://github.com/anthropics/skills",
+  blurb:"Anthropic's example and document skills plus the skill-creator guide."},
+ {id:"as-repo",type:"repo",tier:"official",v:["open"],title:"agentskills/agentskills",org:"Agent Skills · GitHub",url:"https://github.com/agentskills/agentskills",
+  blurb:"The open Agent Skills specification and docs, adopted across many agent clients."},
+ {id:"codex",type:"repo",tier:"official",v:["openai"],title:"openai/codex",org:"OpenAI · GitHub",url:"https://github.com/openai/codex",
+  blurb:"OpenAI's open-source Codex CLI. OpenAI points to it as the reference implementation for an agentic coding harness."},
+ {id:"gemini-cli",type:"repo",tier:"official",v:["google"],title:"google-gemini/gemini-cli",org:"Google · GitHub",url:"https://github.com/google-gemini/gemini-cli",
+  blurb:"Open-source Gemini agent for your terminal: GEMINI.md context files, MCP servers, headless use and a GitHub Action."},
+ {id:"qwen-code",type:"repo",tier:"official",v:["qwen"],title:"QwenLM/qwen-code",org:"Qwen · GitHub",url:"https://github.com/QwenLM/qwen-code",
+  blurb:"Command-line coding agent adapted from Gemini CLI and tuned for Qwen-Coder models. Works with OpenAI-compatible endpoints."},
+ {id:"omp",type:"repo",tier:"author",v:["open"],title:"can1357/oh-my-pi (omp)",org:"Can Bölük · GitHub",url:"https://github.com/can1357/oh-my-pi",
+  blurb:"Your agent: LSP, debugger, subagents, session branching, role-based model routing and 60+ providers, so one harness drives every model you use."},
+ {id:"herdr",type:"repo",tier:"author",v:["open"],title:"ogulcancelik/herdr",org:"Can Celik · GitHub",url:"https://github.com/ogulcancelik/herdr",
+  blurb:"Agent multiplexer for your terminal: blocked / working / done / idle across panes. Detects 15+ agents by default and has a socket API."},
+ {id:"pi",type:"repo",tier:"author",v:["open"],title:"badlogic/pi-mono (Pi)",org:"Mario Zechner · GitHub",url:"https://github.com/badlogic/pi-mono",
+  blurb:"The minimal harness omp is forked from. Shows what a harness really needs."},
+ {id:"agentsmd-repo",type:"repo",tier:"official",v:["open"],title:"agentsmd/agents.md",org:"AGENTS.md project · GitHub",url:"https://github.com/agentsmd/agents.md",
+  blurb:"Source for the AGENTS.md format site."},
+ /* ---- docs ---- */
+ {id:"anth-ctx",type:"doc",tier:"official",v:["claude","open"],title:"Effective context engineering for AI agents",org:"Anthropic Engineering",url:"https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+  blurb:"Context as a finite budget: system prompts, tools, retrieval, compaction, notes, sub-agents."},
+ {id:"anth-agents",type:"doc",tier:"official",v:["claude","open"],title:"Building effective agents",org:"Anthropic Engineering",url:"https://www.anthropic.com/engineering/building-effective-agents",
+  blurb:"Workflows versus agents and the simple patterns that work."},
+ {id:"anth-mcp",type:"doc",tier:"official",v:["claude","open"],title:"Code execution with MCP",org:"Anthropic Engineering",url:"https://www.anthropic.com/engineering/code-execution-with-mcp",
+  blurb:"Cut tool-definition and tool-result bloat by letting agents call tools through code."},
+ {id:"anth-cache",type:"doc",tier:"official",v:["claude"],title:"Prompt caching",org:"Anthropic Docs",url:"https://docs.claude.com/en/docs/build-with-claude/prompt-caching",
+  blurb:"cache_control breakpoints, 5-minute and 1-hour lifetimes, pricing multipliers."},
+ {id:"claude-code",type:"doc",tier:"official",v:["claude"],title:"Claude Code documentation",org:"Anthropic Docs",url:"https://docs.claude.com/en/docs/claude-code/overview",
+  blurb:"CLAUDE.md, skills, subagents, hooks and MCP in Anthropic's terminal agent."},
+ {id:"claude-models",type:"doc",tier:"official",v:["claude"],title:"Claude models overview",org:"Anthropic Docs",url:"https://docs.claude.com/en/docs/about-claude/models/overview",
+  blurb:"Current model lineup, context sizes and pricing. Check before choosing a tier."},
+ {id:"oa-codex-prompt",type:"doc",tier:"official",v:["openai"],title:"Codex prompting guide",org:"OpenAI Cookbook",url:"https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide",
+  blurb:"How OpenAI prompts and configures its coding models in agent harnesses."},
+ {id:"oa-codex",type:"doc",tier:"official",v:["openai"],title:"Codex documentation",org:"OpenAI Developers",url:"https://developers.openai.com/codex",
+  blurb:"CLI, IDE extension and app; prompting, validation, MCP, skills, automations."},
+ {id:"oa-codegen",type:"doc",tier:"official",v:["openai"],title:"Code generation guide",org:"OpenAI API Docs",url:"https://developers.openai.com/api/docs/guides/code-generation",
+  blurb:"Using the Responses API and Codex for code generation; which model to start with."},
+ {id:"oa-cookbook",type:"doc",tier:"official",v:["openai"],title:"Codex recipes (incl. PLANS.md for multi-hour work)",org:"OpenAI Cookbook",url:"https://developers.openai.com/cookbook/topic/codex",
+  blurb:"Worked examples: CI fixes, code review with the SDK, PLANS.md, migrations."},
+ {id:"oa-cache",type:"doc",tier:"official",v:["openai"],title:"Prompt caching",org:"OpenAI Platform Docs",url:"https://platform.openai.com/docs/guides/prompt-caching",
+  blurb:"Automatic caching for longer prompts; keep stable content at the start."},
+ {id:"oa-models",type:"doc",tier:"official",v:["openai"],title:"OpenAI models",org:"OpenAI API Docs",url:"https://developers.openai.com/api/docs/models",
+  blurb:"Model pages for the current GPT-5 family and Codex-tuned models."},
+ {id:"g-prompt",type:"doc",tier:"official",v:["google"],title:"Prompt design strategies",org:"Google · Gemini API",url:"https://ai.google.dev/gemini-api/docs/prompting-strategies",
+  blurb:"Instructions, constraints, few-shot examples, completion strategy, structured output."},
+ {id:"g-models",type:"doc",tier:"official",v:["google"],title:"Gemini models",org:"Google · Gemini API",url:"https://ai.google.dev/gemini-api/docs/models",
+  blurb:"Current Gemini lineup (Pro and Flash tiers) with context sizes and limits."},
+ {id:"g-cli-docs",type:"doc",tier:"official",v:["google"],title:"Gemini CLI docs: GEMINI.md context files",org:"Gemini CLI",url:"https://geminicli.com/docs/cli/gemini-md",
+  blurb:"Global, workspace and just-in-time context files, @file imports, /memory commands, and the context.fileName setting."},
+ {id:"m-vibe",type:"doc",tier:"official",v:["mistral"],title:"Mistral Vibe overview",org:"Mistral Docs",url:"https://docs.mistral.ai/vibe",
+  blurb:"Mistral's unified agent across web, mobile, editor and terminal, with Work, Code and Chat modes and skills."},
+ {id:"m-vibe-cli",type:"doc",tier:"official",v:["mistral"],title:"Mistral Vibe CLI",org:"Mistral Docs",url:"https://docs.mistral.ai/mistral-vibe/overview",
+  blurb:"Open-source terminal coding agent on Devstral: @ file references, ! shell commands, slash-command skills, offline with local models, JetBrains and Zed via ACP."},
+ {id:"m-code",type:"doc",tier:"official",v:["mistral"],title:"Mistral coding models and FIM",org:"Mistral Docs",url:"https://docs.mistral.ai/capabilities/fim",
+  blurb:"Codestral for fill-in-the-middle completion; Devstral for agentic coding and tool use via chat completions."},
+ {id:"ds-docs",type:"doc",tier:"official",v:["deepseek"],title:"DeepSeek API docs",org:"DeepSeek",url:"https://api-docs.deepseek.com",
+  blurb:"Models, pricing, function calling and context caching. Check here for the current model names."},
+ {id:"qwen-docs",type:"doc",tier:"official",v:["qwen"],title:"Qwen Code docs",org:"Qwen",url:"https://qwenlm.github.io/qwen-code-docs",
+  blurb:"CLI commands, authentication (Qwen OAuth or OpenAI-compatible), token caching, headless mode."},
+ {id:"cursor-rules",type:"doc",tier:"official",v:["tools"],title:"Cursor rules",org:"Cursor Docs",url:"https://cursor.com/docs/context/rules",
+  blurb:"Project rules in .cursor/rules (.mdc with frontmatter), AGENTS.md, and CLAUDE.md support. Keep rules under 500 lines."},
+ {id:"copilot-instr",type:"doc",tier:"official",v:["tools"],title:"Copilot custom instructions support",org:"GitHub Docs",url:"https://docs.github.com/en/copilot/reference/custom-instructions-support",
+  blurb:"Which instruction files each Copilot feature reads, including AGENTS.md, CLAUDE.md and GEMINI.md for the coding agent."},
+ {id:"herdr-docs",type:"doc",tier:"author",v:["open"],title:"herdr docs",org:"herdr.dev",url:"https://herdr.dev/docs",
+  blurb:"Quick start, supported agents, agent states, integrations, socket API."},
+ {id:"omp-site",type:"doc",tier:"author",v:["open"],title:"omp homepage",org:"omp.sh",url:"https://omp.sh",
+  blurb:"Install options, features and docs for oh-my-pi."},
+ /* ---- standards ---- */
+ {id:"agentsmd",type:"standard",tier:"official",v:["open"],title:"AGENTS.md",org:"agents.md",url:"https://agents.md",
+  blurb:"A README for agents. One open file read by many coding agents; stewarded under the Linux Foundation."},
+ {id:"as-spec",type:"standard",tier:"official",v:["open"],title:"Agent Skills specification",org:"agentskills.io",url:"https://agentskills.io/specification",
+  blurb:"SKILL.md format: name + description, progressive disclosure, optional scripts, references and assets."},
+ {id:"mcp",type:"standard",tier:"official",v:["open"],title:"Model Context Protocol",org:"modelcontextprotocol.io",url:"https://modelcontextprotocol.io",
+  blurb:"Open protocol for connecting models to tools and data."},
+ {id:"owasp",type:"standard",tier:"official",v:["open"],title:"OWASP GenAI Security Project",org:"OWASP",url:"https://genai.owasp.org",
+  blurb:"Threat lists and guidance for LLM and agentic application security."},
+ /* ---- guides ---- */
+ {id:"simon",type:"guide",tier:"author",v:["open"],title:"Agentic Engineering Patterns",org:"Simon Willison",url:"https://simonwillison.net/guides/agentic-engineering-patterns/",
+  blurb:"Patterns that outlast tool churn: red/green TDD, subagents, Git with agents, anti-patterns."},
+ {id:"pocock-cat",type:"guide",tier:"author",v:["open"],title:"Skills catalog on AI Hero",org:"Matt Pocock · aihero.dev",url:"https://www.aihero.dev/skills-catalog",
+  blurb:"The author's own overview of the skill catalog and install command."},
+ {id:"pocock-claude",type:"guide",tier:"official",v:["claude"],title:"Matt Pocock's skills on claude.com/plugins",org:"Anthropic · claude.com",url:"https://claude.com/plugins/mattpocock-skills",
+  blurb:"Plugin listing with the skill list and usage notes."}
+];
+const byId=Object.fromEntries(SRC.map(s=>[s.id,s]));
+
+const NEWS=[
+ {t:"Standards are converging on AGENTS.md and Agent Skills",v:["open"],d:"Docs",src:"agents.md · agentskills.io",url:"https://agents.md",lvl:"official",
+  sum:"AGENTS.md is described as stewarded under the Linux Foundation and read by tools from OpenAI, Google, Cursor and others. The Agent Skills format is adopted across Claude Code, Codex, Cursor and Gemini CLI.",
+  why:"Write instructions and skills once, in the open formats, and they follow you between models."},
+ {t:"GitHub Copilot's coding agent reads AGENTS.md, CLAUDE.md and GEMINI.md",v:["tools"],d:"Docs",src:"GitHub Docs",url:"https://docs.github.com/en/copilot/reference/custom-instructions-support",lvl:"official",
+  sum:"Alongside its own copilot-instructions.md, the coding agent supports the other vendors' instruction files.",
+  why:"One AGENTS.md now covers Codex, Cursor, Copilot and more. Put model-specific quirks in the tool's own file."},
+ {t:"Le Chat becomes Vibe: Mistral's unified agent",v:["mistral"],d:"Docs",src:"Mistral Docs",url:"https://docs.mistral.ai/vibe",lvl:"official",
+  sum:"Mistral's docs describe Vibe as one agent across web, mobile, editor and terminal, with Work, Code and Chat modes. Skills replace the old Agents feature.",
+  why:"If you use Mistral models, Vibe's terminal CLI runs Devstral locally or in the cloud and speaks skills."},
+ {t:"Qwen Code documents token caching",v:["qwen"],d:"Docs",src:"Qwen Code docs",url:"https://qwenlm.github.io/qwen-code-docs",lvl:"official",
+  sum:"The Qwen Code CLI docs list a token-caching option for cutting API cost, plus a headless mode for scripts.",
+  why:"Same cost lever as other providers: keep a stable prefix. Headless mode suits cheap background jobs."},
+ {t:"Matt Pocock's skills pack is trending on GitHub",v:["open"],d:"6 Sep",src:"mer.vin",url:"https://mer.vin/news/mattpocock-skills-the-skill-pack-topping-github-trending/",lvl:"lead",
+  sum:"A third-party write-up reports the repo reached the top of GitHub's daily trending list. Treat star counts as indicative and check the repo itself.",
+  why:"Worth reading even if you never install it: small composable skills that encode engineering discipline."},
+ {t:"OpenAI DevDay: always-on “Dots” agents and GPT-6.1 Sol",v:["openai"],d:"4 Oct",src:"AISA digest",url:"https://aisa.to/blog/ai-landscape-snapshot-week-40-2026",lvl:"lead",
+  sum:"Reported launch of persistent agents that manage ongoing work, plus a new model priced well below its predecessor.",
+  why:"Long-lived agents turn context hygiene into a cost problem: compaction, notes, cheap models for background work."},
+ {t:"Claude Code “Mods” makes the agent extensible",v:["claude"],d:"4 Oct",src:"AISA digest",url:"https://aisa.to/blog/ai-landscape-snapshot-week-40-2026",lvl:"lead",
+  sum:"Reported as Anthropic opening Claude Code to third-party modification.",
+  why:"Harness behaviour (hooks, tools, skills) is becoming something you keep in git like any dependency."},
+ {t:"Sierra and Meta publish the Personal Agent Protocol",v:["open"],d:"6 Oct",src:"AI Weekly",url:"https://aiweekly.co/ai-news-today",lvl:"lead",
+  sum:"An open, OAuth-based standard for personal agents to authenticate with businesses, usable over web, MCP/OpenAPI or a company-run agent.",
+  why:"Another auth-and-tools standard beside MCP. The pattern to learn: scoped identity per agent."},
+ {t:"Pwn2Own: exploits against an LLM gateway and Codex",v:["open","openai"],d:"8 Oct",src:"AI Weekly",url:"https://aiweekly.co/ai-news-today",lvl:"lead",
+  sum:"Day-one results reportedly included a chain against LiteLLM and exploits against OpenAI Codex.",
+  why:"Treat gateways and agent CLIs as attack surface: pin versions, keep proxies private, run agents sandboxed."},
+ {t:"“PixelLeak”: agents pushing screenshots to public repos",v:["open"],d:"1 Oct",src:"vbrainstorm digest",url:"https://vbrainstorm.com/post/ai-news-september-28-october-2-2026-the-week-the-subpoenas-arrived",lvl:"lead",
+  sum:"Researchers reportedly found internal UI screenshots exposed because agents attached images to pull requests in public repositories.",
+  why:"Check what your agent may publish and which repos are public before letting it open PRs."},
+ {t:"JetBrains: about 90% of surveyed developers use coding agents weekly",v:["open"],d:"6 Oct",src:"AI Agents Directory",url:"https://aiagentsdirectory.com/news/ai-agents-news-brief-october-6-2026",lvl:"lead",
+  sum:"Adoption keeps climbing, according to a survey reported this week.",
+  why:"The edge is shifting from using an agent to scoping, verifying and budgeting it well."}
+];
+const FEEDS=[
+ ["Anthropic engineering","https://www.anthropic.com/engineering"],
+ ["OpenAI Codex docs","https://developers.openai.com/codex"],
+ ["Gemini API docs","https://ai.google.dev/gemini-api/docs"],
+ ["Mistral docs","https://docs.mistral.ai"],
+ ["DeepSeek API docs","https://api-docs.deepseek.com"],
+ ["Qwen Code docs","https://qwenlm.github.io/qwen-code-docs"],
+ ["Simon Willison's blog","https://simonwillison.net"],
+ ["omp releases","https://github.com/can1357/oh-my-pi/releases"],
+ ["herdr releases","https://github.com/ogulcancelik/herdr/releases"],
+ ["mattpocock/skills","https://github.com/mattpocock/skills"]
+];
+
+/* ---------- which model for which job ---------- */
+const TIERS=[
+ {k:"Planner",d:"Hardest reasoning: architecture, ambiguous bugs, security-sensitive work, review of risky diffs. Slowest and priciest, so use it for short, high-leverage turns.",
+  ex:{claude:"Opus-class (see the models page for anything above it)",openai:"The flagship GPT-5 family model at high reasoning effort",google:"Pro-class",mistral:"Largest Mistral model (check the models page)",deepseek:"Its reasoning model, if listed (check the docs)",qwen:"Largest Qwen model you can access"}},
+ {k:"Workhorse",d:"Everyday implementation, tests and refactors. Start here and only escalate when stuck.",
+  ex:{claude:"Sonnet-class",openai:"A Codex-tuned model, or the GPT-5 family at medium effort. OpenAI recommends medium as the all-round interactive setting.",google:"Pro or Flash-class",mistral:"Devstral (built for agentic coding)",deepseek:"Its main chat model",qwen:"Qwen-Coder"}},
+ {k:"Sprinter",d:"Mechanical edits, boilerplate, docs, commit messages, bulk jobs. Cheap and fast.",
+  ex:{claude:"Haiku-class",openai:"Smaller GPT-5 variants (see the models page)",google:"Flash-class",mistral:"Small Devstral / Codestral variants",deepseek:"Its standard chat model",qwen:"Smaller Qwen-Coder sizes"}},
+ {k:"Local",d:"Private or offline code, or free experimentation. Weaker, so keep tasks small and verify harder.",
+  ex:{mistral:"Vibe CLI can run offline with locally deployed models",qwen:"Qwen Code against a local OpenAI-compatible endpoint",tools:"omp lists local runtimes such as Ollama, LM Studio, llama.cpp and vLLM"}}
+];
+const TASKS=[
+ {id:"plan",t:"Plan a feature or architecture",s:"Decide before you build",tier:"Planner",effort:"High",
+  steps:["Start with a grill: have the agent interview you, one question at a time, until no decisions are open.","Ask for two options with trade-offs, then choose one yourself.","Write PLAN.md: goal, steps, test plan, out-of-scope.","Start a fresh Workhorse session and hand it PLAN.md."],
+  token:"Plan once at the top tier, build at a cheaper one.",avoid:"Implementing in the same bloated session you planned in."},
+ {id:"build",t:"Implement from a clear plan",s:"The daily driver",tier:"Workhorse",effort:"Medium",
+  steps:["Fresh session; point at PLAN.md and the files by path.","Write a failing test first.","Make one small change, run the tests, commit.","Repeat. Review each diff before moving on."],
+  token:"Reference files by path and let the agent read slices.",avoid:"Asking for the whole feature in one prompt."},
+ {id:"mech",t:"Renames, boilerplate, formatting",s:"Typing, not thinking",tier:"Sprinter",effort:"Low",
+  steps:["Give the exact pattern and a file glob.","Ask for a diff stat before edits land.","Run the formatter and tests."],
+  token:"No history needed. Fresh, cheap, quick.",avoid:"Using a Planner for typing."},
+ {id:"debug",t:"Debug a hard bug",s:"Escalate after two failed tries",tier:"Planner",effort:"High",
+  steps:["Give the failing repro, the error output and the last change. Not the whole repo.","Ask for ranked hypotheses before any edit.","Run the cheapest check that separates the top two.","Add a regression test, then fix."],
+  token:"Trim logs to the failing region.",avoid:"Letting it change several things at once."},
+ {id:"test",t:"Write or fix tests",s:"Red, then green",tier:"Workhorse",effort:"Medium",
+  steps:["Run the existing tests first to learn the baseline.","Ask for the list of behaviours to cover before any code.","Write one failing test, make it pass, repeat."],
+  token:"Paste the failing test output, not the whole suite.",avoid:"Tests that mirror the implementation."},
+ {id:"review",t:"Review a diff",s:"Fresh eyes, ideally another model",tier:"Planner",effort:"High",
+  steps:["New session with only the diff and your standards.","Two passes: does it follow standards, and does it match the spec.","Ask for must-fix versus nice-to-have.","Use a different model from the author for a second opinion."],
+  token:"Pass git diff, not whole files.",avoid:"Reviewing in the session that wrote the code."},
+ {id:"explore",t:"Understand an unfamiliar codebase",s:"Map first, then dig",tier:"Workhorse",effort:"Medium",
+  steps:["Ask for a map: entry points, modules, data flow.","Let the agent grep and read; don't paste the repo.","Save the map to NOTES.md or CONTEXT.md.","Reuse the notes next session."],
+  token:"A long context window helps, but retrieval is still cheaper and sharper.",avoid:"Dumping every file into the prompt."},
+ {id:"refactor",t:"Large refactor or migration",s:"Divide and conquer",tier:"Workhorse",effort:"Medium",
+  steps:["Plan in a PLANS.md and split by module.","One herdr pane per slice, each with its own clean context.","Tests are the guard rail; run them in every slice.","Merge one slice at a time."],
+  token:"Several small contexts beat one huge one.",avoid:"One endless session."},
+ {id:"docs",t:"Docs, commit messages, PR text",s:"Cheap and quick",tier:"Sprinter",effort:"Low",
+  steps:["Feed the diff.","Give a template for the output.","Edit the result yourself."],
+  token:"Diff in, short text out.",avoid:"Pasting whole files for a one-line message."},
+ {id:"private",t:"Private or offline code",s:"Keep it on your machine",tier:"Local",effort:"Low–Medium",
+  steps:["Run a local model through omp, Mistral Vibe offline, or Qwen Code on a local endpoint.","Keep tasks small and well specified.","Verify harder: run tests and read every diff."],
+  token:"Local tokens are free but the window is still finite.",avoid:"Expecting frontier-level planning."},
+ {id:"bulk",t:"Bulk or background jobs",s:"Many similar calls",tier:"Sprinter",effort:"Low",
+  steps:["Put shared instructions first so prefix caching can hit.","Use a headless mode or batch API where offered.","Spot-check a sample of outputs.","Set a spend cap."],
+  token:"Stable prefix first. Providers such as OpenAI, Anthropic, DeepSeek and Qwen document caching.",avoid:"Changing the prompt header between calls."},
+ {id:"sec",t:"Security-sensitive changes",s:"Slow down on purpose",tier:"Planner",effort:"High",
+  steps:["Run the agent sandboxed with minimal permissions.","Read the diff line by line yourself.","Run static analysis and tests.","Get a second model's review, then a human's."],
+  token:"Worth the spend.",avoid:"Auto-approving tool calls."}
+];
+const SUITE=[
+ ["Claude Code","CLAUDE.md, skills","Skills live in .claude/skills. Strong fit for Claude models."],
+ ["Codex CLI","AGENTS.md","Open source, OpenAI's reference harness."],
+ ["Gemini CLI","GEMINI.md","Global, workspace and subfolder files, @file imports, /memory commands. Add AGENTS.md via context.fileName."],
+ ["Cursor","AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc","Rules need .mdc frontmatter; a plain .md in the rules folder is ignored. Keep rules under 500 lines."],
+ ["GitHub Copilot agent","AGENTS.md, CLAUDE.md, GEMINI.md, copilot-instructions.md","Reads several vendors' files."],
+ ["Mistral Vibe CLI","Skills via slash commands","Open source on Devstral. @ file references, ! shell commands, offline with local models."],
+ ["Qwen Code","Check its docs","Adapted from Gemini CLI. OpenAI-compatible env vars; qwen -p for headless use."],
+ ["omp","Reads others' rules, skills, MCP","Documented to import from .claude, .cursor, .gemini, .codex and more. Routes 60+ providers."],
+ ["DeepSeek API","API only","Documented as OpenAI-compatible; a community guide says an Anthropic-format endpoint also exists. Use it through omp or any compatible agent."]
+];
+
+const LESSONS=[
+ {id:"l1",title:"Prompt like you're writing a brief",why:"The same brief works on every model; only the dials differ.",
+  steps:["State the goal and what “done” looks like.","Point at files and folders instead of pasting them.","Name the command that proves it works (tests, lint, build).","Give one example of good output when format matters.","For risky work, ask for a plan first and approve it."],
+  models:[["Claude","Write the system prompt at the right altitude: specific enough to steer, not a brittle pile of rules. Keep tools few and non-overlapping."],
+          ["OpenAI","OpenAI's Codex guide recommends medium reasoning effort as an all-round default, and advises against prompting Codex-tuned models for upfront plans or running status updates inside a harness, since that can end a run early."],
+          ["Gemini","Use system instructions, few-shot examples and constraints; use structured output for exact formats; iterate."],
+          ["Mistral","Per Mistral's docs, use the fill-in-the-middle endpoint for autocomplete-style completion and chat completions for instruction-following and agentic coding."]],
+  links:["anth-ctx","oa-codex-prompt","g-prompt","m-code"]},
+ {id:"l2",title:"Treat context as a budget",why:"Every standing token is paid on every turn, and more context can make agents worse.",
+  steps:["Keep always-on instructions short; link to detail instead.","Let the agent fetch what it needs (grep, read a slice) rather than pre-loading.","Write decisions and open questions to a notes or PLAN file.","Give sub-tasks to fresh contexts and take back a summary.","Put stable content first so caching can work."],
+  models:[["Claude","Caching is explicit: mark breakpoints with cache_control. Documented multipliers: 5-minute writes about 1.25×, 1-hour about 2×, reads about 0.1× of base input."],
+          ["OpenAI","Caching is automatic for longer prompts (about 1,024+ tokens). Keep the stable part at the start. Pricing varies by model."],
+          ["Gemini","Check the Gemini docs for the caching options on the model you use."],
+          ["DeepSeek","Community guides describe automatic caching of repeated prompt prefixes. Confirm on DeepSeek's pricing page."],
+          ["Qwen","Qwen Code's docs list a token-caching option to cut API cost."]],
+  links:["anth-ctx","anth-cache","oa-cache","anth-mcp"]},
+ {id:"l3",title:"One instruction file for every agent",why:"You use more than one model. Don't maintain nine rule files.",
+  steps:["Put shared project rules in AGENTS.md at the repo root.","Keep it short: build and test commands, conventions, gotchas.","Use nested AGENTS.md files for sub-packages.","Add tool-specific files only for tool-specific behaviour.","Symlink if a tool insists on its own filename."],
+  models:[["Claude","Claude Code reads CLAUDE.md. A symlink to AGENTS.md is a common approach."],
+          ["OpenAI","Codex reads AGENTS.md natively."],
+          ["Gemini","Gemini CLI defaults to GEMINI.md. Its docs show context.fileName accepting a list such as AGENTS.md, CONTEXT.md, GEMINI.md."],
+          ["Cursor","Reads AGENTS.md and CLAUDE.md from the project root. For scoped rules use .cursor/rules/*.mdc."],
+          ["Copilot","The coding agent reads AGENTS.md, CLAUDE.md, GEMINI.md and .github/copilot-instructions.md."],
+          ["omp","Documented to import rules, skills and MCP config from other agents' folders on first run."]],
+  links:["agentsmd","cursor-rules","copilot-instr","g-cli-docs"]},
+ {id:"l4",title:"Skills: reusable procedures",why:"A skill turns a prompt you keep retyping into a versioned, on-demand workflow.",
+  steps:["A skill is a folder with SKILL.md (name + description) and optional references, scripts, assets.","Only name and description sit in context; the body loads when the task matches.","Write a specific description: it is the trigger.","Keep SKILL.md under about 500 lines; push detail to references/.","Read third-party skills like code before you install them."],
+  models:[["Open","The Agent Skills format is an open spec used by Claude Code, Codex, Cursor, Gemini CLI and more, so a skill travels between models."],
+          ["Mistral","Mistral Vibe supports skills, invoked with slash commands in the CLI."]],
+  links:["as-spec","anth-skills","pocock"]},
+ {id:"l5",title:"Engineer, don't vibe-code",why:"Cheap code makes judgment the scarce thing.",
+  steps:["Before building, make the agent interview you until every decision is resolved (Pocock's grill skills).","Run the tests first, then write a failing test, then the fix (red/green TDD).","Keep a shared vocabulary file (CONTEXT.md) and short decision records.","Review the diff yourself before asking anyone else to.","End long sessions with a handoff note so the next agent can continue."],
+  models:[["Open","These habits are model-independent. Simon Willison's anti-patterns page is blunt: don't file pull requests with code you haven't reviewed."]],
+  links:["simon","pocock","pocock-cat"]},
+ {id:"l6",title:"Stay safe with agents",why:"Agents run code and hold credentials. Treat them like a new junior with root.",
+  steps:["Least privilege: scoped tokens, sandboxed shell, no standing admin keys.","Decide what the agent may publish or push, and verify repo visibility.","Pin versions of agent CLIs, gateways and MCP servers.","Treat skills, MCP servers and plugins as supply chain.","Log actions and token use per task."],
+  models:[["Open","The OWASP GenAI project maintains threat lists for LLM and agentic applications."]],
+  links:["owasp","anth-agents"]},
+ {id:"l7",title:"Pick the right model for the job",why:"Matching tier to task is the biggest single saving, and often a quality gain too.",
+  steps:["Use the Pick tab: choose Planner, Workhorse, Sprinter or Local by task.","Start at Workhorse. Escalate to Planner after two failed attempts.","Drop to Sprinter for mechanical work.","Use a different model for review than for writing.","Re-check model pages monthly: names and prices churn."],
+  models:[["Open","omp's role-based routing lets one harness send planning, sub-agents and search to different models."]],
+  links:["claude-models","oa-models","g-models","ds-docs"]},
+ {id:"l8",title:"Build habits that stick",why:"Good practice only pays off when it's automatic.",
+  steps:["Pick two or three habits, not ten.","Tie each to a cue you already have: “When I open a new task, I write the brief.”","Make it tiny, then repeat it daily.","Track it. A visible streak is its own reward.","Once a week, turn one repeated prompt into a skill."],
+  models:[["Open","The Habits tab has a daily tracker, a weekly review and a skill template."]],
+  links:["simon"]}
+];
+
+const HABITS=[
+ ["brief","Brief before build","When I start a task, I write goal, done-criteria and the verify command."],
+ ["grill","Grill the plan","When a task is bigger than an hour, I let the agent interview me first."],
+ ["tier","Choose a tier on purpose","When I open an agent, I pick Planner, Workhorse or Sprinter deliberately."],
+ ["tests","Tests first","When I start coding, I run the tests before changing anything."],
+ ["diff","Read the diff","Before every commit, I read the diff myself."],
+ ["reset","Hand off, don't drag","When a session feels heavy, I write a handoff note and start fresh."],
+ ["log","Log one waste","At day's end, I note one thing that burned tokens or went wrong, and fix a rule."]
+];
+const WEEKLY=[
+ "Refresh Headroom's Today tab and read one primary source",
+ "Promote one repeated prompt into a skill",
+ "Prune AGENTS.md: delete anything the agent already does right",
+ "Check releases for omp, herdr and your main model's docs",
+ "Look at token or cost per task and pick one thing to cut",
+ "Remove one skill or MCP server I don't use",
+ "Review one agent PR as if a stranger wrote it"
+];
+const SKILL_TEMPLATE=`---
+name: lean-pr-review
+description: Use when asked to review a diff or pull request. Checks correctness, tests and risky changes. Skips style nitpicks.
+---
+
+# Lean PR review
+
+1. Run \`git diff --stat\` first. Open only files that changed.
+2. For each risky file, read the changed hunks, not the whole file.
+3. Run the project's test command. Report failures with file:line.
+4. Reply with: Verdict, Must-fix, Nice-to-have (max 3 lines each).
+`;
+const REFRESH_PROMPT="Update Headroom with the latest. Search for this week's agentic AI news and new or trending agent-skills and coding-agent repos (include mattpocock/skills, anthropics/skills, openai/codex, gemini-cli, Mistral Vibe, Qwen Code, DeepSeek, Cursor, GitHub Copilot, omp, herdr). Prefer primary sources (vendor docs, author repos); label anything from roundups as a lead to verify. Re-check model names on each vendor's models page. Keep the same design and republish.";
+
+/* ---------- helpers ---------- */
+const $=(s,r=document)=>r.querySelector(s);
+function h(tag,attrs={},...kids){
+  const e=document.createElement(tag);
+  for(const k in attrs){
+    const val=attrs[k];
+    if(k==="class")e.className=val;
+    else if(k.startsWith("on"))e.addEventListener(k.slice(2),val);
+    else if(val===true)e.setAttribute(k,"");
+    else if(val!==false&&val!=null)e.setAttribute(k,val);
+  }
+  for(const c of kids.flat(Infinity)){if(c==null||c===false)continue;e.append(c.nodeType?c:document.createTextNode(c))}
+  return e;
+}
+function ext(text,url,cls){return h("a",{href:url,target:"_blank",rel:"noopener noreferrer",class:cls||""},text)}
+function store(get,key,val){try{if(get)return JSON.parse(localStorage.getItem(key)||"null");localStorage.setItem(key,JSON.stringify(val))}catch(e){return null}}
+async function copy(text,el){
+  try{await navigator.clipboard.writeText(text);el.textContent="Copied"}catch(e){el.textContent="Select and copy manually"}
+  setTimeout(()=>{el.textContent=""},2500);
+}
+const fmt$=n=>"$"+(n<1?n.toFixed(3):n.toFixed(2));
+const state={tab:"today",vendor:"all",type:"all",q:""};
+const TIER_LABEL={official:"Official",author:"Author",community:"Community"};
+const MODEL_ROWS={claude:["Claude"],openai:["OpenAI"],google:["Gemini"],mistral:["Mistral"],deepseek:["DeepSeek"],qwen:["Qwen"],tools:["Cursor","Copilot","omp"]};
+function vmatch(item){return state.vendor==="all"||item.v.includes(state.vendor)||item.v.includes("open")}
+function seg(opts,val,on){return h("div",{class:"seg",role:"group"},opts.map(([k,l])=>h("button",{"aria-pressed":String(k===val),onclick:()=>on(k)},l)))}
+function tierBadge(t){return h("span",{class:"badge b-"+t},TIER_LABEL[t])}
+function srcRow(s){
+  return h("a",{class:"row",href:s.url,target:"_blank",rel:"noopener noreferrer"},
+    h("div",{class:"body"},h("div",{class:"t"},s.title),h("div",{class:"s"},tierBadge(s.tier),s.org),h("div",{class:"s"},s.blurb)),
+    h("span",{class:"chev","aria-hidden":"true"},"↗"));
+}
+function setHeader(title,sub){$("#hdr").replaceChildren(h("h1",{},title),h("p",{class:"lead"},sub))}
+function vfilter(){return seg(VENDORS,state.vendor,k=>{state.vendor=k;render()})}
+function go(tab){state.tab=tab;render();window.scrollTo(0,0)}
+
+/* ---------- LIVE DATA (data/news.json is refreshed by a GitHub Action) ---------- */
+const LIVE={items:[],generatedAt:null,sources:[],status:"loading",focus:null};
+const FOCUS_FALLBACK=[
+ {title:"Brief before build",action:"Before every prompt this week, write the goal, what done looks like, and the command that proves it.",tab:"habits"},
+ {title:"Trim your AGENTS.md",action:"Delete every line the agent already does right without being told.",tab:"learn"},
+ {title:"Right-size the model",action:"Note the tier you pick for each task. Escalate only after two failed attempts.",tab:"pick"}];
+async function loadLive(force){
+  LIVE.status="loading";
+  try{
+    const r=await fetch("data/news.json"+(force?"?t="+Date.now():""),{cache:"no-cache"});
+    if(!r.ok)throw new Error("HTTP "+r.status);
+    const j=await r.json();
+    LIVE.items=Array.isArray(j.items)?j.items:[];LIVE.generatedAt=j.generatedAt||null;LIVE.sources=j.sources||[];LIVE.status="ok";
+  }catch(e){LIVE.status="error"}
+  try{const r=await fetch("data/focus.json",{cache:"no-cache"});if(r.ok){const f=await r.json();if(Array.isArray(f)&&f.length)LIVE.focus=f}}catch(e){}
+  if(state.tab==="today")render();
+}
+function ago(iso){const t=new Date(iso).getTime();if(!t)return "";const m=Math.round((Date.now()-t)/60000);if(m<60)return Math.max(1,m)+" min ago";const hh=Math.round(m/60);if(hh<48)return hh+" h ago";return Math.round(hh/24)+" days ago"}
+function dayIndex(){const d=new Date();return Math.floor((d-new Date(d.getFullYear(),0,0))/86400000)}
+function weekIdx(){const d=new Date();return Math.floor((d-new Date(d.getFullYear(),0,1))/604800000)}
+state.live="all";
+const LIVE_LABEL={official:"Official",author:"Author",lead:"Lead · verify"};
+function liveMatch(i){const t=i.tags||["open"];return state.vendor==="all"||t.includes(state.vendor)||t.includes("open")}
+
+/* ---------- TODAY ---------- */
+function viewToday(){
+  setHeader("Today","What changed, why it matters, and the habit to practise.");
+  const v=h("div");
+  const hb=HABITS[dayIndex()%HABITS.length];
+  const fl=LIVE.focus||FOCUS_FALLBACK, fo=fl[weekIdx()%fl.length];
+  v.append(h("div",{class:"hero"},
+    h("div",{class:"mute"},"Habit of the day"),
+    h("h3",{style:"margin-top:4px"},hb[1]),
+    h("p",{},hb[2]),
+    h("div",{class:"why"},h("b",{},"Focus this week: "),fo.title+". "+fo.action),
+    h("div",{style:"display:flex;gap:10px;flex-wrap:wrap;margin-top:6px"},
+      h("button",{class:"btn",onclick:()=>go("habits")},"Track it"),
+      h("button",{class:"btn soft",onclick:()=>go(fo.tab||"learn")},"Open "+((fo.tab||"learn")[0].toUpperCase()+(fo.tab||"learn").slice(1))))));
+
+  /* live status */
+  const failed=(LIVE.sources||[]).filter(s=>!s.ok).length;
+  let msg;
+  if(LIVE.status==="loading")msg=h("span",{},"Loading the live feed…");
+  else if(LIVE.status==="error"||!LIVE.generatedAt)msg=h("span",{},h("b",{},"No live feed yet. "),"Run the “Update news and deploy” workflow once in GitHub Actions, and open this site from its GitHub Pages address.");
+  else msg=h("span",{},h("b",{},"Live feed · updated "+ago(LIVE.generatedAt)+". "),`${LIVE.items.length} items`+(failed?`, ${failed} source${failed>1?"s":""} unavailable on the last run.`:"."));
+  v.append(h("div",{class:"callout"+(LIVE.status==="ok"&&LIVE.generatedAt?" info":"")},msg,
+    h("div",{style:"margin-top:10px"},h("button",{class:"btn soft",onclick:()=>{loadLive(true)}},"Refresh"))));
+  v.append(vfilter());
+  v.append(seg([["all","All"],["official","Official"],["author","Authors"],["lead","Leads"]],state.live,k=>{state.live=k;render()}));
+
+  const live=LIVE.items.filter(i=>liveMatch(i)&&(state.live==="all"||i.tier===state.live));
+  v.append(h("div",{class:"cap"},"Live feed"));
+  const lg=h("div",{class:"group"});
+  live.slice(0,30).forEach(n=>lg.append(h("details",{},
+    h("summary",{class:"row"},h("div",{class:"body"},h("div",{class:"t"},n.title),
+      h("div",{class:"s"},h("span",{class:"badge "+(n.tier==="official"?"b-official":n.tier==="author"?"b-author":"b-lead")},LIVE_LABEL[n.tier]||"Lead · verify"),n.source+" · "+ago(n.date)))),
+    h("div",{class:"pad"},
+      n.summary?h("p",{},n.summary):null,
+      n.why?h("div",{class:"why"},h("b",{},"What it means for you: "),n.why,n.whyBy==="ai"?h("span",{class:"mute"}," (AI-written, check the source)"):null):null,
+      h("p",{},(n.tags||[]).map(x=>h("span",{class:"vtag"},VLABEL[x]||x)),ext("Open source ↗",n.url))))));
+  if(!live.length)lg.append(h("div",{class:"pad mute"},LIVE.status==="ok"?"Nothing for this filter in the last 45 days.":"Nothing to show yet."));
+  v.append(lg);
+  if(live.length>30)v.append(h("p",{class:"mute",style:"margin:6px 4px"},"Showing the 30 newest of "+live.length+"."));
+  v.append(h("p",{class:"mute",style:"margin:8px 4px"},"Official = the vendor's own repo or blog. Author = the creator's own. “Lead · verify” = community or news aggregator; confirm with a primary source before acting."));
+
+  v.append(h("div",{class:"cap"},"Research notes · 10 Oct snapshot"));
+  const list=NEWS.filter(vmatch);
+  const g=h("div",{class:"group"});
+  list.forEach(n=>g.append(h("details",{},
+    h("summary",{class:"row"},h("div",{class:"body"},h("div",{class:"t"},n.t),
+      h("div",{class:"s"},h("span",{class:"badge "+(n.lvl==="official"?"b-official":"b-lead")},n.lvl==="official"?"Official":"Lead · verify"),n.d+" · "+n.src))),
+    h("div",{class:"pad"},h("p",{},n.sum),h("div",{class:"why"},h("b",{},"What it means for you: "),n.why),
+      h("p",{},n.v.map(x=>h("span",{class:"vtag"},VLABEL[x])),ext("Source ↗",n.url))))));
+  if(!list.length)g.append(h("div",{class:"pad mute"},"Nothing for this filter."));
+  v.append(g);
+  v.append(h("div",{class:"cap"},"Primary feeds to check"));
+  v.append(h("div",{class:"group"},FEEDS.map(([n,u])=>h("a",{class:"row",href:u,target:"_blank",rel:"noopener noreferrer"},h("div",{class:"body"},h("div",{class:"t"},n)),h("span",{class:"chev"},"↗")))));
+  return v;
+}
+
+/* ---------- PICK ---------- */
+function viewPick(){
+  setHeader("Pick","Which model tier and tool for which job, and how to run each task efficiently.");
+  const v=h("div");
+  v.append(h("div",{class:"callout info"},h("b",{},"Rule of thumb: "),"start at Workhorse, escalate to Planner after two failed attempts, and drop to Sprinter for anything mechanical."));
+  v.append(vfilter());
+  v.append(h("div",{class:"cap"},"1 · The four tiers"));
+  const tg=h("div",{class:"group"});
+  TIERS.forEach(t=>{
+    const keys=state.vendor==="all"?Object.keys(t.ex):Object.keys(t.ex).filter(k=>k===state.vendor);
+    tg.append(h("details",{},
+      h("summary",{class:"row"},h("div",{class:"body"},h("div",{class:"t"},t.k),h("div",{class:"s"},t.d))),
+      h("div",{class:"pad"},
+        keys.length?h("table",{},h("tbody",{},keys.map(k=>h("tr",{},h("td",{style:"width:80px;font-weight:600"},VLABEL[k]),h("td",{},t.ex[k]))))):h("p",{class:"mute"},"No example for this filter. See the vendor's models page."),
+        h("p",{class:"mute"},"Names change often. Confirm on the vendor's models page: ",ext("Claude","https://docs.claude.com/en/docs/about-claude/models/overview")," · ",ext("OpenAI","https://developers.openai.com/api/docs/models")," · ",ext("Gemini","https://ai.google.dev/gemini-api/docs/models")," · ",ext("DeepSeek","https://api-docs.deepseek.com")))));
+  });
+  v.append(tg);
+  v.append(h("div",{class:"cap"},"2 · What are you doing?"));
+  const g=h("div",{class:"group"});
+  TASKS.forEach(t=>g.append(h("details",{},
+    h("summary",{class:"row"},h("div",{class:"body"},h("div",{class:"t"},t.t),
+      h("div",{class:"s"},h("span",{class:"badge b-author"},t.tier),"Effort: "+t.effort+" · "+t.s))),
+    h("div",{class:"pad"},
+      h("div",{class:"cap",style:"margin:0 0 4px"},"Do it this way"),
+      h("ol",{class:"steps"},t.steps.map(s=>h("li",{},s))),
+      h("div",{class:"why"},h("b",{},"Token habit: "),t.token),
+      h("div",{class:"why",style:"border-color:var(--warn)"},h("b",{},"Avoid: "),t.avoid)))));
+  v.append(g);
+  v.append(h("div",{class:"cap"},"3 · Your suite at a glance"));
+  v.append(h("div",{class:"card"},h("div",{class:"scroll"},h("table",{},
+    h("thead",{},h("tr",{},h("th",{},"Tool"),h("th",{},"Reads"),h("th",{},"Notes"))),
+    h("tbody",{},SUITE.map(r=>h("tr",{},h("td",{style:"font-weight:600"},r[0]),h("td",{},r[1]),h("td",{},r[2]))))))));
+  v.append(h("p",{class:"mute",style:"margin:6px 4px"},"From each tool's own docs where available. DeepSeek's compatible-endpoint detail is from a community guide."));
+  v.append(h("div",{class:"cap"},"4 · Your setup: Ghostty · herdr · omp"));
+  v.append(setupBlock());
+  return v;
+}
+function setupBlock(){
+  const st=h("span",{class:"mute",style:"margin-left:10px"});
+  const cmds="# agent + multiplexer\nbrew install can1357/tap/omp\nbrew install herdr\nherdr integration install omp\n\n# skills (pick the ones you want; include the setup skill)\nnpx skills@latest add mattpocock/skills\n# once per repo, inside your agent:\n/setup-matt-pocock-skills";
+  const st2=h("span",{class:"mute",style:"margin-left:10px"});
+  const more="# other agent CLIs, if you use them\nnpm install -g @google/gemini-cli\nnpm install -g @qwen-code/qwen-code\npipx install mistral-vibe";
+  const tips=[
+   ["One task, one pane","Give each herdr pane its own agent and brief. herdr shows which agent is blocked, working, done or idle, and it detects 15+ agents by default, so you can mix Claude, Codex, Gemini and others side by side."],
+   ["Route models by role","omp supports role-based routing and fallback chains. Strong model for planning; cheaper ones for sub-agents, search and bulk edits."],
+   ["Branch instead of bloat","omp stores sessions as JSONL you can resume, fork and branch. Fork before a risky exploration."],
+   ["Hand off, don't drag","When a session gets heavy, write a handoff note and open a fresh pane with it."],
+   ["Skills over mega-prompts","Move repeated instructions into SKILL.md files with sharp descriptions."],
+   ["Let agents use herdr carefully","herdr's socket API lets agents spawn panes and wait on each other. Start with one orchestrator and one worker."]];
+  return h("div",{},
+    h("div",{class:"card"},h("div",{class:"flow"},
+      h("div",{},h("b",{},"Ghostty · "),"the terminal. herdr runs inside whichever terminal you use."),
+      h("div",{},h("b",{},"herdr · "),"keeps agents alive in panes and shows their state. Reattach any time, also over SSH."),
+      h("div",{},h("b",{},"omp · "),"the agent in each pane, driving whichever provider fits the task."))),
+    h("div",{class:"card"},h("pre",{},h("code",{},cmds)),
+      h("div",{style:"display:flex;gap:10px;align-items:center;flex-wrap:wrap"},h("button",{class:"btn soft",onclick:()=>copy(cmds,st)},"Copy commands"),st),
+      h("pre",{style:"margin-top:14px"},h("code",{},more)),
+      h("div",{style:"display:flex;gap:10px;align-items:center;flex-wrap:wrap"},h("button",{class:"btn soft",onclick:()=>copy(more,st2)},"Copy CLI installs"),st2),
+      h("p",{class:"mute",style:"margin-top:10px"},"Commands are from each project's README or docs at snapshot time; the Mistral line is from a community guide. omp is documented to read skills and rules from other agents' folders, but confirm the path for your version in its docs.")),
+    h("div",{class:"group"},tips.map(([a,b])=>h("details",{},h("summary",{class:"row"},h("div",{class:"body"},h("div",{class:"t"},a))),h("div",{class:"pad"},b)))),
+    h("p",{class:"mute",style:"margin:8px 4px"},"I haven't verified omp's slash commands or setting names; use its in-app help."));
+}
+
+/* ---------- LEARN ---------- */
+function viewLearn(){
+  setHeader("Learn","An eight-step path to working with coding agents properly, on any model.");
+  const done=store(true,"headroom2:done")||{};
+  const v=h("div");
+  const prog=h("div",{class:"prog"},h("span"));
+  const cnt=h("p",{class:"mute",style:"margin:0"});
+  function upd(){const n=LESSONS.filter(l=>done[l.id]).length;prog.firstChild.style.width=(n/LESSONS.length*100)+"%";cnt.textContent=n+" of "+LESSONS.length+" complete"}
+  v.append(h("div",{class:"card"},cnt,prog));
+  v.append(vfilter());
+  const g=h("div",{class:"group"});
+  LESSONS.forEach((l,i)=>{
+    const num=h("div",{class:"num"},done[l.id]?"✓":String(i+1));
+    const mark=h("button",{class:"btn "+(done[l.id]?"soft":""),onclick:()=>{done[l.id]=!done[l.id];store(false,"headroom2:done",done);mark.textContent=done[l.id]?"✓ Done":"Mark as done";mark.className="btn "+(done[l.id]?"soft":"");num.textContent=done[l.id]?"✓":String(i+1);upd()}},done[l.id]?"✓ Done":"Mark as done");
+    const wanted=state.vendor==="all"?null:(MODEL_ROWS[state.vendor]||[]);
+    const rows=l.models.filter(m=>m[0]==="Open"||!wanted||wanted.includes(m[0]));
+    const modelRows=rows.filter(m=>m[0]!=="Open"||true);
+    const hasSpecific=rows.some(m=>m[0]!=="Open");
+    g.append(h("details",{},
+      h("summary",{class:"row"},num,h("div",{class:"body"},h("div",{class:"t"},l.title),h("div",{class:"s"},l.why))),
+      h("div",{class:"pad"},
+        h("ol",{class:"steps"},l.steps.map(s=>h("li",{},s))),
+        h("div",{class:"cap",style:"margin:14px 0 4px"},"Model notes"),
+        modelRows.length?h("div",{class:"scroll"},h("table",{},h("tbody",{},modelRows.map(m=>h("tr",{},h("td",{style:"width:78px;font-weight:600"},m[0]),h("td",{},m[1])))))):null,
+        (!hasSpecific&&state.vendor!=="all")?h("p",{class:"mute"},"No model-specific note for this filter yet. The general steps apply."):null,
+        h("div",{class:"cap",style:"margin:14px 0 4px"},"Read next"),
+        h("div",{class:"group",style:"background:var(--bg)"},l.links.map(id=>srcRow(byId[id]))),
+        h("div",{style:"margin-top:12px"},mark))));
+  });
+  upd();
+  v.append(g);
+  v.append(h("h2",{},"Playground"));
+  v.append(h("div",{class:"cap"},"Caching calculator"));
+  v.append(calc());
+  v.append(h("div",{class:"cap"},"Context budget"));
+  v.append(budget());
+  return v;
+}
+function calc(){
+  const box=h("div",{class:"card"});
+  const num=(val,extra={})=>h("input",Object.assign({type:"number",inputmode:"decimal",value:String(val),min:"0"},extra));
+  const P=num(20000),N=num(30),PR=num(3,{step:"0.1"}),W=num(1.25,{step:"0.05"}),R=num(0.1,{step:"0.05"});
+  const preset=h("select",{},
+    h("option",{value:"1.25,0.1"},"Claude · 5-minute cache"),
+    h("option",{value:"2,0.1"},"Claude · 1-hour cache"),
+    h("option",{value:"1,0.5"},"Automatic caching (OpenAI, DeepSeek style) · set your own read multiplier"));
+  preset.addEventListener("change",()=>{const[a,b]=preset.value.split(",");W.value=a;R.value=b;run()});
+  const out=h("div");
+  function run(){
+    const p=+P.value||0,n=Math.max(1,+N.value||1),pr=+PR.value||0,w=+W.value||1,r=+R.value||1;
+    const none=n*p*pr/1e6,withC=(w+r*(n-1))*p*pr/1e6,save=none>0?Math.round((1-withC/none)*100):0;
+    out.replaceChildren(
+      h("div",{class:"two"},h("div",{},h("div",{class:"mute"},"Without caching"),h("div",{class:"big"},fmt$(none))),h("div",{},h("div",{class:"mute"},"With caching"),h("div",{class:"big"},fmt$(withC)))),
+      h("p",{},h("b",{},save>=0?save+"% cheaper":Math.abs(save)+"% pricier")," on the stable prefix across "+n+" turns."),
+      h("p",{class:"mute"},"Assumes every turn reuses the cache within its lifetime and the prefix never changes. Excludes output tokens and the changing part of each turn. Use current prices and multipliers from your provider's pricing page."));
+  }
+  [P,N,PR,W,R].forEach(e=>e.addEventListener("input",run));
+  box.append(h("label",{},"Provider preset"),preset,
+    h("label",{},"Stable prefix (tokens): tools + system + skills + reference"),P,
+    h("label",{},"Turns reusing it"),N,
+    h("label",{},"Base input price ($ per million tokens)"),PR,
+    h("div",{class:"two"},h("div",{},h("label",{},"Cache write multiplier"),W),h("div",{},h("label",{},"Cache read multiplier"),R)),
+    h("div",{style:"margin-top:12px"},out));
+  run();return box;
+}
+function budget(){
+  const parts=[["System + AGENTS.md",6000,"#007aff"],["Tool / MCP schemas",14000,"#ff9500"],["Skill descriptions",1500,"#af52de"],["Conversation",40000,"#34c759"],["Tool output",30000,"#ff3b30"]];
+  const WIN=200000,vals=parts.map(p=>p[1]);
+  const box=h("div",{class:"card"}),bar=h("div",{class:"bar"}),legend=h("div",{class:"legend"}),msg=h("p",{});
+  function draw(){
+    const total=vals.reduce((a,b)=>a+b,0);
+    bar.replaceChildren(...parts.map((p,i)=>h("span",{style:`width:${vals[i]/WIN*100}%;background:${p[2]}`})));
+    legend.replaceChildren(...parts.map((p,i)=>h("span",{},h("i",{style:`background:${p[2]}`}),p[0]+" "+(vals[i]/1000).toFixed(1)+"k")));
+    const fixed=vals[0]+vals[1]+vals[2];
+    msg.replaceChildren(h("b",{},`${Math.round(total/1000)}k of ${WIN/1000}k used (${Math.round(total/WIN*100)}%).`),` ${(fixed/1000).toFixed(1)}k is standing overhead paid every turn.`);
+  }
+  box.append(h("p",{class:"mute"},"Illustrative 200k window. Drag to see standing overhead eat your headroom."),bar,legend,msg);
+  parts.forEach((p,i)=>{const r=h("input",{type:"range",min:"0",max:"60000",step:"500",value:String(p[1]),"aria-label":p[0]});r.addEventListener("input",()=>{vals[i]=+r.value;draw()});box.append(h("label",{},p[0]),r)});
+  draw();return box;
+}
+
+/* ---------- LIBRARY ---------- */
+const TYPES=[["all","All"],["repo","Repos"],["doc","Docs"],["standard","Standards"],["guide","Guides"]];
+function viewLibrary(){
+  setHeader("Library","Official docs, author repos and open standards, labelled by who published them.");
+  const v=h("div");
+  const q=h("input",{type:"search",placeholder:"Search sources",value:state.q,"aria-label":"Search sources"});
+  const filters=h("div"),list=h("div");
+  function drawFilters(){filters.replaceChildren(seg(VENDORS,state.vendor,k=>{state.vendor=k;drawFilters();drawList()}),seg(TYPES,state.type,k=>{state.type=k;drawFilters();drawList()}))}
+  function drawList(){
+    const term=state.q.trim().toLowerCase();
+    const items=SRC.filter(s=>vmatch(s)&&(state.type==="all"||s.type===state.type)&&(!term||(s.title+" "+s.org+" "+s.blurb).toLowerCase().includes(term)));
+    const out=[];
+    if(!term&&(state.type==="all"||state.type==="repo"))out.push(featured());
+    if(!items.length)out.push(h("p",{class:"mute",style:"margin:16px 4px"},"No matches. Try another model or clear the search."));
+    else{
+      const titles={repo:"Repos",doc:"Official docs",standard:"Open standards",guide:"Guides"};
+      ["repo","doc","standard","guide"].forEach(t=>{const g=items.filter(s=>s.type===t);if(!g.length)return;out.push(h("div",{class:"cap"},titles[t]),h("div",{class:"group"},g.map(srcRow)))});
+    }
+    out.push(h("p",{class:"mute",style:"margin:10px 4px"},"“Official” = the vendor's or standard's own site. “Author” = the creator's own repo or blog. “Community” = third party. Items tagged for no one model show under every filter. Links were found by search and not click-tested from here."));
+    list.replaceChildren(...out);
+  }
+  q.addEventListener("input",()=>{state.q=q.value;drawList()});
+  drawFilters();drawList();
+  v.append(q,filters,list);
+  return v;
+}
+function featured(){
+  const st=h("span",{class:"mute",style:"margin-left:10px"});
+  const cmd="npx skills@latest add mattpocock/skills\n/setup-matt-pocock-skills";
+  return h("div",{class:"hero"},
+    h("div",{class:"mute"},tierBadge("author"),"Featured"),
+    h("h3",{style:"margin-top:6px"},"Matt Pocock · Skills for Real Engineers"),
+    h("p",{},"Small, composable skills for the failure modes of AI coding: misalignment, verbosity, code that doesn't work, and decaying architecture. MIT licensed."),
+    h("div",{class:"flow"},
+      h("div",{},h("b",{},"Grill: "),"the agent interviews you, one question at a time, until the plan has no open decisions."),
+      h("div",{},h("b",{},"TDD & review: "),"red/green loops, and review against your standards and the spec."),
+      h("div",{},h("b",{},"Domain language: "),"a CONTEXT.md and decision records so the agent stops being verbose."),
+      h("div",{},h("b",{},"Handoff: "),"compact a long session into a note the next agent can pick up.")),
+    h("p",{class:"mute"},"Install, choose your skills, include the setup skill, then run it once per repo inside your agent:"),
+    h("pre",{},h("code",{},cmd)),
+    h("div",{style:"display:flex;gap:10px;flex-wrap:wrap;align-items:center"},
+      ext("Open repo ↗","https://github.com/mattpocock/skills","btn"),
+      h("button",{class:"btn soft",onclick:()=>copy(cmd,st)},"Copy install"),st),
+    h("p",{class:"mute",style:"margin-top:10px"},"Skill names change over time. Check the README for the current list."));
+}
+
+/* ---------- HABITS ---------- */
+function dkey(d){const x=new Date(d);return x.getFullYear()+"-"+String(x.getMonth()+1).padStart(2,"0")+"-"+String(x.getDate()).padStart(2,"0")}
+function viewHabits(){
+  setHeader("Habits","Small, cued and tracked. Good practice only pays off when it's automatic.");
+  const v=h("div");
+  let log=store(true,"headroom2:habitlog")||{};
+  const active=store(true,"headroom2:active")||HABITS.slice(0,3).map(x=>x[0]);
+  const today=dkey(new Date());
+  const THRESH=1;
+  const strip=h("div",{style:"display:flex;gap:6px;margin-top:10px"});
+  const streakEl=h("div",{class:"big"}),streakNote=h("div",{class:"mute"});
+  function activeDone(date){return (log[date]||[]).filter(id=>active.includes(id)).length}
+  function calcStreak(){
+    let n=0,d=new Date();
+    const full=date=>active.length>0&&activeDone(date)>=Math.min(active.length,Math.max(THRESH,active.length));
+    if(!full(dkey(d)))d.setDate(d.getDate()-1);
+    while(full(dkey(d))){n++;d.setDate(d.getDate()-1)}
+    return n;
+  }
+  function drawSummary(){
+    const s=calcStreak();
+    streakEl.textContent=s+(s===1?" day":" days");
+    streakNote.textContent=active.length?"Streak counts days you finish every habit you've switched on.":"Switch on one to three habits below.";
+    const days=[];for(let i=6;i>=0;i--){const d=new Date();d.setDate(d.getDate()-i);days.push(d)}
+    strip.replaceChildren(...days.map(d=>{const k=dkey(d);const c=activeDone(k),t=Math.max(1,active.length);
+      const op=c===0?0.12:0.3+0.7*(c/t);
+      return h("div",{style:"flex:1;text-align:center;font-size:11px;color:var(--mute)"},
+        h("div",{style:`height:28px;border-radius:7px;background:var(--acc);opacity:${op}`,title:k+": "+c+" done"}),
+        ["S","M","T","W","T","F","S"][d.getDay()])}));
+  }
+  v.append(h("div",{class:"card"},h("div",{class:"mute"},"Current streak"),streakEl,streakNote,strip));
+  v.append(h("div",{class:"cap"},"Today"));
+  const g=h("div",{class:"group"});
+  const doneToday=new Set(log[today]||[]);
+  function saveLog(){log[today]=[...doneToday];store(false,"headroom2:habitlog",log);drawSummary()}
+  HABITS.forEach(([id,name,cue])=>{
+    const on=h("input",{type:"checkbox",id:"hb_"+id,"aria-label":"Done today: "+name});
+    on.checked=doneToday.has(id);
+    on.addEventListener("change",()=>{on.checked?doneToday.add(id):doneToday.delete(id);saveLog()});
+    const sw=h("input",{type:"checkbox","aria-label":"Track "+name,style:"width:18px;height:18px;accent-color:var(--acc)"});
+    sw.checked=active.includes(id);
+    sw.addEventListener("change",()=>{const i=active.indexOf(id);if(sw.checked&&i<0)active.push(id);if(!sw.checked&&i>=0)active.splice(i,1);store(false,"headroom2:active",active);drawSummary()});
+    g.append(h("div",{class:"check"},on,h("div",{style:"flex:1"},h("label",{for:"hb_"+id,style:"font-weight:600"},name),h("div",{class:"mute"},cue)),
+      h("label",{style:"margin:0;display:flex;gap:6px;align-items:center;font-size:12px"},sw,"track")));
+  });
+  v.append(g);
+  v.append(h("p",{class:"mute",style:"margin:8px 4px"},"Tick “track” on two or three habits to start. Ticks are saved in this browser only."));
+  drawSummary();
+  v.append(h("div",{class:"cap"},"Make them stick"));
+  v.append(h("div",{class:"card"},h("ol",{class:"steps"},
+    h("li",{},h("b",{},"Anchor it: "),"“When I [existing cue], I will [tiny action].”"),
+    h("li",{},h("b",{},"Start tiny: "),"a 30-second brief beats a perfect one you skip."),
+    h("li",{},h("b",{},"Track it: "),"the streak above is the reward."),
+    h("li",{},h("b",{},"Review weekly: "),"keep what helps, drop what doesn't."))));
+  v.append(h("div",{class:"cap"},"Weekly review"));
+  const wsaved=store(true,"headroom2:weekly")||{};
+  const wk=dkey(new Date(Date.now()-((new Date().getDay()+6)%7)*86400000));
+  const wdone=new Set(wsaved[wk]||[]);
+  const wg=h("div",{class:"group"}),wc=h("p",{class:"mute",style:"margin:8px 4px"});
+  function wupd(){wc.textContent=wdone.size+" of "+WEEKLY.length+" done this week"}
+  WEEKLY.forEach((c,i)=>{const cb=h("input",{type:"checkbox",id:"wk"+i});cb.checked=wdone.has(i);
+    cb.addEventListener("change",()=>{cb.checked?wdone.add(i):wdone.delete(i);wsaved[wk]=[...wdone];store(false,"headroom2:weekly",wsaved);wupd()});
+    wg.append(h("div",{class:"check"},cb,h("label",{for:"wk"+i},c)))});
+  v.append(wg,wc);wupd();
+  v.append(h("div",{class:"cap"},"Promote a prompt to a skill"));
+  const pre=h("pre",{},h("code",{},SKILL_TEMPLATE)),st=h("span",{class:"mute",style:"margin-left:10px"});
+  v.append(h("div",{class:"card"},pre,h("button",{class:"btn soft",onclick:()=>copy(SKILL_TEMPLATE,st)},"Copy template"),st,
+    h("p",{class:"mute",style:"margin-top:10px"},"Save as lean-pr-review/SKILL.md in your skills folder. The Coach tab can turn any prompt you reuse into a skill like this.")));
+  return v;
+}
+
+/* ---------- COACH ---------- */
+function corpus(){
+  const d=[];
+  SRC.forEach(s=>d.push({k:"source: "+s.title+" ("+TIER_LABEL[s.tier]+")",t:s.blurb+" "+s.url}));
+  LESSONS.forEach(l=>d.push({k:"lesson: "+l.title,t:[l.why,...l.steps,...l.models.map(m=>m[0]+": "+m[1])].join(" ")}));
+  TASKS.forEach(t=>d.push({k:"task: "+t.t+" ("+t.tier+")",t:t.steps.join(" ")+" Token habit: "+t.token+" Avoid: "+t.avoid}));
+  TIERS.forEach(t=>d.push({k:"tier: "+t.k,t:t.d+" "+Object.entries(t.ex).map(e=>e[0]+": "+e[1]).join("; ")}));
+  SUITE.forEach(s=>d.push({k:"tool: "+s[0],t:s[1]+". "+s[2]}));
+  NEWS.forEach(n=>d.push({k:"news: "+n.t,t:n.sum+" "+n.why}));
+  return d;
+}
+const COACH_SYSTEM=`You are the Coach inside Headroom, a briefing app for an AI developer who uses a suite of LLMs and agents (Claude, OpenAI, Gemini, Mistral, DeepSeek, Qwen, Cursor, Copilot) and works in Ghostty with herdr and the omp coding agent.
+Goals: cut wasted tokens, pick the right model tier and tool for the task, make prompts, AGENTS.md and SKILL.md files clearer, and help build good habits.
+Rules:
+- Call search_library to ground advice in the app's curated notes before answering. Say plainly when something is general knowledge instead.
+- Be model-neutral unless a target agent is named. Prefer AGENTS.md and the open Agent Skills format.
+- Be concrete: quote the problem lines, give a rewrite, estimate savings (about 4 characters per token).
+- Do not invent commands, settings or model names. Point to the vendor docs when unsure.
+- Format: Findings, Rewrite, Expected saving. Plain text, no tables.`;
+function viewCoach(){
+  setHeader("Coach","Paste an AGENTS.md, a skill or a brief. Or describe a task and get a plan.");
+  const v=h("div");
+  const ta=h("textarea",{placeholder:"Paste text here…","aria-label":"Text to audit"});
+  const cnt=h("p",{class:"mute",style:"margin:6px 4px"},"0 chars ≈ 0 tokens");
+  ta.addEventListener("input",()=>{const n=ta.value.length;cnt.textContent=n.toLocaleString()+" chars ≈ "+Math.round(n/4).toLocaleString()+" tokens"});
+  const goal=h("select",{},h("option",{value:"tokens"},"Cut tokens, keep behaviour"),h("option",{value:"skill"},"Turn into a SKILL.md"),h("option",{value:"agents"},"Turn into a cross-tool AGENTS.md"),h("option",{value:"prompt"},"Rewrite as an agent brief"),h("option",{value:"route"},"Recommend model tier and workflow for this task"));
+  const target=h("select",{},["Any agent","Claude Code","OpenAI Codex","Gemini CLI","Cursor","GitHub Copilot","Mistral Vibe","Qwen Code","omp"].map((x,i)=>h("option",{value:i?x:"any"},x)));
+  const out=h("div",{class:"card out",hidden:true,"aria-live":"polite"});
+  const btn=h("button",{class:"btn"},"Run");
+  const ask=h("input",{type:"text",placeholder:"Or ask: which tier for a flaky test?","aria-label":"Question"});
+  const askBtn=h("button",{class:"btn soft"},"Ask");
+  let ctrl=null,sp=null;
+  const getSample=()=>sp||(sp=(window.claude&&window.claude.use?window.claude.use("sample"):Promise.resolve(null)).catch(()=>null));
+  async function run(prompt,button){
+    const sample=await getSample();
+    out.hidden=false;
+    if(!sample){
+      const full=COACH_SYSTEM+"\n\n"+prompt;
+      const st=h("span",{class:"mute",style:"margin-left:10px"});
+      out.replaceChildren(h("p",{},"Not running inside Claude, so here is a ready-made prompt. Paste it into any model you use, ideally one with web or file access."),
+        h("pre",{style:"white-space:pre-wrap"},h("code",{},full)),
+        h("button",{class:"btn soft",onclick:()=>copy(full,st)},"Copy prompt"),st);
+      return}
+    if(ctrl)ctrl.abort();ctrl=new AbortController();
+    out.textContent="Thinking…";button.disabled=true;
+    const tools=[{name:"search_library",description:"Search Headroom's curated sources, lessons, tasks, tiers, tools and news. Returns up to 5 matches.",
+      inputSchema:{type:"object",properties:{query:{type:"string"}},required:["query"]},
+      execute:async({query})=>{const w=String(query||"").toLowerCase().split(/\W+/).filter(x=>x.length>2);
+        return corpus().map(d=>({d,s:w.filter(x=>(d.k+" "+d.t).toLowerCase().includes(x)).length})).filter(x=>x.s>0).sort((a,b)=>b.s-a.s).slice(0,5).map(x=>({source:x.d.k,note:x.d.t}))}}];
+    try{
+      const r=await sample([{role:"user",content:COACH_SYSTEM+"\n\n"+prompt}],{tools,cache:false,signal:ctrl.signal,modelTier:"default",onText:({text})=>{out.textContent=text}});
+      out.textContent=r.text+(r.truncated?"\n\n[truncated]":"");
+    }catch(e){
+      if(e&&e.code==="not_granted")out.textContent="Permission was declined, so the Coach is off for this page load.";
+      else if(e&&e.code==="rate_limited")out.textContent="Rate limited. Wait a moment and try again.";
+      else if(e&&e.name==="AbortError"){}
+      else out.textContent="Something went wrong: "+((e&&e.message)||"unknown error");
+    }finally{button.disabled=false}
+  }
+  btn.addEventListener("click",()=>{
+    const txt=ta.value.trim();if(!txt){out.hidden=false;out.textContent="Paste or describe something first.";return}
+    const g={tokens:"Audit the text below for token waste (redundancy, pasted docs, vague rules, things better moved into skills or fetched on demand) and give a leaner rewrite.",
+      skill:"Convert the text below into a well-formed SKILL.md: name, trigger-specific description, concise steps, pointers to references/ for detail.",
+      agents:"Convert the text below into a short, cross-tool AGENTS.md: commands, conventions, gotchas, links instead of pasted docs.",
+      prompt:"Rewrite the text below as a strong brief for a coding agent: goal, constraints, done-criteria, verification command.",
+      route:"The text below describes a task. Recommend a model tier (Planner, Workhorse, Sprinter or Local), a workflow with steps, which of my tools to run it in, and the biggest token-saving habit. Use the library's tiers and tasks."}[goal.value];
+    run(g+(target.value!=="any"?"\nTarget agent: "+target.value+".":"")+"\n\n<text>\n"+txt.slice(0,30000)+"\n</text>",btn);
+  });
+  askBtn.addEventListener("click",()=>{const q=ask.value.trim();if(!q)return;run("Answer for the developer, grounded in the library: "+q,askBtn)});
+  v.append(h("div",{class:"card"},h("label",{style:"margin-top:0"},"What to do"),goal,h("label",{},"Target agent"),target,h("label",{},"Text"),ta,cnt,btn));
+  v.append(h("div",{class:"card"},ask,h("div",{style:"margin-top:10px"},askBtn)));
+  v.append(out);
+  v.append(h("p",{class:"mute",style:"margin:8px 4px"},"Inside Claude, the Coach answers here. Elsewhere it builds a prompt you can paste into any model."));
+  return v;
+}
+
+/* ---------- router ---------- */
+const VIEWS={today:viewToday,pick:viewPick,learn:viewLearn,library:viewLibrary,habits:viewHabits,coach:viewCoach};
+const TABS=[["today","📰","Today"],["pick","🧭","Pick"],["learn","🎓","Learn"],["library","📚","Library"],["habits","🔥","Habits"],["coach","✨","Coach"]];
+function render(){
+  $("#view").replaceChildren(VIEWS[state.tab]());
+  document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.id===state.tab)));
+}
+TABS.forEach(([id,ic,l])=>$("#tabs").append(h("button",{role:"tab","data-id":id,"aria-selected":"false",onclick:()=>go(id)},h("span",{class:"i","aria-hidden":"true"},ic),l)));
+render();loadLive(false);
+if("serviceWorker" in navigator&&location.protocol.startsWith("http")){navigator.serviceWorker.register("sw.js").catch(()=>{})}
+
+</script>
+</body>
+</html>
