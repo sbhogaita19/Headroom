@@ -146,6 +146,20 @@ th{color:var(--mute);font:500 11px/1.3 var(--mono);text-transform:uppercase;lett
 .flow b{color:var(--acc);font-family:var(--mono);font-weight:600}
 .num{width:28px;height:28px;border-radius:6px;background:var(--accsoft);color:var(--acc);display:flex;align-items:center;justify-content:center;font:600 13px/1 var(--mono);flex:none}
 @media (max-width:420px){h1{font-size:26px}.col{padding-left:16px;padding-right:16px}}
+/* polish */
+header{padding:34px 0 10px}
+h1{font-size:34px}
+.lead{font-size:15.5px;line-height:1.55;max-width:56ch}
+.intro{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0 4px}
+.tile{display:flex;flex-direction:column;gap:5px;text-align:left;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:13px 14px;cursor:pointer;font:inherit;transition:transform .15s,border-color .15s,box-shadow .15s}
+.tile b{font:600 13px/1 var(--mono);color:var(--acc)}
+.tile span{font-size:12.5px;line-height:1.4;color:var(--mute)}
+.tile:hover{transform:translateY(-2px);border-color:var(--acc);box-shadow:0 6px 18px rgba(0,0,0,.16)}
+.hero{background:linear-gradient(180deg,var(--accsoft),transparent 60%),var(--card);box-shadow:0 1px 0 rgba(255,255,255,.03),0 8px 24px rgba(0,0,0,.12)}
+.group,.card{box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.row{transition:background .12s}
+.cap{margin-top:32px}
+@media (max-width:620px){.intro{grid-template-columns:1fr}.tile{flex-direction:row;align-items:baseline;gap:10px}.tile b{min-width:48px}}
 </style>
 </head>
 <body>
@@ -504,8 +518,11 @@ function liveMatch(i){const t=i.tags||["open"];return state.vendor==="all"||t.in
 
 /* ---------- TODAY ---------- */
 function viewToday(){
-  setHeader("Today","What changed, why it matters, and the habit to practise.");
+  setHeader("Headroom","Your daily briefing on agentic AI coding. See what just shipped, pick the right model and tool for the job, and build one good habit a day.");
   const v=h("div");
+  v.append(h("div",{class:"intro"},
+    [["Today","Live news from official repos, vendor blogs and authors","today"],["Pick","Which model tier and tool for which task","pick"],["Learn","An eight-step path from prompting to safety","learn"]].map(([t,d,k])=>
+      h("button",{class:"tile",onclick:()=>go(k)},h("b",{},t),h("span",{},d)))));
   const hb=HABITS[dayIndex()%HABITS.length];
   const fl=LIVE.focus||FOCUS_FALLBACK, fo=fl[weekIdx()%fl.length];
   v.append(h("div",{class:"hero"},
