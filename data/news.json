@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:22:09.569Z",
+  "generatedAt": "2026-10-10T21:48:12.289Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "id": "gh-omp",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "New controls and chat improvements in Copilot for JetBrains",
+      "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+      "date": "2026-10-10T18:53:39.000Z",
+      "summary": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and… The post New controls and chat improvements in Copilot for JetBrains appeared first",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.8.9",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.8.9",
@@ -189,7 +202,7 @@
       "title": "Why are coding agents so dumb?",
       "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
       "date": "2026-10-09T14:21:31Z",
-      "summary": "97 points on Hacker News",
+      "summary": "98 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -451,19 +464,6 @@
       "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
       "date": "2026-10-07T15:46:17.000Z",
       "summary": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure… The post Local sandboxing for GitHub Copilot now generally available appeared first on Th",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
-      "title": "Discover local models in GitHub Copilot CLI",
-      "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
-      "date": "2026-10-07T15:46:13.000Z",
-      "summary": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running… The post Discover local models in GitHub Copilot CLI appeared first on The GitHub Blog .",
       "kind": "post",
       "source": "GitHub Changelog",
       "sourceId": "rss-ghchangelog",
@@ -830,19 +830,6 @@
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.16",
       "date": "2026-09-26T01:26:02Z",
       "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.24.6 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.24.5 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.24.6",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.24.6",
-      "date": "2026-09-26T00:59:39Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at 753bd075a24ca886b7d0119ca53d97bd65c09e4a What's Changed fix(serve): preserve session creation failure diagnostics by @callmeYe in https://github.com/QwenLM/qwen code/pull/12331 feat(sdk java): Add managed ru",
       "kind": "release",
       "source": "Qwen Code releases",
       "sourceId": "gh-qwen-code",
