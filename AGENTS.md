@@ -17,7 +17,7 @@ Headroom is a static site (no build step) plus a news fetcher that runs in GitHu
 
 ## Rules
 - No build tools, no runtime dependencies. Keep `index.html` self-contained.
-- Never put API keys in the repo. Optional keys are repository secrets.
+- Never put API keys in the repo. Optional keys (GROQ_API_KEY, ANTHROPIC_API_KEY) are repository secrets.
 - Build DOM with the `h()` helper and `textContent`; never assign untrusted feed text to `innerHTML`.
 - Every source and link in the app is labelled Official, Author, Community or Lead. Keep that when adding items.
 - Bump `CACHE` in `sw.js` when you change cached files.

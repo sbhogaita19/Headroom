@@ -1,0 +1,14 @@
+[
+  { "title": "Brief before build", "action": "Before every prompt this week, write the goal, what done looks like, and the command that proves it.", "tab": "habits" },
+  { "title": "Trim your AGENTS.md", "action": "Delete every line the agent already does right without being told. Link to detail instead of pasting it.", "tab": "learn" },
+  { "title": "Try one grill session", "action": "Before your next non-trivial feature, have the agent interview you until no decisions are open.", "tab": "library" },
+  { "title": "Right-size the model", "action": "Note the tier you pick for each task. Escalate to Planner only after two failed attempts.", "tab": "pick" },
+  { "title": "Read every diff", "action": "No commit leaves your machine until you have read the diff yourself.", "tab": "habits" },
+  { "title": "Hand off, don't drag", "action": "When a session feels heavy, write a handoff note and start a fresh pane with it.", "tab": "habits" },
+  { "title": "Make prompts cache-friendly", "action": "Put stable content first and move dates, IDs and other changing text to the end of the prompt.", "tab": "learn" },
+  { "title": "Get a second opinion", "action": "Review important diffs with a different model from the one that wrote them.", "tab": "pick" },
+  { "title": "Promote a prompt to a skill", "action": "Find the prompt you retyped most this week and turn it into a SKILL.md.", "tab": "habits" },
+  { "title": "Prune your MCP servers", "action": "Disable every MCP server and tool you did not use this month. Standing tool schemas cost tokens every turn.", "tab": "learn" },
+  { "title": "Run the tests first", "action": "Start each task by running the existing tests so you know the baseline.", "tab": "habits" },
+  { "title": "Log one waste a day", "action": "At day's end, note one thing that burned tokens or went wrong, then fix a rule or skill.", "tab": "habits" }
+]

@@ -1,0 +1,22 @@
+{
+  "maxItemsPerSource": 6,
+  "maxAgeDays": 45,
+  "maxTotalItems": 150,
+  "sources": [
+    { "id": "gh-claude-code", "name": "Claude Code releases", "type": "github-releases", "repo": "anthropics/claude-code", "tier": "official", "tags": ["claude"] },
+    { "id": "gh-codex", "name": "Codex CLI releases", "type": "github-releases", "repo": "openai/codex", "tier": "official", "tags": ["openai"] },
+    { "id": "gh-gemini-cli", "name": "Gemini CLI releases", "type": "github-releases", "repo": "google-gemini/gemini-cli", "tier": "official", "tags": ["google"] },
+    { "id": "gh-qwen-code", "name": "Qwen Code releases", "type": "github-releases", "repo": "QwenLM/qwen-code", "tier": "official", "tags": ["qwen"] },
+    { "id": "gh-omp", "name": "omp releases", "type": "github-releases", "repo": "can1357/oh-my-pi", "tier": "author", "tags": ["open"] },
+    { "id": "gh-herdr", "name": "herdr releases", "type": "github-releases", "repo": "ogulcancelik/herdr", "tier": "author", "tags": ["open"] },
+    { "id": "gh-anth-skills", "name": "anthropics/skills commits", "type": "github-commits", "repo": "anthropics/skills", "tier": "official", "tags": ["claude", "open"], "maxItems": 4 },
+    { "id": "gh-pocock", "name": "mattpocock/skills commits", "type": "github-commits", "repo": "mattpocock/skills", "tier": "author", "tags": ["open"], "maxItems": 4 },
+    { "id": "gh-agentskills", "name": "agentskills/agentskills commits", "type": "github-commits", "repo": "agentskills/agentskills", "tier": "official", "tags": ["open"], "maxItems": 3 },
+    { "id": "rss-openai", "name": "OpenAI News", "type": "feed", "url": "https://openai.com/news/rss.xml", "tier": "official", "tags": ["openai"], "keywords": "agent|codex|developer|api|coding|tool|model" },
+    { "id": "rss-google", "name": "Google AI blog", "type": "feed", "url": "https://blog.google/technology/ai/rss/", "tier": "official", "tags": ["google"], "keywords": "gemini|agent|developer|coding|api" },
+    { "id": "rss-ghchangelog", "name": "GitHub Changelog", "type": "feed", "url": "https://github.blog/changelog/feed/", "tier": "official", "tags": ["tools"], "keywords": "copilot|agent|mcp|codex|claude|gemini" },
+    { "id": "rss-hf", "name": "Hugging Face blog", "type": "feed", "url": "https://huggingface.co/blog/feed.xml", "tier": "official", "tags": ["open"], "keywords": "agent|coding|mcp|skills|tool" },
+    { "id": "rss-simon", "name": "Simon Willison", "type": "feed", "url": "https://simonwillison.net/atom/everything/", "tier": "author", "tags": ["open"], "keywords": "agent|claude|codex|gemini|llm|mcp|skills|prompt|coding|deepseek|qwen|mistral" },
+    { "id": "hn-agents", "name": "Hacker News", "type": "hn", "queries": ["coding agent", "agent skills", "MCP server", "agentic coding"], "minPoints": 80, "tier": "lead", "tags": ["open"] }
+  ]
+}

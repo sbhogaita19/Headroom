@@ -39,9 +39,9 @@ It writes `data/news.json` (committed back to the repo) and the site is redeploy
 - **Weekly digest issue:** every Monday the workflow opens a GitHub issue ("Headroom digest") assigned to you with the week's changes and a habit review checklist. The GitHub mobile app notifies you.
 - **Habit of the day** and **focus of the week** rotate automatically in the app. Your ticks and streak are stored in your browser only.
 
-## Optional: one-line "what it means" notes
+## Optional: one-line "what it means" notes (Groq)
 
-Add a repository secret `ANTHROPIC_API_KEY` (Settings → Secrets and variables → Actions). The fetcher then asks Claude to write a one-sentence takeaway for up to 10 new items per run, using only each item's title and summary. These are labelled "AI-written" in the app. Set the repository variable `ANTHROPIC_MODEL` to override the default model. Without the key, everything else works.
+Add a repository secret `GROQ_API_KEY` (Settings → Secrets and variables → Actions). The fetcher then asks Groq (default `openai/gpt-oss-120b`, then `llama-3.3-70b-versatile`) for a one-sentence takeaway on up to 12 new items per run, using only each item's title and summary. These are labelled "AI-written" in the app. Set the repository variable `GROQ_MODELS` (comma-separated) to change models. `ANTHROPIC_API_KEY` still works as a fallback. If notes stop appearing, check the latest Actions run for a "model error" line. Without any key, everything else works.
 
 ## Trust labels
 
