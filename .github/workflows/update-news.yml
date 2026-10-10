@@ -1,0 +1,84 @@
+name: Update news and deploy
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours
+    - cron: "5 7 * * 1"      # Monday 07:05 UTC: also opens the weekly digest issue
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: headroom-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch news
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: repository secret GROQ_API_KEY (preferred) or ANTHROPIC_API_KEY adds one-line "what it means" notes.
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODELS: ${{ vars.GROQ_MODELS }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Optional: repository variable ANTHROPIC_MODEL to override the default model.
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+        run: node scripts/fetch-news.mjs
+
+      - name: Commit updated data
+        run: |
+          git config user.name "headroom-bot"
+          git config user.email "headroom-bot@users.noreply.github.com"
+          git add data/news.json
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore: update news"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Open weekly digest issue
+        if: github.event.schedule == '5 7 * * 1'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "Headroom digest $(date -u +%F)" \
+            --body-file digest.md \
+            --assignee "${{ github.repository_owner }}"
+
+      - uses: actions/configure-pages@v5
+
+      - name: Assemble site
+        run: |
+          mkdir _site
+          cp -r index.html manifest.webmanifest sw.js icons data _site/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
