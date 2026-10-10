@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T10:33:44.838Z",
+  "generatedAt": "2026-10-10T17:22:09.569Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -89,10 +89,36 @@
       "id": "hn-agents",
       "name": "Hacker News",
       "ok": true,
-      "count": 6
+      "count": 5
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.8.9",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.8.9",
+      "date": "2026-10-10T17:15:16Z",
+      "summary": "@oh my pi/pi ai Changed Updated state field rendering to trim trailing whitespace and normalize empty collection formatting for consistent prompt output @oh my pi/pi coding agent Added Added capability driven extension terminal launches for tmux, Zellij, Herdr, and CMUX, with con",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.8.8",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.8.8",
+      "date": "2026-10-10T15:02:52Z",
+      "summary": "@oh my pi/pi agent core Added Added Agent.setModelResolver() to fit every model an agent adopts (via setModel , starting with the current one) before it is used ([ 15048](https://github.com/can1357/oh my pi/pull/15048) by [@H4vC](https://github.com/H4vC)) Added CompactionSettings",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "Quoting The New York Times",
       "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
@@ -156,6 +182,19 @@
       "tier": "official",
       "tags": [
         "claude",
+        "open"
+      ]
+    },
+    {
+      "title": "Why are coding agents so dumb?",
+      "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+      "date": "2026-10-09T14:21:31Z",
+      "summary": "97 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
         "open"
       ]
     },
@@ -382,19 +421,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.8.3",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.8.3",
-      "date": "2026-10-07T18:47:02Z",
-      "summary": "@oh my pi/pi ai Added Added OAuthRefreshUnavailableError , a retryable error that keys.getWithCredential and oauth.access reject with when every usable OAuth credential failed to refresh transiently; keys.get resolves undefined instead so availability probes move on to their next",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.293",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
       "date": "2026-10-07T18:10:20Z",
@@ -405,19 +431,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.8.2",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.8.2",
-      "date": "2026-10-07T17:52:59Z",
-      "summary": "@oh my pi/pi catalog Fixed Fixed Anthropic requests carrying too many inline screenshot bytes by exposing a provider image byte budget, applied only on the official endpoint ([ 14453](https://github.com/can1357/oh my pi/issues/14453)). @oh my pi/pi coding agent Fixed Fixed long A",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -808,32 +821,6 @@
       "source": "Hugging Face blog",
       "sourceId": "rss-hf",
       "tier": "official",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
-      "url": "https://github.com/reladraw/reladraw",
-      "date": "2026-09-26T17:10:40Z",
-      "summary": "415 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
-      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
-      "date": "2026-09-26T15:56:34Z",
-      "summary": "178 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
       "tags": [
         "open"
       ]
