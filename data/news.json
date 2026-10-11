@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T05:52:32.028Z",
+  "generatedAt": "2026-10-11T12:56:10.303Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,71 @@
     }
   ],
   "items": [
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.19",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.19",
+      "date": "2026-10-11T11:42:33Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.25.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.25.1",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.1",
+      "date": "2026-10-11T11:31:22Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at c1a8218f38203e272e6e965778ed6a2795cfeed7 What's Changed fix(serve): preserve session creation failure diagnostics by @callmeYe in https://github.com/QwenLM/qwen code/pull/12331 feat(sdk java): Add managed ru",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.9.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.9.1",
+      "date": "2026-10-11T11:10:18Z",
+      "summary": "@oh my pi/pi ai Added Added compat.supportsThinkingBindingControls for Bedrock Converse: setting it to false stops prefix bound Claude requests from sending thinking.block binding , the thinking binding controls 2026 08 01 beta and the /input transformations response path, for ga",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.25.1",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.1",
+      "date": "2026-10-11T10:20:36Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Restores the selected text only connection and validated session or workspace route after Android Activity recreation, while preservin",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.9.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.9.0",
+      "date": "2026-10-11T08:08:01Z",
+      "summary": "@oh my pi/pi agent core Fixed Fixed stale queue updates when queued steering is adopted, withdrawn, or added to the transcript, ensuring queue listeners consistently receive the latest state. @oh my pi/pi ai Breaking Changes Removed the retainTextSignature option from consumeGoog",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "New controls and chat improvements in Copilot for JetBrains",
       "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
@@ -202,7 +267,7 @@
       "title": "Five months treating bugs like patients and coding agents like a medical team",
       "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
       "date": "2026-10-09T15:26:33Z",
-      "summary": "102 points on Hacker News",
+      "summary": "157 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -215,7 +280,7 @@
       "title": "Why are coding agents so dumb?",
       "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
       "date": "2026-10-09T14:21:31Z",
-      "summary": "99 points on Hacker News",
+      "summary": "101 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -356,19 +421,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.8.5",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.8.5",
-      "date": "2026-10-08T14:14:16Z",
-      "summary": "@oh my pi/pi ai Added oauth.refresh(id, signal, { reason: \"auth recovery\" }) forwards provider 401 recovery intent to a delegated (auth broker) refresh, and AuthStorageOptions.refreshOAuthCredentialMints marks a refreshOAuthCredential hook that exchanges tokens itself so its toke",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "LegalOn halves Codex costs while maintaining development speed",
       "url": "https://openai.com/index/legalon-halves-codex-costs",
       "date": "2026-10-08T12:00:00.000Z",
@@ -405,19 +457,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.8.4",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.8.4",
-      "date": "2026-10-08T03:25:18Z",
-      "summary": "@oh my pi/pi ai Breaking Changes AuthBrokerClient.notifyUsageStale and UsageLedgerStore.invalidateUsageCache (including RemoteAuthCredentialStore.invalidateUsageCache ) now take an optional leading provider argument: the signature is (provider?: string, signal?: AbortSignal) inst",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -643,19 +682,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.25.0",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.0",
-      "date": "2026-10-05T10:45:59Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at 6788c035698a0ada471c958d1e789e96c6cddd9b What's Changed fix(serve): preserve session creation failure diagnostics by @callmeYe in https://github.com/QwenLM/qwen code/pull/12331 feat(sdk java): Add managed ru",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.18",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.18",
       "date": "2026-10-05T10:23:32Z",
@@ -744,32 +770,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.17",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.17",
-      "date": "2026-09-29T15:12:40Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.24.7 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.24.6 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.24.7",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.24.7",
-      "date": "2026-09-29T14:47:20Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at b12edec1401a28fc53cd9e714d5928b285071fc8 What's Changed fix(serve): preserve session creation failure diagnostics by @callmeYe in https://github.com/QwenLM/qwen code/pull/12331 feat(sdk java): Add managed ru",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
