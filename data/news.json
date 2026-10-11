@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T12:56:10.303Z",
+  "generatedAt": "2026-10-11T22:01:39.605Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.9.2",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.9.2",
+      "date": "2026-10-11T19:07:17Z",
+      "summary": "@oh my pi/pi agent core Changed Improved context caching for repeat turns, reducing redundant prompt processing and making subsequent turns faster when the system prompt is unchanged. @oh my pi/pi ai Breaking Changes Renamed TypeSafeJudge to NativeJudge and TypeSafeApiError to Ju",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.19",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.19",
@@ -267,7 +280,7 @@
       "title": "Five months treating bugs like patients and coding agents like a medical team",
       "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
       "date": "2026-10-09T15:26:33Z",
-      "summary": "157 points on Hacker News",
+      "summary": "211 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -280,7 +293,7 @@
       "title": "Why are coding agents so dumb?",
       "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
       "date": "2026-10-09T14:21:31Z",
-      "summary": "101 points on Hacker News",
+      "summary": "103 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -379,19 +392,6 @@
       "tier": "official",
       "tags": [
         "tools"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.8.6",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.8.6",
-      "date": "2026-10-08T19:05:03Z",
-      "summary": "@oh my pi/pi agent core Added Added support for warm cache aware conversation pruning, keeping pruned history within the model’s prompt cache lookback window while preserving Anthropic prompt cache efficiency. Added AgentLoopConfig.hasQueuedAsides (also available on Agent ) to al",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
