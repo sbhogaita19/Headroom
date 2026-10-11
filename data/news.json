@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T21:48:12.289Z",
+  "generatedAt": "2026-10-11T05:52:32.028Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "id": "gh-omp",
@@ -89,7 +89,7 @@
       "id": "hn-agents",
       "name": "Hacker News",
       "ok": true,
-      "count": 5
+      "count": 6
     }
   ],
   "items": [
@@ -199,10 +199,23 @@
       ]
     },
     {
+      "title": "Five months treating bugs like patients and coding agents like a medical team",
+      "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
+      "date": "2026-10-09T15:26:33Z",
+      "summary": "102 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "Why are coding agents so dumb?",
       "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
       "date": "2026-10-09T14:21:31Z",
-      "summary": "98 points on Hacker News",
+      "summary": "99 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -823,19 +836,6 @@
       "tier": "official",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.16",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.16",
-      "date": "2026-09-26T01:26:02Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.24.6 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.24.5 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
