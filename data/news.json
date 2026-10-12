@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T22:01:39.605Z",
+  "generatedAt": "2026-10-12T06:03:58.420Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 4
+      "count": 3
     },
     {
       "id": "gh-omp",
@@ -93,6 +93,32 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.10.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.1",
+      "date": "2026-10-12T05:55:11Z",
+      "summary": "@oh my pi/pi coding agent Added Added a Copy button that leads the turn footer under an answer in Tern ( ⧉ · 2m13s · 71K tok · $0.85 this turn , in place of the clock), which copies that answer Changed Running agents and background jobs in Tern now share one compact counter over ",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.10.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.0",
+      "date": "2026-10-12T01:18:39Z",
+      "summary": "@oh my pi/pi catalog Changed Raised the default context window for openai codex/gpt 6.1 sol and gpt 6.1 sol wm from 272K to 500K, matching OpenAI's new Codex default; extended context still opens 922K ([ 15421](https://github.com/can1357/oh my pi/issues/15421)) @oh my pi/pi codin",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.9.2",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.9.2",
@@ -198,19 +224,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.8.8",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.8.8",
-      "date": "2026-10-10T15:02:52Z",
-      "summary": "@oh my pi/pi agent core Added Added Agent.setModelResolver() to fit every model an agent adopts (via setModel , starting with the current one) before it is used ([ 15048](https://github.com/can1357/oh my pi/pull/15048) by [@H4vC](https://github.com/H4vC)) Added CompactionSettings",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Quoting The New York Times",
       "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
       "date": "2026-10-10T02:04:12.000Z",
@@ -280,7 +293,7 @@
       "title": "Five months treating bugs like patients and coding agents like a medical team",
       "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
       "date": "2026-10-09T15:26:33Z",
-      "summary": "211 points on Hacker News",
+      "summary": "214 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -298,19 +311,6 @@
       "source": "Hacker News",
       "sourceId": "hn-agents",
       "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.8.7",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.8.7",
-      "date": "2026-10-09T13:45:03Z",
-      "summary": "@oh my pi/pi ai Added Added routing session cleanup for OpenAI Responses and Codex while preserving shared provider fallbacks ([ 14334](https://github.com/can1357/oh my pi/pull/14334) by [@iliaal](https://github.com/iliaal)). Fixed Fixed Claude Haiku 5.5 requests silently enablin",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
       "tags": [
         "open"
       ]
@@ -679,19 +679,6 @@
       "tags": [
         "claude",
         "open"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.18",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.18",
-      "date": "2026-10-05T10:23:32Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.25.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.24.7 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
