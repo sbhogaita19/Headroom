@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T14:17:04.559Z",
+  "generatedAt": "2026-10-13T22:48:42.260Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -65,13 +65,13 @@
       "id": "rss-google",
       "name": "Google AI blog",
       "ok": true,
-      "count": 1
+      "count": 2
     },
     {
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 4
+      "count": 3
     },
     {
       "id": "rss-hf",
@@ -94,10 +94,114 @@
   ],
   "items": [
     {
+      "title": "google-gemini/gemini-cli Release v0.64.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0",
+      "date": "2026-10-13T20:44:46Z",
+      "summary": "What's Changed refactor(a2a server): implement V1 to V2 settings migration logic by @jvargassanchez dot in https://github.com/google gemini/gemini cli/pull/29450 fix(acp): bridge PromptResponse.usage and emit usage update notifications ( 29389) by @elberthc byte in https://github",
+      "kind": "release",
+      "source": "Gemini CLI releases",
+      "sourceId": "gh-gemini-cli",
+      "tier": "official",
+      "tags": [
+        "google"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.10.4",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.4",
+      "date": "2026-10-13T19:38:04Z",
+      "summary": "@oh my pi/pi agent core Added AgentTool.formatApprovalDetails receives ApprovalDetailsOptions ; compact: true asks for untruncated bodies so a compact approval prompt can count their lines ([ 15550](https://github.com/can1357/oh my pi/pull/15550) by [@H4vC](https://github.com/H4v",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Gemini 4 Argon in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+      "date": "2026-10-13T18:39:56.000Z",
+      "summary": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon… The post Gemini 4 Argon in GitHub Copilot appeared first on The GitHub Blog .",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "date": "2026-10-13T17:05:48.000Z",
+      "summary": "",
+      "kind": "post",
+      "source": "Hugging Face blog",
+      "sourceId": "rss-hf",
+      "tier": "official",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "date": "2026-10-13T16:00:00.000Z",
+      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "kind": "post",
+      "source": "Google AI blog",
+      "sourceId": "rss-google",
+      "tier": "official",
+      "tags": [
+        "google"
+      ]
+    },
+    {
+      "title": "ogulcancelik/herdr v0.9.4",
+      "url": "https://github.com/herdrdev/herdr/releases/tag/v0.9.4",
+      "date": "2026-10-13T15:41:22Z",
+      "summary": "Added herdr plugin update updates plugins installed from GitHub, all at once or by name. Running plugin panes keep working on their old files, and new runs pick up the update without a config reload. Locally linked plugins are left alone. ( 4245, thanks @JJLiebig) Windows notific",
+      "kind": "release",
+      "source": "herdr releases",
+      "sourceId": "gh-herdr",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Enterprise managed settings enforcement updates",
+      "url": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
+      "date": "2026-10-13T15:20:10.000Z",
+      "summary": "Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed settings at startup instead of relying on a cached policy. We are also adding minimum client version… The post Enterprise managed settings enforcement updates appeared fi",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
       "title": "Quoting Geoffrey Huntley",
       "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
       "date": "2026-10-13T13:32:00.000Z",
       "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fai",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "llm-meta-ai 0.2",
+      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+      "date": "2026-10-12T23:58:46.000Z",
+      "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin f",
       "kind": "post",
       "source": "Simon Willison",
       "sourceId": "rss-simon",
@@ -136,7 +240,7 @@
       "title": "AI coding agents generate more code, but not more software",
       "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
       "date": "2026-10-12T17:14:01Z",
-      "summary": "346 points on Hacker News",
+      "summary": "358 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -146,10 +250,23 @@
       ]
     },
     {
+      "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
+      "date": "2026-10-12T16:58:00.000Z",
+      "summary": "Research: Profiling web-edit with Python 3.15: flame graphs and source heatmaps I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app : I need a Python 3.15 flame graph and heatmap demo of the \"web-edit\" ",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
       "url": "https://news.ycombinator.com/item?id=50059096",
       "date": "2026-10-12T16:46:34Z",
-      "summary": "147 points on Hacker News",
+      "summary": "157 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -250,19 +367,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.9.1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.9.1",
-      "date": "2026-10-11T11:10:18Z",
-      "summary": "@oh my pi/pi ai Added Added compat.supportsThinkingBindingControls for Bedrock Converse: setting it to false stops prefix bound Claude requests from sending thinking.block binding , the thinking binding controls 2026 08 01 beta and the /input transformations response path, for ga",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code Release v0.25.1",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.1",
       "date": "2026-10-11T10:20:36Z",
@@ -276,19 +380,6 @@
       ]
     },
     {
-      "title": "New controls and chat improvements in Copilot for JetBrains",
-      "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-      "date": "2026-10-10T18:53:39.000Z",
-      "summary": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and… The post New controls and chat improvements in Copilot for JetBrains appeared first",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "Quoting The New York Times",
       "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
       "date": "2026-10-10T02:04:12.000Z",
@@ -299,19 +390,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "GitHub Copilot weekly releases — October 5",
-      "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
-      "date": "2026-10-09T22:58:23.000Z",
-      "summary": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku… The post GitHub Copilot weekly releases — October 5 appeared first on The GitHub Blog .",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -358,7 +436,7 @@
       "title": "Five months treating bugs like patients and coding agents like a medical team",
       "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
       "date": "2026-10-09T15:26:33Z",
-      "summary": "216 points on Hacker News",
+      "summary": "218 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -431,19 +509,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "Copilot code review: New organization billing options and controls",
-      "url": "https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls",
-      "date": "2026-10-08T19:43:05.000Z",
-      "summary": "This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization’s… The post Copilot code review: New organization billing options and controls app",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -548,45 +613,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
-      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
-      "date": "2026-10-07T00:16:45.000Z",
-      "summary": "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: The Wikimedia Foundation conducted its own investigation to se",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "llm-openai-decisions 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
-      "date": "2026-10-06T23:04:13.000Z",
-      "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-d",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "google-gemini/gemini-cli Release v0.63.0",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0",
-      "date": "2026-10-06T20:38:49Z",
-      "summary": "What's Changed fix(cli): display retry progress indicator during connection recovery ( 28340) by @amelidev in https://github.com/google gemini/gemini cli/pull/29468 Changelog for v0.61.0 preview.1 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/29469 Chan",
-      "kind": "release",
-      "source": "Gemini CLI releases",
-      "sourceId": "gh-gemini-cli",
-      "tier": "official",
-      "tags": [
-        "google"
       ]
     },
     {
@@ -836,32 +862,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "ogulcancelik/herdr v0.9.0",
-      "url": "https://github.com/herdrdev/herdr/releases/tag/v0.9.0",
-      "date": "2026-09-07T19:21:31Z",
-      "summary": "Added Manage Local and saved SSH machines from one Herdr window, with a combined agent list, machine scoped navigation, notifications, and automatic reconnects. Add and manage connections with herdr machine ; a disconnected machine does not interrupt the others. ( 3670) Multiple ",
-      "kind": "release",
-      "source": "herdr releases",
-      "sourceId": "gh-herdr",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Give Your Coding Agents a Memory You Own",
-      "url": "https://huggingface.co/blog/funes",
-      "date": "2026-09-03T00:00:00.000Z",
-      "summary": "",
-      "kind": "post",
-      "source": "Hugging Face blog",
-      "sourceId": "rss-hf",
-      "tier": "official",
-      "tags": [
-        "open"
       ]
     }
   ]
