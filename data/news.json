@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:38:12.092Z",
+  "generatedAt": "2026-10-13T00:45:18.601Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 6
+      "count": 4
     },
     {
       "id": "rss-hf",
@@ -89,10 +89,49 @@
       "id": "hn-agents",
       "name": "Hacker News",
       "ok": true,
-      "count": 5
+      "count": 6
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.10.3",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.3",
+      "date": "2026-10-12T19:23:53Z",
+      "summary": "@oh my pi/pi agent core Breaking Changes Removed estimateImageContentTokens() from @oh my pi/pi agent core/image tokens ; use Tokenizer.imageTokens(size, detail) , which prices with the reading model's catalog image rule ([ 15446](https://github.com/can1357/oh my pi/pull/15446) b",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "date": "2026-10-12T17:14:01Z",
+      "summary": "304 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "web-edit 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+      "date": "2026-10-12T15:54:36.000Z",
+      "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.10.2",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.2",
@@ -198,19 +237,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.9.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.9.0",
-      "date": "2026-10-11T08:08:01Z",
-      "summary": "@oh my pi/pi agent core Fixed Fixed stale queue updates when queued steering is adopted, withdrawn, or added to the transcript, ensuring queue listeners consistently receive the latest state. @oh my pi/pi ai Breaking Changes Removed the retainTextSignature option from consumeGoog",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "New controls and chat improvements in Copilot for JetBrains",
       "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
       "date": "2026-10-10T18:53:39.000Z",
@@ -293,7 +319,7 @@
       "title": "Five months treating bugs like patients and coding agents like a medical team",
       "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
       "date": "2026-10-09T15:26:33Z",
-      "summary": "214 points on Hacker News",
+      "summary": "215 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -306,7 +332,7 @@
       "title": "Why are coding agents so dumb?",
       "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
       "date": "2026-10-09T14:21:31Z",
-      "summary": "103 points on Hacker News",
+      "summary": "104 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -499,32 +525,6 @@
       ]
     },
     {
-      "title": "Purpose-built model for leaked secret detection",
-      "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
-      "date": "2026-10-07T16:13:56.000Z",
-      "summary": "Secret protection should keep pace with the way you build software, whether you write code yourself or work with an AI agent. With our new purpose-built model, we’re bringing context-aware… The post Purpose-built model for leaked secret detection appeared first on The GitHub Blog",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
-      "title": "Local sandboxing for GitHub Copilot now generally available",
-      "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
-      "date": "2026-10-07T15:46:17.000Z",
-      "summary": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure… The post Local sandboxing for GitHub Copilot now generally available appeared first on Th",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "mattpocock/skills: diagnosing-bugs: prove a forced mutation landed before trusting the red (#1209)",
       "url": "https://github.com/mattpocock/skills/commit/f3fc5632f401156837ee3872f14fe33ccf1024ea",
       "date": "2026-10-07T10:22:44Z",
@@ -587,19 +587,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "Introducing Mistral Large 4: Le chonk",
-      "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
-      "date": "2026-10-06T20:18:19.000Z",
-      "summary": "Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via thei",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
