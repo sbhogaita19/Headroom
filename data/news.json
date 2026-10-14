@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T17:15:43.952Z",
+  "generatedAt": "2026-10-14T21:44:32.227Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,32 @@
     }
   ],
   "items": [
+    {
+      "title": "HydraFusion updates and new Max option",
+      "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+      "date": "2026-10-14T20:01:35.000Z",
+      "summary": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot… The post HydraFusion updates and new Max option appeared first o",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.300",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "date": "2026-10-14T18:24:25Z",
+      "summary": "What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache creation 5m tokens and cache creation 1h tokens to the OpenTelemetry api request event, splitting cache writes by lifetime ",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
     {
       "title": "ogulcancelik/herdr v0.9.5",
       "url": "https://github.com/herdrdev/herdr/releases/tag/v0.9.5",
@@ -302,19 +328,6 @@
       ]
     },
     {
-      "title": "Client telemetry user attribution and configurable capture",
-      "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
-      "date": "2026-10-12T22:38:00.000Z",
-      "summary": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three… The post Client telemetry user attribution and confi",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "can1357/oh-my-pi v18.10.3",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.3",
       "date": "2026-10-12T19:23:53Z",
@@ -331,7 +344,7 @@
       "title": "AI coding agents generate more code, but not more software",
       "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
       "date": "2026-10-12T17:14:01Z",
-      "summary": "363 points on Hacker News",
+      "summary": "364 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -691,19 +704,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.292",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
-      "date": "2026-10-06T18:59:30Z",
-      "summary": "What's changed Added marketplace <source to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it Added an effort parameter to the Agent tool, so Claude runs a sub agent at the effo",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
       ]
     },
     {
