@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T11:58:42.145Z",
+  "generatedAt": "2026-10-14T17:15:43.952Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,45 @@
     }
   ],
   "items": [
+    {
+      "title": "ogulcancelik/herdr v0.9.5",
+      "url": "https://github.com/herdrdev/herdr/releases/tag/v0.9.5",
+      "date": "2026-10-14T16:07:28Z",
+      "summary": "This is a hotfix release for v0.9.4. See the v0.9.4 notes for the full feature release: https://github.com/herdrdev/herdr/releases/tag/v0.9.4 Fixed Prefix shortcuts work again when the terminal sends the next key as plain text. This affected Tern, Chinese, Japanese and Korean inp",
+      "kind": "release",
+      "source": "herdr releases",
+      "sourceId": "gh-herdr",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "date": "2026-10-14T12:00:00.000Z",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "date": "2026-10-14T07:00:00.000Z",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
     {
       "title": "anthropics/claude-code v2.1.299",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
@@ -292,7 +331,7 @@
       "title": "AI coding agents generate more code, but not more software",
       "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
       "date": "2026-10-12T17:14:01Z",
-      "summary": "362 points on Hacker News",
+      "summary": "363 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -485,6 +524,19 @@
       ]
     },
     {
+      "title": "Why are coding agents so dumb?",
+      "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+      "date": "2026-10-09T14:21:31Z",
+      "summary": "105 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "mattpocock/skills: wizard: template fixes (#1220, #1142, #1081, #1041, #1003) (#1237)",
       "url": "https://github.com/mattpocock/skills/commit/49dd158d1076134a641b33efb035946536778336",
       "date": "2026-10-09T10:56:49Z",
@@ -655,32 +707,6 @@
       ]
     },
     {
-      "title": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "date": "2026-10-06T12:00:00.000Z",
-      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "date": "2026-10-06T10:00:00.000Z",
-      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "anthropics/skills: Update claude-api skill: managed-agents-onboard from a quickstart name or a URL (#1962)",
       "url": "https://github.com/anthropics/skills/commit/683bc88e56f3e09ba94f7055977f3d3aa499f202",
       "date": "2026-10-05T13:46:42Z",
@@ -747,19 +773,6 @@
       ]
     },
     {
-      "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
-      "url": "https://news.ycombinator.com/item?id=49911500",
-      "date": "2026-09-30T16:58:24Z",
-      "summary": "123 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "ogulcancelik/herdr v0.9.3",
       "url": "https://github.com/herdrdev/herdr/releases/tag/v0.9.3",
       "date": "2026-09-29T19:29:23Z",
@@ -821,19 +834,6 @@
       "source": "Hugging Face blog",
       "sourceId": "rss-hf",
       "tier": "official",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "ogulcancelik/herdr v0.9.1",
-      "url": "https://github.com/herdrdev/herdr/releases/tag/v0.9.1",
-      "date": "2026-09-16T18:40:01Z",
-      "summary": "Added Control agents, panes, workspaces, and worktrees on saved SSH machines with herdr machine <label or id . Commands use the saved machine's session without needing an open Herdr window. Update Herdr on both machines to use CLI forwarding; failed remote commands never fall bac",
-      "kind": "release",
-      "source": "herdr releases",
-      "sourceId": "gh-herdr",
-      "tier": "author",
       "tags": [
         "open"
       ]
