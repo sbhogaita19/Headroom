@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T04:46:05.578Z",
+  "generatedAt": "2026-10-15T11:35:24.509Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -110,7 +110,7 @@
       "title": "Tree Appreciator",
       "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
       "date": "2026-10-14T21:23:01.000Z",
-      "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees ",
+      "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees",
       "kind": "post",
       "source": "Simon Willison",
       "sourceId": "rss-simon",
@@ -149,7 +149,7 @@
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
-      "summary": "139 points on Hacker News",
+      "summary": "181 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
