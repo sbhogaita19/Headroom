@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T21:44:32.227Z",
+  "generatedAt": "2026-10-15T04:46:05.578Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,32 @@
   ],
   "items": [
     {
+      "title": "can1357/oh-my-pi v18.11.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.11.0",
+      "date": "2026-10-14T22:01:49Z",
+      "summary": "@oh my pi/pi agent core Breaking Changes Removed ApprovalDetailsOptions ; formatApprovalDetails takes only args again, since the compact approval prompt no longer shows tool details ([ 15642](https://github.com/can1357/oh my pi/pull/15642) by [@H4vC](https://github.com/H4vC)) Add",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Tree Appreciator",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "date": "2026-10-14T21:23:01.000Z",
+      "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees ",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "HydraFusion updates and new Max option",
       "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
       "date": "2026-10-14T20:01:35.000Z",
@@ -117,6 +143,19 @@
       "tier": "official",
       "tags": [
         "claude"
+      ]
+    },
+    {
+      "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "url": "https://petal.live/",
+      "date": "2026-10-14T18:23:14Z",
+      "summary": "139 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
       ]
     },
     {
@@ -380,19 +419,6 @@
       ]
     },
     {
-      "title": "web-edit 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
-      "date": "2026-10-12T15:54:36.000Z",
-      "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "can1357/oh-my-pi v18.10.2",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.2",
       "date": "2026-10-12T14:08:38Z",
@@ -423,19 +449,6 @@
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.0",
       "date": "2026-10-12T01:18:39Z",
       "summary": "@oh my pi/pi catalog Changed Raised the default context window for openai codex/gpt 6.1 sol and gpt 6.1 sol wm from 272K to 500K, matching OpenAI's new Codex default; extended context still opens 922K ([ 15421](https://github.com/can1357/oh my pi/issues/15421)) @oh my pi/pi codin",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.9.2",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.9.2",
-      "date": "2026-10-11T19:07:17Z",
-      "summary": "@oh my pi/pi agent core Changed Improved context caching for repeat turns, reducing redundant prompt processing and making subsequent turns faster when the system prompt is unchanged. @oh my pi/pi ai Breaking Changes Renamed TypeSafeJudge to NativeJudge and TypeSafeApiError to Ju",
       "kind": "release",
       "source": "omp releases",
       "sourceId": "gh-omp",
@@ -528,19 +541,6 @@
       "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
       "date": "2026-10-09T15:26:33Z",
       "summary": "218 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Why are coding agents so dumb?",
-      "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
-      "date": "2026-10-09T14:21:31Z",
-      "summary": "105 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
