@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T17:05:28.160Z",
+  "generatedAt": "2026-10-15T21:27:15.293Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "id": "gh-gemini-cli",
@@ -93,6 +93,32 @@
     }
   ],
   "items": [
+    {
+      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+      "date": "2026-10-15T19:35:13.000Z",
+      "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in mid-No",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.301",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "date": "2026-10-15T19:22:06Z",
+      "summary": "What's changed Added CLAUDE CODE RETRY WATCHDOG MAX USAGE LIMIT WAIT MS so unattended retry mode ( CLAUDE CODE RETRY WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry tracing guidance to the claude api skill, including sett",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
     {
       "title": "QwenLM/qwen-code Qwen Code Desktop v0.25.2",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.2",
@@ -214,7 +240,7 @@
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
-      "summary": "203 points on Hacker News",
+      "summary": "210 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -377,19 +403,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "Enterprise managed settings enforcement updates",
-      "url": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
-      "date": "2026-10-13T15:20:10.000Z",
-      "summary": "Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed settings at startup instead of relying on a cached policy. We are also adding minimum client version… The post Enterprise managed settings enforcement updates appeared fi",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -642,19 +655,6 @@
       ]
     },
     {
-      "title": "openai/codex 0.162.0",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0",
-      "date": "2026-10-08T18:55:59Z",
-      "summary": "New Features Add tools for creating and listing managed Git worktrees from trusted local projects when the worktrees feature is enabled. ( 50148) Pin tasks in the agent Command Center with p and keep them in a shared Pinned group when supported by the server. ( 51500) Navigate an",
-      "kind": "release",
-      "source": "Codex CLI releases",
-      "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
       "url": "https://openai.com/index/oracle",
       "date": "2026-10-08T16:00:00.000Z",
@@ -698,19 +698,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
       "date": "2026-10-08T05:03:54Z",
       "summary": "What's changed Fixed prompt and agent hooks written as instructions (such as \"Block commands that...\") allowing what they should block Improved how prompt hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is l",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.293",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
-      "date": "2026-10-07T18:10:20Z",
-      "summary": "What's changed Added Claude Haiku 5.5 ( claude haiku 5 5 ), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) Added agentType to the subagentStatusLine payload, so scripts can tell custom subagent types apart A",
       "kind": "release",
       "source": "Claude Code releases",
       "sourceId": "gh-claude-code",
