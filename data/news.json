@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T11:35:24.509Z",
+  "generatedAt": "2026-10-15T17:05:28.160Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "id": "gh-omp",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,71 @@
     }
   ],
   "items": [
+    {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.25.2",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.2",
+      "date": "2026-10-15T16:35:12Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at 8a415cb628db88844e0196bdfdcce83b4f88d812 What's Changed fix(managed agent): connector and broker robustness from the 12692 R2 review by @wenshao in https://github.com/QwenLM/qwen code/pull/13330 feat(managed",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.20",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.20",
+      "date": "2026-10-15T16:21:10Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.25.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.25.2",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.2",
+      "date": "2026-10-15T15:41:15Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(managed agent): H4e b2 the lead's mailbox over Session messages ([ 13892](https://github.com/QwenLM/qwen code/pull/13892)) by @we",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.11.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.11.1",
+      "date": "2026-10-15T15:02:20Z",
+      "summary": "@oh my pi/pi agent core Added Tokenizer.countLatestTurn : counts a message as the transcript's latest assistant turn, which an Anthropic Messages replay keeps byte for byte ([ 15791](https://github.com/can1357/oh my pi/pull/15791) by [@will bogusz](https://github.com/will bogusz)",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Agentic autofix for code scanning alerts general availability",
+      "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+      "date": "2026-10-15T13:49:20.000Z",
+      "summary": "Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix,… The post Agentic autofix for code scanning alerts general availability appeared first ",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.11.0",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.11.0",
@@ -149,7 +214,7 @@
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
-      "summary": "181 points on Hacker News",
+      "summary": "203 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -442,45 +507,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.10.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.0",
-      "date": "2026-10-12T01:18:39Z",
-      "summary": "@oh my pi/pi catalog Changed Raised the default context window for openai codex/gpt 6.1 sol and gpt 6.1 sol wm from 272K to 500K, matching OpenAI's new Codex default; extended context still opens 922K ([ 15421](https://github.com/can1357/oh my pi/issues/15421)) @oh my pi/pi codin",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.19",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.19",
-      "date": "2026-10-11T11:42:33Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.25.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.25.1",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.1",
-      "date": "2026-10-11T11:31:22Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at c1a8218f38203e272e6e965778ed6a2795cfeed7 What's Changed fix(serve): preserve session creation failure diagnostics by @callmeYe in https://github.com/QwenLM/qwen code/pull/12331 feat(sdk java): Add managed ru",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
