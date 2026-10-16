@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T16:43:07.140Z",
+  "generatedAt": "2026-10-16T21:14:34.288Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 4
+      "count": 3
     },
     {
       "id": "gh-omp",
@@ -94,6 +94,19 @@
   ],
   "items": [
     {
+      "title": "anthropics/claude-code v2.1.302",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "date": "2026-10-16T20:53:06Z",
+      "summary": "What's changed Added CLAUDE CODE AUTO MODE MODEL to choose the model the client side auto mode classifier uses; it does not change the model for server side auto mode Added an Idle compaction row to /config for turning idle compaction off or back on; the notices shown after an id",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
       "title": "can1357/oh-my-pi v18.11.2",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.11.2",
       "date": "2026-10-16T15:05:57Z",
@@ -117,6 +130,19 @@
       "tier": "official",
       "tags": [
         "tools"
+      ]
+    },
+    {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "date": "2026-10-16T00:00:00.000Z",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
       ]
     },
     {
@@ -305,7 +331,7 @@
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
-      "summary": "218 points on Hacker News",
+      "summary": "220 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -552,7 +578,7 @@
       "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
       "url": "https://news.ycombinator.com/item?id=50059096",
       "date": "2026-10-12T16:46:34Z",
-      "summary": "161 points on Hacker News",
+      "summary": "162 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -572,19 +598,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Release v0.25.1",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.1",
-      "date": "2026-10-11T10:20:36Z",
-      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Restores the selected text only connection and validated session or workspace route after Android Activity recreation, while preservin",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
@@ -641,6 +654,19 @@
       ]
     },
     {
+      "title": "Why are coding agents so dumb?",
+      "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+      "date": "2026-10-09T14:21:31Z",
+      "summary": "105 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "mattpocock/skills: wizard: template fixes (#1220, #1142, #1081, #1041, #1003) (#1237)",
       "url": "https://github.com/mattpocock/skills/commit/49dd158d1076134a641b33efb035946536778336",
       "date": "2026-10-09T10:56:49Z",
@@ -681,19 +707,6 @@
       ]
     },
     {
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "date": "2026-10-09T07:00:00.000Z",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.295",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
       "date": "2026-10-08T19:48:38Z",
@@ -717,19 +730,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.294",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
-      "date": "2026-10-08T05:03:54Z",
-      "summary": "What's changed Fixed prompt and agent hooks written as instructions (such as \"Block commands that...\") allowing what they should block Improved how prompt hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is l",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
       ]
     },
     {
@@ -768,19 +768,6 @@
       "source": "Hugging Face blog",
       "sourceId": "rss-hf",
       "tier": "official",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
-      "url": "https://pipod.dev/",
-      "date": "2026-10-02T19:10:38Z",
-      "summary": "121 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
       "tags": [
         "open"
       ]
