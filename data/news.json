@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T11:29:41.997Z",
+  "generatedAt": "2026-10-16T16:43:07.140Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "id": "rss-hf",
@@ -94,10 +94,23 @@
   ],
   "items": [
     {
-      "title": "Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams",
+      "title": "can1357/oh-my-pi v18.11.2",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.11.2",
+      "date": "2026-10-16T15:05:57Z",
+      "summary": "@oh my pi/pi agent core Added agent start carries resumedToolCallIds when a continued run first executes the calls of an unpaired assistant tail Fixed Cancelling an ask after a background job finishes now reports the user cancellation instead of telling the model to retry a skipp",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Multi-repo support and other improvements for GitHub in Slack and Teams",
       "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
       "date": "2026-10-16T02:16:35.000Z",
-      "summary": "Multi-repo support in Slack and Microsoft Teams GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating… The post Multi-repo support and other improvements for Git",
+      "summary": "Multi-repo support in Slack and Teams GitHub Copilot in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating issues, or… The post Multi-repo support and other improvements for GitHub in Sl",
       "kind": "post",
       "source": "GitHub Changelog",
       "sourceId": "rss-ghchangelog",
@@ -292,7 +305,20 @@
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
-      "summary": "217 points on Hacker News",
+      "summary": "218 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
+      "url": "https://clova.email/",
+      "date": "2026-10-14T17:00:59Z",
+      "summary": "114 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -403,19 +429,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "Gemini 4 Argon in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
-      "date": "2026-10-13T18:39:56.000Z",
-      "summary": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon… The post Gemini 4 Argon in GitHub Copilot appeared first on The GitHub Blog .",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -539,7 +552,7 @@
       "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
       "url": "https://news.ycombinator.com/item?id=50059096",
       "date": "2026-10-12T16:46:34Z",
-      "summary": "160 points on Hacker News",
+      "summary": "161 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -553,19 +566,6 @@
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.2",
       "date": "2026-10-12T14:08:38Z",
       "summary": "@oh my pi/pi agent core Added Added AgentLoopConfig.onDetachedToolUpdate : a tool's onUpdate frames that arrive after its run's event stream ended (a returned call whose background job keeps reporting) reach it instead of being dropped; Agent forwards them to its subscribers as t",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.10.1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.1",
-      "date": "2026-10-12T05:55:11Z",
-      "summary": "@oh my pi/pi coding agent Added Added a Copy button that leads the turn footer under an answer in Tern ( ⧉ · 2m13s · 71K tok · $0.85 this turn , in place of the clock), which copies that answer Changed Running agents and background jobs in Tern now share one compact counter over ",
       "kind": "release",
       "source": "omp releases",
       "sourceId": "gh-omp",
@@ -777,19 +777,6 @@
       "url": "https://pipod.dev/",
       "date": "2026-10-02T19:10:38Z",
       "summary": "121 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "The Four Horsemen of Agentic Coding",
-      "url": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
-      "date": "2026-10-02T15:19:56Z",
-      "summary": "115 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
