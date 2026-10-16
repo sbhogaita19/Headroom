@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T04:36:47.839Z",
+  "generatedAt": "2026-10-16T11:29:41.997Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -292,7 +292,7 @@
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
-      "summary": "213 points on Hacker News",
+      "summary": "217 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
