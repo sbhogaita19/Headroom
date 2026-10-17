@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T21:14:34.288Z",
+  "generatedAt": "2026-10-17T04:33:01.021Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "id": "gh-gemini-cli",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 4
+      "count": 3
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.11.3",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.11.3",
+      "date": "2026-10-16T21:45:36Z",
+      "summary": "@oh my pi/pi agent core Added prepareQueuedMessages receives which queue ( steering or followUp ) a batch came from ([ 16026](https://github.com/can1357/oh my pi/pull/16026)) @oh my pi/pi ai Fixed Fixed JSON Schema dereferencing rewriting literal values in const , enum , default ",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "anthropics/claude-code v2.1.302",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
@@ -117,19 +130,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "Multi-repo support and other improvements for GitHub in Slack and Teams",
-      "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
-      "date": "2026-10-16T02:16:35.000Z",
-      "summary": "Multi-repo support in Slack and Teams GitHub Copilot in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating issues, or… The post Multi-repo support and other improvements for GitHub in Sl",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -585,32 +585,6 @@
       "tier": "lead",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.10.2",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.2",
-      "date": "2026-10-12T14:08:38Z",
-      "summary": "@oh my pi/pi agent core Added Added AgentLoopConfig.onDetachedToolUpdate : a tool's onUpdate frames that arrive after its run's event stream ended (a returned call whose background job keeps reporting) reach it instead of being dropped; Agent forwards them to its subscribers as t",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "openai/codex 0.162.1",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.1",
-      "date": "2026-10-09T19:44:51Z",
-      "summary": "Bug Fixes Fixed a TUI crash when asynchronous questions contain multiple lines, preserving line breaks and complete hyperlink destinations. ( 51866) Fixed startup failures caused by differences between a running background server's feature settings and CLI defaults. Compatibility",
-      "kind": "release",
-      "source": "Codex CLI releases",
-      "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
