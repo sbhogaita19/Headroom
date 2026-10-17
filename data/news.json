@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T15:39:31.927Z",
+  "generatedAt": "2026-10-17T20:39:36.938Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.12.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.0",
+      "date": "2026-10-17T18:44:02Z",
+      "summary": "@oh my pi/pi agent core Fixed Fixed Cursor turns failing with PROVIDER ERROR when a follow up (a finished background job, a late diagnostic, a reminder) arrived while the previous turn was still streaming ([ 15821](https://github.com/can1357/oh my pi/pull/15821) by [@robfeldmann]",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.11.3",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.11.3",
@@ -344,7 +357,7 @@
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
-      "summary": "221 points on Hacker News",
+      "summary": "222 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -530,19 +543,6 @@
       "kind": "post",
       "source": "Simon Willison",
       "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.10.3",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.3",
-      "date": "2026-10-12T19:23:53Z",
-      "summary": "@oh my pi/pi agent core Breaking Changes Removed estimateImageContentTokens() from @oh my pi/pi agent core/image tokens ; use Tokenizer.imageTokens(size, detail) , which prices with the reading model's catalog image rule ([ 15446](https://github.com/can1357/oh my pi/pull/15446) b",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
       "tier": "author",
       "tags": [
         "open"
