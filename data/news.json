@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T11:12:58.334Z",
+  "generatedAt": "2026-10-18T15:54:37.607Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -97,7 +97,7 @@
       "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
       "url": "https://sphinx-six-theta.vercel.app/",
       "date": "2026-10-18T04:33:49Z",
-      "summary": "143 points on Hacker News",
+      "summary": "203 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -383,7 +383,7 @@
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
-      "summary": "225 points on Hacker News",
+      "summary": "226 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
