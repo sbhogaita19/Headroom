@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T20:39:36.938Z",
+  "generatedAt": "2026-10-18T04:39:08.010Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.12.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.1",
+      "date": "2026-10-17T23:14:21Z",
+      "summary": "@oh my pi/pi ai Fixed Fixed every request failing behind a TLS inspecting proxy that refuses compressed uploads: a 400/403/415 whose body is not JSON, or the Anthropic API's \"request body is not valid JSON\" after a proxy drops Content Encoding , now resends the body uncompressed ",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.12.0",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.0",
@@ -357,7 +370,7 @@
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
-      "summary": "222 points on Hacker News",
+      "summary": "224 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -455,19 +468,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.10.4",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.4",
-      "date": "2026-10-13T19:38:04Z",
-      "summary": "@oh my pi/pi agent core Added AgentTool.formatApprovalDetails receives ApprovalDetailsOptions ; compact: true asks for untruncated bodies so a compact approval prompt can count their lines ([ 15550](https://github.com/can1357/oh my pi/pull/15550) by [@H4vC](https://github.com/H4v",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
