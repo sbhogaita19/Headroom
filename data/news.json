@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T14:31:19.620Z",
+  "generatedAt": "2026-10-19T22:24:05.454Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,71 @@
   ],
   "items": [
     {
+      "title": "anthropics/claude-code v2.1.304",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+      "date": "2026-10-19T21:34:39Z",
+      "summary": "What's changed Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin Added decider: \"person\" to a mod's tool.check answer: only the permission dialog or a host's callback can approve the ask, and it is refused with th",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "Copilot model policy API for enterprise, orgs, and teams",
+      "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+      "date": "2026-10-19T21:32:18.000Z",
+      "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now… The post Copilot model policy API for enterprise, orgs, and teams appeared first on The Gi",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "GitHub Copilot models deprecated on October 19, 2026",
+      "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+      "date": "2026-10-19T21:27:10.000Z",
+      "summary": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These… The post GitHub Copilot models deprecated on October 19, 2026 appeared first on ",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.12.3",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.3",
+      "date": "2026-10-19T18:41:25Z",
+      "summary": "@oh my pi/pi agent core Added AgentTool gained the optional approvalCacheTargets hook, which the always ask cached approval mode uses to check and record per file grants ([ 16049](https://github.com/can1357/oh my pi/pull/16049) by [@Peribunt](https://github.com/Peribunt)) Changed",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "mattpocock/skills: chief-of-staff: keep memory in a dated, commit-cited wiki (#1304)",
+      "url": "https://github.com/mattpocock/skills/commit/5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "date": "2026-10-19T15:51:40Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "QwenLM/qwen-code Qwen Code Desktop v0.25.3",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.3",
       "date": "2026-10-19T08:06:26Z",
@@ -175,7 +240,7 @@
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
       "url": "https://github.com/finereli/whatsapp-mcp",
       "date": "2026-10-18T21:36:10Z",
-      "summary": "134 points on Hacker News",
+      "summary": "146 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -201,7 +266,7 @@
       "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
       "url": "https://sphinx-six-theta.vercel.app/",
       "date": "2026-10-18T04:33:49Z",
-      "summary": "248 points on Hacker News",
+      "summary": "250 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -367,32 +432,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.11.1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.11.1",
-      "date": "2026-10-15T15:02:20Z",
-      "summary": "@oh my pi/pi agent core Added Tokenizer.countLatestTurn : counts a message as the transcript's latest assistant turn, which an Anthropic Messages replay keeps byte for byte ([ 15791](https://github.com/can1357/oh my pi/pull/15791) by [@will bogusz](https://github.com/will bogusz)",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Agentic autofix for code scanning alerts general availability",
-      "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
-      "date": "2026-10-15T13:49:20.000Z",
-      "summary": "Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix,… The post Agentic autofix for code scanning alerts general availability appeared first ",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "Sullivan & Cromwell brings legal expertise into agreement review",
       "url": "https://openai.com/index/sullivan-cromwell",
       "date": "2026-10-15T00:00:00.000Z",
@@ -416,19 +455,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "HydraFusion updates and new Max option",
-      "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
-      "date": "2026-10-14T20:01:35.000Z",
-      "summary": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot… The post HydraFusion updates and new Max option appeared first o",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -627,19 +653,6 @@
       ]
     },
     {
-      "title": "anthropics/claude-code v2.1.296",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
-      "date": "2026-10-09T19:28:59Z",
-      "summary": "What's changed Added a code key to the Claude apps gateway's managed.policies[] : the same settings as cli , also applied in Claude Desktop's Code tab; beside desktop , it turns on Claude Desktop's gateway mode Added autoCompactWindow to subagent frontmatter and agents definition",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
       "title": "anthropics/skills: Update claude-api skill: dynamic workflows and the four workflow quickstarts (#1995)",
       "url": "https://github.com/anthropics/skills/commit/dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "date": "2026-10-09T18:45:49Z",
@@ -710,19 +723,6 @@
       "title": "mattpocock/skills: docs(readme): lead with self-updating installs (#1218)",
       "url": "https://github.com/mattpocock/skills/commit/b0618bc436ad893b3c5e84e55fba86586d34a404",
       "date": "2026-10-08T08:44:34Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "mattpocock/skills: diagnosing-bugs: prove a forced mutation landed before trusting the red (#1209)",
-      "url": "https://github.com/mattpocock/skills/commit/f3fc5632f401156837ee3872f14fe33ccf1024ea",
-      "date": "2026-10-07T10:22:44Z",
       "summary": "",
       "kind": "commit",
       "source": "mattpocock/skills commits",
