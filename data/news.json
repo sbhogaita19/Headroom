@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T20:48:45.284Z",
+  "generatedAt": "2026-10-19T04:46:44.597Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,10 +94,62 @@
   ],
   "items": [
     {
+      "title": "llm-tools-datasette 0.1.1",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+      "date": "2026-10-18T23:43:09.000Z",
+      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "llm-echo 0.5",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "date": "2026-10-18T23:16:16.000Z",
+      "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.303",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+      "date": "2026-10-18T22:26:54Z",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.12.2",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.2",
+      "date": "2026-10-18T21:03:22Z",
+      "summary": "@oh my pi/pi agent core Changed The failed tool call correction sent to DeepSeek models now also covers chat template tool call tokens written out as text, not only malformed DSML ([ 16216](https://github.com/can1357/oh my pi/pull/16216) by [@H4vC](https://github.com/H4vC)) Fixed",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
       "url": "https://sphinx-six-theta.vercel.app/",
       "date": "2026-10-18T04:33:49Z",
-      "summary": "231 points on Hacker News",
+      "summary": "242 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -328,19 +380,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.11.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.11.0",
-      "date": "2026-10-14T22:01:49Z",
-      "summary": "@oh my pi/pi agent core Breaking Changes Removed ApprovalDetailsOptions ; formatApprovalDetails takes only args again, since the compact approval prompt no longer shows tool details ([ 15642](https://github.com/can1357/oh my pi/pull/15642) by [@H4vC](https://github.com/H4vC)) Add",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Tree Appreciator",
       "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
       "date": "2026-10-14T21:23:01.000Z",
@@ -549,19 +588,6 @@
       ]
     },
     {
-      "title": "llm-meta-ai 0.2",
-      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "date": "2026-10-12T23:58:46.000Z",
-      "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin f",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "AI coding agents generate more code, but not more software",
       "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
       "date": "2026-10-12T17:14:01Z",
@@ -570,19 +596,6 @@
       "source": "Hacker News",
       "sourceId": "hn-agents",
       "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
-      "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
-      "date": "2026-10-12T16:58:00.000Z",
-      "summary": "Research: Profiling web-edit with Python 3.15: flame graphs and source heatmaps I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app : I need a Python 3.15 flame graph and heatmap demo of the \"web-edit\" ",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
       "tags": [
         "open"
       ]
@@ -678,19 +691,6 @@
       "tags": [
         "claude",
         "open"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.295",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
-      "date": "2026-10-08T19:48:38Z",
-      "summary": "What's changed Added onFailure: \"block\" for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether ",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
       ]
     },
     {
