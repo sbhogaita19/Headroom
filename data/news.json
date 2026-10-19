@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T04:46:44.597Z",
+  "generatedAt": "2026-10-19T13:24:38.208Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "id": "gh-omp",
@@ -94,6 +94,45 @@
   ],
   "items": [
     {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.25.3",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.3",
+      "date": "2026-10-19T08:06:26Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at b28b0d948fa28b89750ac5f1525b95e1746f47ab What's Changed fix(managed agent): admit team plan approval into the journal only interrupted turn settle ( 13847) by @wenshao in https://github.com/QwenLM/qwen code/",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.21",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.21",
+      "date": "2026-10-19T07:47:40Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.25.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.25.3",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.3",
+      "date": "2026-10-19T06:06:37Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds optional model generated layouts to Test Failure Explorer, with validation and fallback to the fixed view ([ 14269](https://githu",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
       "title": "llm-tools-datasette 0.1.1",
       "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
       "date": "2026-10-18T23:43:09.000Z",
@@ -133,6 +172,19 @@
       ]
     },
     {
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "date": "2026-10-18T21:36:10Z",
+      "summary": "125 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "can1357/oh-my-pi v18.12.2",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.2",
       "date": "2026-10-18T21:03:22Z",
@@ -149,7 +201,7 @@
       "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
       "url": "https://sphinx-six-theta.vercel.app/",
       "date": "2026-10-18T04:33:49Z",
-      "summary": "242 points on Hacker News",
+      "summary": "248 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -302,32 +354,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.25.2",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.2",
-      "date": "2026-10-15T16:35:12Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at 8a415cb628db88844e0196bdfdcce83b4f88d812 What's Changed fix(managed agent): connector and broker robustness from the 12692 R2 review by @wenshao in https://github.com/QwenLM/qwen code/pull/13330 feat(managed",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.20",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.20",
-      "date": "2026-10-15T16:21:10Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.25.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code Release v0.25.2",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.2",
       "date": "2026-10-15T15:41:15Z",
@@ -422,20 +448,7 @@
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
-      "summary": "226 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
-      "url": "https://clova.email/",
-      "date": "2026-10-14T17:00:59Z",
-      "summary": "114 points on Hacker News",
+      "summary": "227 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -604,7 +617,7 @@
       "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
       "url": "https://news.ycombinator.com/item?id=50059096",
       "date": "2026-10-12T16:46:34Z",
-      "summary": "162 points on Hacker News",
+      "summary": "163 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
