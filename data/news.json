@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T17:13:24.818Z",
+  "generatedAt": "2026-10-20T21:40:17.830Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,58 @@
     }
   ],
   "items": [
+    {
+      "title": "google-gemini/gemini-cli Release v0.65.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0",
+      "date": "2026-10-20T21:17:57Z",
+      "summary": "What's Changed fix(cli): enforce read only workspace settings in untrusted folders by @jvargassanchez dot in https://github.com/google gemini/gemini cli/pull/29583 fix(core): avoid duplicate tool response turns when resuming sessions by @diegogodinezr in https://github.com/google",
+      "kind": "release",
+      "source": "Gemini CLI releases",
+      "sourceId": "gh-gemini-cli",
+      "tier": "official",
+      "tags": [
+        "google"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.305",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+      "date": "2026-10-20T20:46:50Z",
+      "summary": "What's changed Added sandbox.allowNestedUserNamespaces so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections Added CLAUDE CODE RETRY WATCHDOG USAGE LIMIT RECHECK MS so unattended retry mode ",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.12.4",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.4",
+      "date": "2026-10-20T19:42:57Z",
+      "summary": "@oh my pi/pi agent core Fixed Enabled native compaction for supported Bedrock Claude models ([ 16343](https://github.com/can1357/oh my pi/pull/16343) by [@anatoli tsinovoy](https://github.com/anatoli tsinovoy)) @oh my pi/pi ai Added Added opt in reclaimAbovePct to auth.accountPol",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+      "date": "2026-10-20T19:34:19.000Z",
+      "summary": "My latest vibe coded game experiment is a Command &amp; Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to \"",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "My obituary for programming",
       "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
@@ -123,7 +175,7 @@
       "title": "Copilot model policy API for enterprise, orgs, and teams",
       "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
       "date": "2026-10-19T21:32:18.000Z",
-      "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now… The post Copilot model policy API for enterprise, orgs, and teams appeared first on The Gi",
+      "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What’s new GET and PATCH endpoints are now… The post Copilot model policy API for enterprise, orgs, and teams appeared first on The GitHub ",
       "kind": "post",
       "source": "GitHub Changelog",
       "sourceId": "rss-ghchangelog",
@@ -266,7 +318,7 @@
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
       "url": "https://github.com/finereli/whatsapp-mcp",
       "date": "2026-10-18T21:36:10Z",
-      "summary": "153 points on Hacker News",
+      "summary": "154 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -354,19 +406,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.11.2",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.11.2",
-      "date": "2026-10-16T15:05:57Z",
-      "summary": "@oh my pi/pi agent core Added agent start carries resumedToolCallIds when a continued run first executes the calls of an unpaired assistant tail Fixed Cancelling an ask after a background job finishes now reports the user cancellation instead of telling the model to retry a skipp",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Benefit Street Partners answers questions faster with Codex",
       "url": "https://openai.com/index/benefit-street-partners",
       "date": "2026-10-16T00:00:00.000Z",
@@ -403,19 +442,6 @@
       "tier": "official",
       "tags": [
         "openai"
-      ]
-    },
-    {
-      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
-      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
-      "date": "2026-10-15T19:35:13.000Z",
-      "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in mid-No",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -536,19 +562,6 @@
       ]
     },
     {
-      "title": "anthropics/claude-code v2.1.299",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
-      "date": "2026-10-14T02:49:42Z",
-      "summary": "What's changed Added CLAUDE CODE DISABLE FILE MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
       "title": "llm-gemini 0.35",
       "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
       "date": "2026-10-13T22:28:54.000Z",
@@ -559,19 +572,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "google-gemini/gemini-cli Release v0.64.0",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0",
-      "date": "2026-10-13T20:44:46Z",
-      "summary": "What's Changed refactor(a2a server): implement V1 to V2 settings migration logic by @jvargassanchez dot in https://github.com/google gemini/gemini cli/pull/29450 fix(acp): bridge PromptResponse.usage and emit usage update notifications ( 29389) by @elberthc byte in https://github",
-      "kind": "release",
-      "source": "Gemini CLI releases",
-      "sourceId": "gh-gemini-cli",
-      "tier": "official",
-      "tags": [
-        "google"
       ]
     },
     {
@@ -608,19 +608,6 @@
       "kind": "release",
       "source": "herdr releases",
       "sourceId": "gh-herdr",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Quoting Geoffrey Huntley",
-      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-      "date": "2026-10-13T13:32:00.000Z",
-      "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fai",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
       "tier": "author",
       "tags": [
         "open"
