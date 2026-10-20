@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T04:56:00.271Z",
+  "generatedAt": "2026-10-20T11:44:10.187Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -266,7 +266,7 @@
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
       "url": "https://github.com/finereli/whatsapp-mcp",
       "date": "2026-10-18T21:36:10Z",
-      "summary": "146 points on Hacker News",
+      "summary": "150 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
