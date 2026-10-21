@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T04:54:58.667Z",
+  "generatedAt": "2026-10-21T11:55:47.939Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -474,7 +474,7 @@
       "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
       "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
       "date": "2026-10-15T19:09:34Z",
-      "summary": "212 points on Hacker News",
+      "summary": "273 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -526,7 +526,7 @@
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
-      "summary": "227 points on Hacker News",
+      "summary": "228 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
