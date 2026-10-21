@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T17:16:10.837Z",
+  "generatedAt": "2026-10-21T21:46:19.946Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.12.6",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.6",
+      "date": "2026-10-21T21:02:53Z",
+      "summary": "@oh my pi/pi catalog Added Added the prompt cache persistent catalog axis ( isPromptCachePersistent ) for providers whose own endpoint never expires prompt caches; logged in OpenAI Codex declares it Changed Updated the bundled Yolo Auto catalog to its current models, qwen3.8 27b ",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "OpenAI models are coming to Google Cloud",
       "url": "https://openai.com/index/openai-models-google-cloud",
@@ -432,19 +445,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.12.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.0",
-      "date": "2026-10-17T18:44:02Z",
-      "summary": "@oh my pi/pi agent core Fixed Fixed Cursor turns failing with PROVIDER ERROR when a follow up (a finished background job, a late diagnostic, a reminder) arrived while the previous turn was still streaming ([ 15821](https://github.com/can1357/oh my pi/pull/15821) by [@robfeldmann]",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.302",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
       "date": "2026-10-16T20:53:06Z",
@@ -471,10 +471,10 @@
       ]
     },
     {
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "date": "2026-10-16T00:00:00.000Z",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "kind": "post",
       "source": "OpenAI News",
       "sourceId": "rss-openai",
@@ -513,7 +513,7 @@
       "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
       "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
       "date": "2026-10-15T19:09:34Z",
-      "summary": "299 points on Hacker News",
+      "summary": "303 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
