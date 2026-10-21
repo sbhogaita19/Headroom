@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T21:40:17.830Z",
+  "generatedAt": "2026-10-21T04:54:58.667Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 4
+      "count": 3
     },
     {
       "id": "gh-omp",
@@ -94,6 +94,32 @@
   ],
   "items": [
     {
+      "title": "anthropics/claude-code v2.1.306",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+      "date": "2026-10-21T03:16:31Z",
+      "summary": "What's changed Fixed claude p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.12.5",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.5",
+      "date": "2026-10-21T02:31:29Z",
+      "summary": "@oh my pi/pi ai Added Added OpenAI 12 hour prompt caching for GPT 5.6+ on the Responses API: cacheRetention: \"long\" now requests prompt cache options.ttl: \"12h\" (instead of the ignored legacy prompt cache retention: \"24h\" ), and promptCache.ttl accepts \"12h\" Fixed Fixed every Ope",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "google-gemini/gemini-cli Release v0.65.0",
       "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0",
       "date": "2026-10-20T21:17:57Z",
@@ -143,6 +169,19 @@
       "tier": "author",
       "tags": [
         "open"
+      ]
+    },
+    {
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "date": "2026-10-20T07:00:00.000Z",
+      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
       ]
     },
     {
@@ -315,19 +354,6 @@
       ]
     },
     {
-      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
-      "url": "https://github.com/finereli/whatsapp-mcp",
-      "date": "2026-10-18T21:36:10Z",
-      "summary": "154 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "can1357/oh-my-pi v18.12.2",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.2",
       "date": "2026-10-18T21:03:22Z",
@@ -380,19 +406,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.11.3",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.11.3",
-      "date": "2026-10-16T21:45:36Z",
-      "summary": "@oh my pi/pi agent core Added prepareQueuedMessages receives which queue ( steering or followUp ) a batch came from ([ 16026](https://github.com/can1357/oh my pi/pull/16026)) @oh my pi/pi ai Fixed Fixed JSON Schema dereferencing rewriting literal values in const , enum , default ",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.302",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
       "date": "2026-10-16T20:53:06Z",
@@ -406,10 +419,10 @@
       ]
     },
     {
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "date": "2026-10-16T00:00:00.000Z",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "kind": "post",
       "source": "OpenAI News",
       "sourceId": "rss-openai",
@@ -419,10 +432,10 @@
       ]
     },
     {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
       "date": "2026-10-16T00:00:00.000Z",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "kind": "post",
       "source": "OpenAI News",
       "sourceId": "rss-openai",
@@ -458,6 +471,19 @@
       ]
     },
     {
+      "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
+      "date": "2026-10-15T19:09:34Z",
+      "summary": "212 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "Bringing GPT-Rosalind to academic research labs",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "date": "2026-10-15T19:00:00.000Z",
@@ -468,19 +494,6 @@
       "tier": "official",
       "tags": [
         "openai"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Release v0.25.2",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.2",
-      "date": "2026-10-15T15:41:15Z",
-      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(managed agent): H4e b2 the lead's mailbox over Session messages ([ 13892](https://github.com/QwenLM/qwen code/pull/13892)) by @we",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
@@ -510,19 +523,6 @@
       ]
     },
     {
-      "title": "anthropics/claude-code v2.1.300",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
-      "date": "2026-10-14T18:24:25Z",
-      "summary": "What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache creation 5m tokens and cache creation 1h tokens to the OpenTelemetry api request event, splitting cache writes by lifetime ",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
@@ -546,19 +546,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "date": "2026-10-14T12:00:00.000Z",
-      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
