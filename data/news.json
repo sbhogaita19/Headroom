@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T21:46:19.946Z",
+  "generatedAt": "2026-10-22T04:54:40.013Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 1
+      "count": 0
     },
     {
       "id": "gh-gemini-cli",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "id": "gh-omp",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,71 @@
     }
   ],
   "items": [
+    {
+      "title": "anthropics/claude-code v2.1.308",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+      "date": "2026-10-22T04:34:55Z",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.22",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.22",
+      "date": "2026-10-22T00:23:42Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.0",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.0",
+      "date": "2026-10-21T23:50:15Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at ac97ce7a70d9b2ea5d62b357e3d9b0851423afc9 What's Changed feat(daemon): support session targeted Skill and Extension refresh by @callmeYe in https://github.com/QwenLM/qwen code/pull/14050 fix(managed agent): b",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.26.0",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.0",
+      "date": "2026-10-21T23:20:53Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(daemon): support session targeted Skill and Extension refresh ([ 14050](https://github.com/QwenLM/qwen code/pull/14050)) by @call",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.307",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+      "date": "2026-10-21T22:17:02Z",
+      "summary": "What's changed Added /claude api api version to move Claude API code to API version 2026 10 21 Added the claude code.safety event OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the sandbox stopped, prompted or sent back Fixed reques",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.12.6",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.6",
@@ -172,6 +237,19 @@
       ]
     },
     {
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "date": "2026-10-21T00:00:00.000Z",
+      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "title": "google-gemini/gemini-cli Release v0.65.0",
       "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0",
       "date": "2026-10-20T21:17:57Z",
@@ -221,6 +299,19 @@
       "tier": "author",
       "tags": [
         "open"
+      ]
+    },
+    {
+      "title": "GitHub package firewall in public preview",
+      "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
+      "date": "2026-10-20T16:11:53.000Z",
+      "summary": "Editor’s note (October 21, 2026): Rewrote the changelog for clarity and added imagery. There’s been a recent flood of malware attacks that exploit systems at package installation time. Agents and… The post GitHub package firewall in public preview appeared first on The GitHub Blo",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
       ]
     },
     {
@@ -328,32 +419,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.25.3",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.3",
-      "date": "2026-10-19T08:06:26Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at b28b0d948fa28b89750ac5f1525b95e1746f47ab What's Changed fix(managed agent): admit team plan approval into the journal only interrupted turn settle ( 13847) by @wenshao in https://github.com/QwenLM/qwen code/",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.21",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.21",
-      "date": "2026-10-19T07:47:40Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.25.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code Release v0.25.3",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.3",
       "date": "2026-10-19T06:06:37Z",
@@ -445,19 +510,6 @@
       ]
     },
     {
-      "title": "anthropics/claude-code v2.1.302",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
-      "date": "2026-10-16T20:53:06Z",
-      "summary": "What's changed Added CLAUDE CODE AUTO MODE MODEL to choose the model the client side auto mode classifier uses; it does not change the model for server side auto mode Added an Idle compaction row to /config for turning idle compaction off or back on; the notices shown after an id",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
       "title": "sparqlite: SPARQL 1.1 inside SQLite, written in Rust",
       "url": "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/",
       "date": "2026-10-16T01:58:00.000Z",
@@ -471,49 +523,10 @@
       ]
     },
     {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "date": "2026-10-16T00:00:00.000Z",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "openai/codex 0.163.0",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
-      "date": "2026-10-15T21:30:38Z",
-      "summary": "New Features Open /config to search preferences across categories, change supported settings immediately, and see which changes require a restart. ( 52990, 53429) Send a follow up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode c",
-      "kind": "release",
-      "source": "Codex CLI releases",
-      "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.301",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
-      "date": "2026-10-15T19:22:06Z",
-      "summary": "What's changed Added CLAUDE CODE RETRY WATCHDOG MAX USAGE LIMIT WAIT MS so unattended retry mode ( CLAUDE CODE RETRY WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry tracing guidance to the claude api skill, including sett",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
       "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
       "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
       "date": "2026-10-15T19:09:34Z",
-      "summary": "303 points on Hacker News",
+      "summary": "304 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
