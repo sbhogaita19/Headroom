@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T04:54:40.013Z",
+  "generatedAt": "2026-10-22T11:58:28.393Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -526,7 +526,7 @@
       "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
       "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
       "date": "2026-10-15T19:09:34Z",
-      "summary": "304 points on Hacker News",
+      "summary": "305 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -657,7 +657,7 @@
       "title": "Five months treating bugs like patients and coding agents like a medical team",
       "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
       "date": "2026-10-09T15:26:33Z",
-      "summary": "218 points on Hacker News",
+      "summary": "219 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
