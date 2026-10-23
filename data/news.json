@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T11:44:17.881Z",
+  "generatedAt": "2026-10-23T17:12:34.800Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "date": "2026-10-23T17:00:00.000Z",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
     {
       "title": "openai/codex 0.164.0",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
@@ -432,19 +445,6 @@
       ]
     },
     {
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "url": "https://openai.com/index/terminal-x",
-      "date": "2026-10-20T07:00:00.000Z",
-      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "My obituary for programming",
       "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
       "date": "2026-10-19T23:58:25.000Z",
@@ -536,6 +536,19 @@
       ]
     },
     {
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "date": "2026-10-18T21:36:10Z",
+      "summary": "157 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "can1357/oh-my-pi v18.12.2",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.2",
       "date": "2026-10-18T21:03:22Z",
@@ -552,7 +565,7 @@
       "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
       "url": "https://sphinx-six-theta.vercel.app/",
       "date": "2026-10-18T04:33:49Z",
-      "summary": "252 points on Hacker News",
+      "summary": "253 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -689,19 +702,6 @@
       "tier": "official",
       "tags": [
         "claude",
-        "open"
-      ]
-    },
-    {
-      "title": "Five months treating bugs like patients and coding agents like a medical team",
-      "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
-      "date": "2026-10-09T15:26:33Z",
-      "summary": "219 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
         "open"
       ]
     },
