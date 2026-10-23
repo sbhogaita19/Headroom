@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T21:40:06.981Z",
+  "generatedAt": "2026-10-23T04:56:56.331Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "id": "gh-gemini-cli",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,71 @@
     }
   ],
   "items": [
+    {
+      "title": "openai/codex 0.164.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
+      "date": "2026-10-23T04:48:10Z",
+      "summary": "New Features Save reusable prompts and slash commands in ten numbered /presets slots, with a keyboard menu for quick access. ( 54380, 54381) Set model, reasoning effort, speed, and permission profiles directly with inline /model and /permissions arguments. ( 54378, 54383) Preview",
+      "kind": "release",
+      "source": "Codex CLI releases",
+      "sourceId": "gh-codex",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "GitHub Copilot in Visual Studio — September update",
+      "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+      "date": "2026-10-23T00:17:51.000Z",
+      "summary": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags… The post GitHub Copilot in Visual Studio — September update appeared first on The ",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "date": "2026-10-22T22:24:34.000Z",
+      "summary": "",
+      "kind": "post",
+      "source": "Hugging Face blog",
+      "sourceId": "rss-hf",
+      "tier": "official",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Custom skills, agents, and MCP servers in usage metrics API",
+      "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+      "date": "2026-10-22T22:19:17.000Z",
+      "summary": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under… The post Custom skills, agents, and MCP servers in usage metrics API appeared f",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.309",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "date": "2026-10-22T22:18:57Z",
+      "summary": "What's changed Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command Fixed macOS sandbox denyWrite glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink Fixe",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
     {
       "title": "Global default for Copilot features generally available",
       "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
@@ -367,19 +432,6 @@
       ]
     },
     {
-      "title": "GitHub package firewall in public preview",
-      "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
-      "date": "2026-10-20T16:11:53.000Z",
-      "summary": "Editor’s note (October 21, 2026): Rewrote the changelog for clarity and added imagery. There’s been a recent flood of malware attacks that exploit systems at package installation time. Agents and… The post GitHub package firewall in public preview appeared first on The GitHub Blo",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
       "url": "https://openai.com/index/terminal-x",
       "date": "2026-10-20T07:00:00.000Z",
@@ -481,19 +533,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.303",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
-      "date": "2026-10-18T22:26:54Z",
-      "summary": "What's changed Bug fixes and reliability improvements",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
       ]
     },
     {
@@ -816,19 +855,6 @@
       "title": "Holo4: powering generalist computer-use agents",
       "url": "https://huggingface.co/blog/Hcompany/holo4",
       "date": "2026-09-28T09:44:05.000Z",
-      "summary": "",
-      "kind": "post",
-      "source": "Hugging Face blog",
-      "sourceId": "rss-hf",
-      "tier": "official",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Your Agent Aced the Task. Will It Do It Again?",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "date": "2026-09-15T16:00:44.000Z",
       "summary": "",
       "kind": "post",
       "source": "Hugging Face blog",
