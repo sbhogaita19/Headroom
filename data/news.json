@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T11:07:19.599Z",
+  "generatedAt": "2026-10-24T15:59:48.974Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "id": "gh-omp",
@@ -93,6 +93,32 @@
     }
   ],
   "items": [
+    {
+      "title": "QwenLM/qwen-code Release v0.26.1",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1",
+      "date": "2026-10-24T15:47:58Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at release/v0.26.1 What's Changed feat(serve): add daemon token persistence by @wenshao in https://github.com/QwenLM/qwen code/pull/15023 fix(release): cover every spawned vendored binary in the tarball exec bi",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "date": "2026-10-24T03:59:57.000Z",
+      "summary": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works wi",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "Usage metrics API adds usage from tools like OpenCode",
       "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
@@ -517,19 +543,6 @@
       "kind": "commit",
       "source": "mattpocock/skills commits",
       "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "llm-tools-datasette 0.1.1",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
-      "date": "2026-10-18T23:43:09.000Z",
-      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
       "tier": "author",
       "tags": [
         "open"
