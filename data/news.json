@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T04:41:57.966Z",
+  "generatedAt": "2026-10-24T11:07:19.599Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -669,7 +669,7 @@
       "title": "AI coding agents generate more code, but not more software",
       "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
       "date": "2026-10-12T17:14:01Z",
-      "summary": "364 points on Hacker News",
+      "summary": "365 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
