@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T15:59:48.974Z",
+  "generatedAt": "2026-10-24T20:53:45.372Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "id": "gh-omp",
@@ -94,10 +94,23 @@
   ],
   "items": [
     {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.1",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.1",
+      "date": "2026-10-24T17:06:46Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at b475278c4a300acebe6cfc990a9e1b1d18819bfc What's Changed feat(serve): add daemon token persistence by @wenshao in https://github.com/QwenLM/qwen code/pull/15023 fix(release): cover every spawned vendored bina",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
       "title": "QwenLM/qwen-code Release v0.26.1",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1",
       "date": "2026-10-24T15:47:58Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at release/v0.26.1 What's Changed feat(serve): add daemon token persistence by @wenshao in https://github.com/QwenLM/qwen code/pull/15023 fix(release): cover every spawned vendored binary in the tarball exec bi",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes fix(qqbot)!: restore per group session isolation under thread scope ([ 13882](https://github.com/QwenLM/qwen code/pull/13882)) by @Eric GoodBoy Tech Complete Change List Features Adds opt in ",
       "kind": "release",
       "source": "Qwen Code releases",
       "sourceId": "gh-qwen-code",
@@ -604,7 +617,7 @@
       "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
       "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
       "date": "2026-10-15T19:09:34Z",
-      "summary": "307 points on Hacker News",
+      "summary": "308 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
