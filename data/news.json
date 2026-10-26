@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T20:54:23.422Z",
+  "generatedAt": "2026-10-26T04:53:00.674Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "id": "gh-omp",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.23",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.23",
+      "date": "2026-10-26T04:43:39Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
     {
       "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.1",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.1",
