@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T14:04:08.420Z",
+  "generatedAt": "2026-10-26T22:42:40.278Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "id": "gh-omp",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,97 @@
     }
   ],
   "items": [
+    {
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "date": "2026-10-26T22:00:00.000Z",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.311",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+      "date": "2026-10-26T21:51:23Z",
+      "summary": "What's changed Added hold idle file and max hold min to self hosted runner , to keep an idle session while your host reports processes it left running Added a tip for the Explanatory output style, shown when you ask Claude for explanations Fixed long freezes at startup and after ",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.13.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.13.0",
+      "date": "2026-10-26T20:29:17Z",
+      "summary": "@oh my pi/pi agent core Added Added SummaryOptions.remotePromptCacheKey and remoteCompactionPolicyModel() so remote compaction can carry a cache key gated against the request it actually sends ([ 16988](https://github.com/can1357/oh my pi/pull/16988) by [@rafalopilowski1](https:/",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "GPT-6.1 Terra in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+      "date": "2026-10-26T19:15:53.000Z",
+      "summary": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In… The post GPT-6.1 Terra in GitHub Copilot appeared first on The GitHub Blog .",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "date": "2026-10-26T14:30:00.000Z",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "date": "2026-10-26T13:45:00.000Z",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "date": "2026-10-26T07:00:00.000Z",
+      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
     {
       "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.23",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.23",
@@ -302,19 +393,6 @@
       ]
     },
     {
-      "title": "Build more responsive apps with the Decisions API",
-      "url": "https://openai.com/index/decisions-api",
-      "date": "2026-10-22T19:00:00.000Z",
-      "summary": "Fast, focused, low-cost decisions for any application.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "Donating Agent Skills to the Agentic AI Foundation",
       "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
       "date": "2026-10-22T18:09:56.000Z",
@@ -367,19 +445,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.0",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.0",
-      "date": "2026-10-21T23:50:15Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at ac97ce7a70d9b2ea5d62b357e3d9b0851423afc9 What's Changed feat(daemon): support session targeted Skill and Extension refresh by @callmeYe in https://github.com/QwenLM/qwen code/pull/14050 fix(managed agent): b",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code Release v0.26.0",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.0",
       "date": "2026-10-21T23:20:53Z",
@@ -419,42 +484,16 @@
       ]
     },
     {
-      "title": "OpenAI models are coming to Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "date": "2026-10-21T12:00:00.000Z",
-      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
+      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+      "url": "https://github.com/omnara-ai/omnara",
+      "date": "2026-10-21T16:44:53Z",
+      "summary": "114 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
       "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "date": "2026-10-21T07:00:00.000Z",
-      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "date": "2026-10-21T04:50:00.000Z",
-      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
+        "open"
       ]
     },
     {
@@ -494,19 +533,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.305",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
-      "date": "2026-10-20T20:46:50Z",
-      "summary": "What's changed Added sandbox.allowNestedUserNamespaces so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections Added CLAUDE CODE RETRY WATCHDOG USAGE LIMIT RECHECK MS so unattended retry mode ",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
       ]
     },
     {
@@ -614,23 +640,10 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.12.1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.1",
-      "date": "2026-10-17T23:14:21Z",
-      "summary": "@oh my pi/pi ai Fixed Fixed every request failing behind a TLS inspecting proxy that refuses compressed uploads: a 400/403/415 whose body is not JSON, or the Anthropic API's \"request body is not valid JSON\" after a proxy drops Content Encoding , now resends the body uncompressed ",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
       "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
       "date": "2026-10-15T19:09:34Z",
-      "summary": "308 points on Hacker News",
+      "summary": "309 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -644,6 +657,19 @@
       "url": "https://petal.live/",
       "date": "2026-10-14T18:23:14Z",
       "summary": "228 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
+      "url": "https://clova.email/",
+      "date": "2026-10-14T17:00:59Z",
+      "summary": "115 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -700,32 +726,6 @@
       "source": "herdr releases",
       "sourceId": "gh-herdr",
       "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "AI coding agents generate more code, but not more software",
-      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-      "date": "2026-10-12T17:14:01Z",
-      "summary": "365 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
-      "url": "https://news.ycombinator.com/item?id=50059096",
-      "date": "2026-10-12T16:46:34Z",
-      "summary": "163 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
       "tags": [
         "open"
       ]
