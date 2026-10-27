@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T05:11:07.045Z",
+  "generatedAt": "2026-10-27T12:18:12.028Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,32 @@
     }
   ],
   "items": [
+    {
+      "title": "mattpocock/skills: Close blank issues and route requests by kind (#1169)",
+      "url": "https://github.com/mattpocock/skills/commit/59db609eb1e18aaf59b63284d0e52255aff0c63c",
+      "date": "2026-10-27T07:44:12Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "mattpocock/skills: setup-matt-pocock-skills: reachable repo, legacy CONTEXT.md, tracker template fixes (#1228)",
+      "url": "https://github.com/mattpocock/skills/commit/ed0de59eb5de8c2730a650cc69f588ffa64c1040",
+      "date": "2026-10-27T07:39:47Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.13.1",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.13.1",
@@ -758,19 +784,6 @@
       ]
     },
     {
-      "title": "mattpocock/skills: out-of-scope: retro always loads writing-for-agents (#1240)",
-      "url": "https://github.com/mattpocock/skills/commit/82672251ee9d9a0b823202c94a613f5038dd28c9",
-      "date": "2026-10-09T10:56:31Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "anthropics/skills: Update claude-api skill: Claude Haiku 5.5 as the current Haiku, Managed Agents and preserved-thinking fixes (#1991)",
       "url": "https://github.com/anthropics/skills/commit/9d630808e4add0a7146de4af9384155d5dee350a",
       "date": "2026-10-09T10:06:51Z",
@@ -781,19 +794,6 @@
       "tier": "official",
       "tags": [
         "claude",
-        "open"
-      ]
-    },
-    {
-      "title": "mattpocock/skills: docs(readme): lead with self-updating installs (#1218)",
-      "url": "https://github.com/mattpocock/skills/commit/b0618bc436ad893b3c5e84e55fba86586d34a404",
-      "date": "2026-10-08T08:44:34Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
         "open"
       ]
     },
