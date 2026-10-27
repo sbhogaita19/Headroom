@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T12:18:12.028Z",
+  "generatedAt": "2026-10-27T22:18:47.191Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 1
+      "count": 2
     },
     {
       "id": "gh-gemini-cli",
@@ -94,6 +94,110 @@
   ],
   "items": [
     {
+      "title": "GitHub Copilot supports server-to-server authentication",
+      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+      "date": "2026-10-27T21:36:55.000Z",
+      "summary": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on… The post GitHub Copilot supports server-to-server authentication ap",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "google-gemini/gemini-cli Release v0.66.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0",
+      "date": "2026-10-27T20:26:28Z",
+      "summary": "What's Changed Update ROADMAP.md to no longer reference outdated 2025 roadmap by @DavidAPierce in https://github.com/google gemini/gemini cli/pull/29723 Changelog for v0.65.0 preview.0 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/29739 chore(release): ",
+      "kind": "release",
+      "source": "Gemini CLI releases",
+      "sourceId": "gh-gemini-cli",
+      "tier": "official",
+      "tags": [
+        "google"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.312",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+      "date": "2026-10-27T20:24:20Z",
+      "summary": "What's changed Added oidc.user id claim to the Claude apps gateway, to identify people by an id token claim other than sub , such as Microsoft Entra ID's oid Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "openai/codex 0.165.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+      "date": "2026-10-27T20:09:38Z",
+      "summary": "New Features Added a built in Google Cloud Vertex AI provider, configured with model provider = \"gcp\" . ( 56265) Added GPT 6.1 Terra to the model catalogs. ( 57337) Added a repository filter to the session picker and directory grouping to the agent command center, making it easie",
+      "kind": "release",
+      "source": "Codex CLI releases",
+      "sourceId": "gh-codex",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "Game Boy Color on My Conference Badge",
+      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+      "date": "2026-10-27T19:34:18.000Z",
+      "summary": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NE",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.13.2",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.13.2",
+      "date": "2026-10-27T18:07:53Z",
+      "summary": "@oh my pi/pi agent core Added AgentTool gained the optional handlesToolInterrupt flag: an interruptible tool that sets it (such as wait ) still runs, without blocking, when a loop owned interrupt is already queued, so it can drain the queued wake event instead of being skipped; u",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.24",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.24",
+      "date": "2026-10-27T16:08:25Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.26.2",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.2",
+      "date": "2026-10-27T15:32:11Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes fix(managed agent)!: simplify Web Shell controls and retire cwd submissions ([ 15616](https://github.com/QwenLM/qwen code/pull/15616)) by @doudouOUC Complete Change List Features feat(managed",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
       "title": "mattpocock/skills: Close blank issues and route requests by kind (#1169)",
       "url": "https://github.com/mattpocock/skills/commit/59db609eb1e18aaf59b63284d0e52255aff0c63c",
       "date": "2026-10-27T07:44:12Z",
@@ -117,6 +221,19 @@
       "tier": "author",
       "tags": [
         "open"
+      ]
+    },
+    {
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "date": "2026-10-27T07:00:00.000Z",
+      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
       ]
     },
     {
@@ -354,19 +471,6 @@
       ]
     },
     {
-      "title": "Securing our frontier model training environment",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "date": "2026-10-23T10:00:00.000Z",
-      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "openai/codex 0.164.0",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
       "date": "2026-10-23T04:48:10Z",
@@ -403,19 +507,6 @@
       "tier": "official",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "Custom skills, agents, and MCP servers in usage metrics API",
-      "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
-      "date": "2026-10-22T22:19:17.000Z",
-      "summary": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under… The post Custom skills, agents, and MCP servers in usage metrics API appeared f",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -471,32 +562,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.22",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.22",
-      "date": "2026-10-22T00:23:42Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.25.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Release v0.26.0",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.0",
-      "date": "2026-10-21T23:20:53Z",
-      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(daemon): support session targeted Skill and Extension refresh ([ 14050](https://github.com/QwenLM/qwen code/pull/14050)) by @call",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.307",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
       "date": "2026-10-21T22:17:02Z",
@@ -536,19 +601,6 @@
       ]
     },
     {
-      "title": "anthropics/claude-code v2.1.306",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
-      "date": "2026-10-21T03:16:31Z",
-      "summary": "What's changed Fixed claude p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
       "title": "can1357/oh-my-pi v18.12.5",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.5",
       "date": "2026-10-21T02:31:29Z",
@@ -559,19 +611,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "google-gemini/gemini-cli Release v0.65.0",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0",
-      "date": "2026-10-20T21:17:57Z",
-      "summary": "What's Changed fix(cli): enforce read only workspace settings in untrusted folders by @jvargassanchez dot in https://github.com/google gemini/gemini cli/pull/29583 fix(core): avoid duplicate tool response turns when resuming sessions by @diegogodinezr in https://github.com/google",
-      "kind": "release",
-      "source": "Gemini CLI releases",
-      "sourceId": "gh-gemini-cli",
-      "tier": "official",
-      "tags": [
-        "google"
       ]
     },
     {
@@ -595,32 +634,6 @@
       "kind": "post",
       "source": "Simon Willison",
       "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "My obituary for programming",
-      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
-      "date": "2026-10-19T23:58:25.000Z",
-      "summary": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puz",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.12.3",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.3",
-      "date": "2026-10-19T18:41:25Z",
-      "summary": "@oh my pi/pi agent core Added AgentTool gained the optional approvalCacheTargets hook, which the always ask cached approval mode uses to check and record per file grants ([ 16049](https://github.com/can1357/oh my pi/pull/16049) by [@Peribunt](https://github.com/Peribunt)) Changed",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
       "tier": "author",
       "tags": [
         "open"
