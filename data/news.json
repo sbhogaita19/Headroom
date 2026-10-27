@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T22:42:40.278Z",
+  "generatedAt": "2026-10-27T05:11:07.045Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,32 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.13.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.13.1",
+      "date": "2026-10-27T00:56:37Z",
+      "summary": "@oh my pi/pi agent core Added Hosts can distinguish safely paused agents from turns still draining with Agent.isPaused ([ 17073](https://github.com/can1357/oh my pi/pull/17073) by [@anatoli tsinovoy](https://github.com/anatoli tsinovoy)). @oh my pi/pi ai Fixed Codex accounts whos",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "GitHub Copilot assisted permissions generally available",
+      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+      "date": "2026-10-26T22:31:30.000Z",
+      "summary": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,… The post GitHub Copilot assisted permissions generally available appeared first on Th",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
     {
       "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
@@ -380,19 +406,6 @@
       ]
     },
     {
-      "title": "Global default for Copilot features generally available",
-      "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
-      "date": "2026-10-22T20:44:28.000Z",
-      "summary": "In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling… The post Global default for Copilot features generally a",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "Donating Agent Skills to the Agentic AI Foundation",
       "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
       "date": "2026-10-22T18:09:56.000Z",
@@ -609,19 +622,6 @@
       "source": "Hacker News",
       "sourceId": "hn-agents",
       "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.12.2",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.2",
-      "date": "2026-10-18T21:03:22Z",
-      "summary": "@oh my pi/pi agent core Changed The failed tool call correction sent to DeepSeek models now also covers chat template tool call tokens written out as text, not only malformed DSML ([ 16216](https://github.com/can1357/oh my pi/pull/16216) by [@H4vC](https://github.com/H4vC)) Fixed",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
       "tags": [
         "open"
       ]
