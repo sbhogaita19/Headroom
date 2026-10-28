@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T22:18:47.191Z",
+  "generatedAt": "2026-10-28T05:47:53.434Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -195,6 +195,19 @@
       "tier": "official",
       "tags": [
         "qwen"
+      ]
+    },
+    {
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "date": "2026-10-27T15:00:00.000Z",
+      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
       ]
     },
     {
@@ -455,19 +468,6 @@
       "tier": "official",
       "tags": [
         "tools"
-      ]
-    },
-    {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "date": "2026-10-23T17:00:00.000Z",
-      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
