@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T05:47:53.434Z",
+  "generatedAt": "2026-10-28T13:01:30.402Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,32 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.13.3",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.13.3",
+      "date": "2026-10-28T12:49:52Z",
+      "summary": "@oh my pi/pi agent core Changed Updated Bun engine requirement to ≥1.4.4 Fixed Fixed chat completions context estimates counting past thinking that the request drops (no reasoning replay), which triggered compaction far below the threshold ([ 15797](https://github.com/can1357/oh ",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "date": "2026-10-28T09:30:00.000Z",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
     {
       "title": "GitHub Copilot supports server-to-server authentication",
       "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
@@ -354,19 +380,6 @@
       ]
     },
     {
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "date": "2026-10-26T07:00:00.000Z",
-      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.23",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.23",
       "date": "2026-10-26T04:43:39Z",
@@ -605,19 +618,6 @@
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.5",
       "date": "2026-10-21T02:31:29Z",
       "summary": "@oh my pi/pi ai Added Added OpenAI 12 hour prompt caching for GPT 5.6+ on the Responses API: cacheRetention: \"long\" now requests prompt cache options.ttl: \"12h\" (instead of the ignored legacy prompt cache retention: \"24h\" ), and promptCache.ttl accepts \"12h\" Fixed Fixed every Ope",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.12.4",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.4",
-      "date": "2026-10-20T19:42:57Z",
-      "summary": "@oh my pi/pi agent core Fixed Enabled native compaction for supported Bedrock Claude models ([ 16343](https://github.com/can1357/oh my pi/pull/16343) by [@anatoli tsinovoy](https://github.com/anatoli tsinovoy)) @oh my pi/pi ai Added Added opt in reclaimAbovePct to auth.accountPol",
       "kind": "release",
       "source": "omp releases",
       "sourceId": "gh-omp",
