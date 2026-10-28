@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T13:01:30.402Z",
+  "generatedAt": "2026-10-28T22:38:49.175Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "id": "gh-gemini-cli",
@@ -89,10 +89,167 @@
       "id": "hn-agents",
       "name": "Hacker News",
       "ok": true,
-      "count": 6
+      "count": 4
     }
   ],
   "items": [
+    {
+      "title": "anthropics/skills: Update mcp-builder skill: teach v2 of the MCP TypeScript SDK (#2087)",
+      "url": "https://github.com/anthropics/skills/commit/ca45fc496a3436251f191354091d557da31c15b5",
+      "date": "2026-10-28T19:20:38Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "anthropics/skills commits",
+      "sourceId": "gh-anth-skills",
+      "tier": "official",
+      "tags": [
+        "claude",
+        "open"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.3",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.3",
+      "date": "2026-10-28T16:51:11Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at eeee1443a7e36ab22b2f1dcded8dec64b621a7ee What's Changed feat(managed): add session permission rules and Auto approval by @doudouOUC in https://github.com/QwenLM/qwen code/pull/15448 fix(cli): harden serve to",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.25",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.25",
+      "date": "2026-10-28T16:16:39Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "Route and orchestrate models with GitHub Copilot Fusion",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+      "date": "2026-10-28T16:00:00.000Z",
+      "summary": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.… The post Route and orchestrate models with GitHub Copilot Fusion appeared first on The ",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "GitHub Copilot app, Universe releases",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases",
+      "date": "2026-10-28T15:55:00.000Z",
+      "summary": "Work doesn’t always fit in a single repository or session. A feature can span several repositories. A launch plan can pull in specs, designs, and assets without touching a repository… The post GitHub Copilot app, Universe releases appeared first on The GitHub Blog .",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "GitHub Enterprise now includes access to GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
+      "date": "2026-10-28T15:50:00.000Z",
+      "summary": "Enterprises working with a GitHub or Microsoft account team can now get Copilot included with GitHub Enterprise for every licensed user. Previously, you had to manage two things: how many… The post GitHub Enterprise now includes access to GitHub Copilot appeared first on The GitH",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Security extension for the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app",
+      "date": "2026-10-28T15:45:00.000Z",
+      "summary": "You can now work through your repository’s GitHub code scanning alerts without leaving the GitHub Copilot app. The new GitHub security extension, now in public preview, lets you find the… The post Security extension for the GitHub Copilot app appeared first on The GitHub Blog .",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "GitHub intelligence puts your code, context, and history to work",
+      "url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work",
+      "date": "2026-10-28T15:40:00.000Z",
+      "summary": "Agents should understand more than your codebase—they should understand how your team works. Your preferences, repository conventions, skills, and custom instructions guide how changes should be made, while code in… The post GitHub intelligence puts your code, context, and histor",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Build shared workflows for your team with Copilot Automations",
+      "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
+      "date": "2026-10-28T15:35:00.000Z",
+      "summary": "Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the… The post Build shared workflows for your team with Copilot Automa",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.26.3",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.3",
+      "date": "2026-10-28T14:36:14Z",
+      "summary": "<! qwen release notes:v1 Highlights Generated UI cards keep inputs and state across navigation and split views, show live views after initial calculation, and appear only for clients that can render MCP Apps. ([ 15611](https://github.com/QwenLM/qwen code/pull/15611), [ 15787](htt",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "The October inflection point for vibe game development",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "date": "2026-10-28T13:55:15.000Z",
+      "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflect",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "date": "2026-10-28T13:15:00.000Z",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.13.3",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.13.3",
@@ -108,7 +265,7 @@
     },
     {
       "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "url": "https://openai.com/index/legora",
       "date": "2026-10-28T09:30:00.000Z",
       "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "kind": "post",
@@ -117,19 +274,6 @@
       "tier": "official",
       "tags": [
         "openai"
-      ]
-    },
-    {
-      "title": "GitHub Copilot supports server-to-server authentication",
-      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
-      "date": "2026-10-27T21:36:55.000Z",
-      "summary": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on… The post GitHub Copilot supports server-to-server authentication ap",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -289,19 +433,6 @@
       ]
     },
     {
-      "title": "GitHub Copilot assisted permissions generally available",
-      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
-      "date": "2026-10-26T22:31:30.000Z",
-      "summary": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,… The post GitHub Copilot assisted permissions generally available appeared first on Th",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "date": "2026-10-26T22:00:00.000Z",
@@ -341,19 +472,6 @@
       ]
     },
     {
-      "title": "GPT-6.1 Terra in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
-      "date": "2026-10-26T19:15:53.000Z",
-      "summary": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In… The post GPT-6.1 Terra in GitHub Copilot appeared first on The GitHub Blog .",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "Working with academic communities to build scientific understanding",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "date": "2026-10-26T14:30:00.000Z",
@@ -367,58 +485,6 @@
       ]
     },
     {
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "date": "2026-10-26T13:45:00.000Z",
-      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.23",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.23",
-      "date": "2026-10-26T04:43:39Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.1",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.1",
-      "date": "2026-10-24T17:06:46Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at b475278c4a300acebe6cfc990a9e1b1d18819bfc What's Changed feat(serve): add daemon token persistence by @wenshao in https://github.com/QwenLM/qwen code/pull/15023 fix(release): cover every spawned vendored bina",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Release v0.26.1",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1",
-      "date": "2026-10-24T15:47:58Z",
-      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes fix(qqbot)!: restore per group session isolation under thread scope ([ 13882](https://github.com/QwenLM/qwen code/pull/13882)) by @Eric GoodBoy Tech Complete Change List Features Adds opt in ",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "battledrones v14: Compass Rose, a four player map",
       "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
       "date": "2026-10-24T03:59:57.000Z",
@@ -429,19 +495,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "Usage metrics API adds usage from tools like OpenCode",
-      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
-      "date": "2026-10-23T23:42:03.000Z",
-      "summary": "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren’t previously captured in your reports.… The post Usage metrics API adds usage from tools like OpenCode appeared first on The Git",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -468,45 +521,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "Turn notifications into code with GitHub Copilot in Teams",
-      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
-      "date": "2026-10-23T21:29:58.000Z",
-      "summary": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group… The post Turn notifications into code with GitHub Copilot in Teams appeared first on",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
-      "title": "openai/codex 0.164.0",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
-      "date": "2026-10-23T04:48:10Z",
-      "summary": "New Features Save reusable prompts and slash commands in ten numbered /presets slots, with a keyboard menu for quick access. ( 54380, 54381) Set model, reasoning effort, speed, and permission profiles directly with inline /model and /permissions arguments. ( 54378, 54383) Preview",
-      "kind": "release",
-      "source": "Codex CLI releases",
-      "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "GitHub Copilot in Visual Studio — September update",
-      "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
-      "date": "2026-10-23T00:17:51.000Z",
-      "summary": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags… The post GitHub Copilot in Visual Studio — September update appeared first on The ",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -627,19 +641,6 @@
       ]
     },
     {
-      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
-      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
-      "date": "2026-10-20T19:34:19.000Z",
-      "summary": "My latest vibe coded game experiment is a Command &amp; Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to \"",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "mattpocock/skills: chief-of-staff: keep memory in a dated, commit-cited wiki (#1304)",
       "url": "https://github.com/mattpocock/skills/commit/5beb35b040e3de97e54fa9e386d7e42d15c295c2",
       "date": "2026-10-19T15:51:40Z",
@@ -683,32 +684,6 @@
       "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
       "date": "2026-10-15T19:09:34Z",
       "summary": "309 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
-      "url": "https://petal.live/",
-      "date": "2026-10-14T18:23:14Z",
-      "summary": "228 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
-      "url": "https://clova.email/",
-      "date": "2026-10-14T17:00:59Z",
-      "summary": "115 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -886,20 +861,6 @@
       "sourceId": "rss-hf",
       "tier": "official",
       "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "anthropics/skills: Update claude-api skill: Claude Opus 5.5 default, Claude Sonnet 5.5, build-eval and hillclimb guides (#1930)",
-      "url": "https://github.com/anthropics/skills/commit/8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4",
-      "date": "2026-09-29T02:20:03Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "anthropics/skills commits",
-      "sourceId": "gh-anth-skills",
-      "tier": "official",
-      "tags": [
-        "claude",
         "open"
       ]
     },
