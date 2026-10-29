@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T13:08:42.209Z",
+  "generatedAt": "2026-10-29T22:48:16.991Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 1
+      "count": 2
     },
     {
       "id": "gh-gemini-cli",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "id": "gh-omp",
@@ -89,10 +89,114 @@
       "id": "hn-agents",
       "name": "Hacker News",
       "ok": true,
-      "count": 4
+      "count": 3
     }
   ],
   "items": [
+    {
+      "title": "openai/codex 0.166.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
+      "date": "2026-10-29T19:47:53Z",
+      "summary": "New Features Added keyboard driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts. ( 57221, 57222, 57223, 57224) Rendered Markdown consistently in async questions, choices, answers, and transcript replies. ( 57259, 57292) Add",
+      "kind": "release",
+      "source": "Codex CLI releases",
+      "sourceId": "gh-codex",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.14.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.14.0",
+      "date": "2026-10-29T18:25:10Z",
+      "summary": "@oh my pi/pi agent core Breaking Changes Removed the Bun event loop workaround utilities from @oh my pi/pi agent core/utils/yield ; agent loops no longer insert cooperative sleeps while streaming or between tool calls. Added Added AgentTool.approvalRestrictionPaths so tools can r",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "date": "2026-10-29T17:00:26.000Z",
+      "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier model",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "date": "2026-10-29T17:00:00.000Z",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.26",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.26",
+      "date": "2026-10-29T15:29:54Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.4 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.4",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.4",
+      "date": "2026-10-29T15:18:19Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at 715a550cfca0135e00d4015d1ca82a8167e81fff What's Changed fix(config): report controls that were silently dropped by @yiliang114 in https://github.com/QwenLM/qwen code/pull/15794 docs(managed): cite the shared",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.26.4",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.4",
+      "date": "2026-10-29T14:29:11Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(generated ui): follow the host theme in generated views ([ 15798](https://github.com/QwenLM/qwen code/pull/15798)) by @qqqys feat",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "Quoting Ben Hylak",
+      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+      "date": "2026-10-29T14:06:27.000Z",
+      "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. &mdash; Ben Hylak Tags: mode",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "mattpocock/skills: implement-spec: a fresh implementer subagent per ticket (#1342)",
       "url": "https://github.com/mattpocock/skills/commit/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa",
@@ -130,6 +234,19 @@
       "tier": "author",
       "tags": [
         "open"
+      ]
+    },
+    {
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "date": "2026-10-29T09:00:00.000Z",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
       ]
     },
     {
@@ -394,32 +511,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.24",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.24",
-      "date": "2026-10-27T16:08:25Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Release v0.26.2",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.2",
-      "date": "2026-10-27T15:32:11Z",
-      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes fix(managed agent)!: simplify Web Shell controls and retire cwd submissions ([ 15616](https://github.com/QwenLM/qwen code/pull/15616)) by @doudouOUC Complete Change List Features feat(managed",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "Retell uses OpenAI models to help power 100M monthly calls",
       "url": "https://openai.com/index/retell-ai",
       "date": "2026-10-27T15:00:00.000Z",
@@ -472,19 +563,6 @@
       ]
     },
     {
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "date": "2026-10-26T22:00:00.000Z",
-      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.311",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
       "date": "2026-10-26T21:51:23Z",
@@ -508,19 +586,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "Working with academic communities to build scientific understanding",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "date": "2026-10-26T14:30:00.000Z",
-      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -550,19 +615,6 @@
       ]
     },
     {
-      "title": "Quick Study",
-      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
-      "date": "2026-10-23T21:35:13.000Z",
-      "summary": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a watercol",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
       "date": "2026-10-22T22:24:34.000Z",
@@ -586,19 +638,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
-      "date": "2026-10-22T18:09:56.000Z",
-      "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founde",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -654,19 +693,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.12.5",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.5",
-      "date": "2026-10-21T02:31:29Z",
-      "summary": "@oh my pi/pi ai Added Added OpenAI 12 hour prompt caching for GPT 5.6+ on the Responses API: cacheRetention: \"long\" now requests prompt cache options.ttl: \"12h\" (instead of the ignored legacy prompt cache retention: \"24h\" ), and promptCache.ttl accepts \"12h\" Fixed Fixed every Ope",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
       "url": "https://github.com/finereli/whatsapp-mcp",
       "date": "2026-10-18T21:36:10Z",
@@ -684,19 +710,6 @@
       "url": "https://sphinx-six-theta.vercel.app/",
       "date": "2026-10-18T04:33:49Z",
       "summary": "253 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
-      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
-      "date": "2026-10-15T19:09:34Z",
-      "summary": "309 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -875,19 +888,6 @@
       "tier": "official",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "DevFest is back",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "date": "2026-09-14T16:00:00.000Z",
-      "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-      "kind": "post",
-      "source": "Google AI blog",
-      "sourceId": "rss-google",
-      "tier": "official",
-      "tags": [
-        "google"
       ]
     }
   ]
