@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T22:38:49.175Z",
+  "generatedAt": "2026-10-29T05:53:19.934Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "Quoting Ted Sanders",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+      "date": "2026-10-28T23:23:21.000Z",
+      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: ",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "anthropics/skills: Update mcp-builder skill: teach v2 of the MCP TypeScript SDK (#2087)",
       "url": "https://github.com/anthropics/skills/commit/ca45fc496a3436251f191354091d557da31c15b5",
@@ -554,19 +567,6 @@
       "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
       "date": "2026-10-22T18:09:56.000Z",
       "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founde",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Quoting Armin Ronacher",
-      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
-      "date": "2026-10-22T15:34:13.000Z",
-      "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. &mdash; Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
       "kind": "post",
       "source": "Simon Willison",
       "sourceId": "rss-simon",
