@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T05:53:19.934Z",
+  "generatedAt": "2026-10-29T13:08:42.209Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,45 @@
     }
   ],
   "items": [
+    {
+      "title": "mattpocock/skills: implement-spec: a fresh implementer subagent per ticket (#1342)",
+      "url": "https://github.com/mattpocock/skills/commit/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa",
+      "date": "2026-10-29T10:42:51Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "mattpocock/skills: chore: version skills (#1161)",
+      "url": "https://github.com/mattpocock/skills/commit/d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "date": "2026-10-29T10:27:29Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "mattpocock/skills: Start subagents with a fresh context window, not a fork (#1341)",
+      "url": "https://github.com/mattpocock/skills/commit/7739eaed7f8f3915437a8def198a6d0d7206dbc7",
+      "date": "2026-10-29T10:24:04Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "Quoting Ted Sanders",
       "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
@@ -407,19 +446,6 @@
       ]
     },
     {
-      "title": "mattpocock/skills: setup-matt-pocock-skills: reachable repo, legacy CONTEXT.md, tracker template fixes (#1228)",
-      "url": "https://github.com/mattpocock/skills/commit/ed0de59eb5de8c2730a650cc69f588ffa64c1040",
-      "date": "2026-10-27T07:39:47Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
       "date": "2026-10-27T07:00:00.000Z",
@@ -641,19 +667,6 @@
       ]
     },
     {
-      "title": "mattpocock/skills: chief-of-staff: keep memory in a dated, commit-cited wiki (#1304)",
-      "url": "https://github.com/mattpocock/skills/commit/5beb35b040e3de97e54fa9e386d7e42d15c295c2",
-      "date": "2026-10-19T15:51:40Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
       "url": "https://github.com/finereli/whatsapp-mcp",
       "date": "2026-10-18T21:36:10Z",
@@ -755,19 +768,6 @@
       "tier": "official",
       "tags": [
         "claude",
-        "open"
-      ]
-    },
-    {
-      "title": "mattpocock/skills: wizard: template fixes (#1220, #1142, #1081, #1041, #1003) (#1237)",
-      "url": "https://github.com/mattpocock/skills/commit/49dd158d1076134a641b33efb035946536778336",
-      "date": "2026-10-09T10:56:49Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
         "open"
       ]
     },
