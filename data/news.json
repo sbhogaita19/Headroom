@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T22:48:16.991Z",
+  "generatedAt": "2026-10-30T05:54:21.035Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "anthropics/claude-code v2.1.314",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "date": "2026-10-30T01:06:26Z",
+      "summary": "What's changed Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode Added an optional groups list to Claude apps gateway upstreams: only developers in the listed IdP groups are ",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
     {
       "title": "openai/codex 0.166.0",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
@@ -645,19 +658,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
       "date": "2026-10-22T04:34:55Z",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.307",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
-      "date": "2026-10-21T22:17:02Z",
-      "summary": "What's changed Added /claude api api version to move Claude API code to API version 2026 10 21 Added the claude code.safety event OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the sandbox stopped, prompted or sent back Fixed reques",
       "kind": "release",
       "source": "Claude Code releases",
       "sourceId": "gh-claude-code",
