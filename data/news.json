@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T13:01:03.616Z",
+  "generatedAt": "2026-10-30T22:24:49.962Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "dbreunig/nesformer",
+      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+      "date": "2026-10-30T21:59:22.000Z",
+      "summary": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on H",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "anthropics/claude-code v2.1.314",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
@@ -596,19 +609,6 @@
       "kind": "release",
       "source": "omp releases",
       "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "battledrones v14: Compass Rose, a four player map",
-      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
-      "date": "2026-10-24T03:59:57.000Z",
-      "summary": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works wi",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
       "tier": "author",
       "tags": [
         "open"
