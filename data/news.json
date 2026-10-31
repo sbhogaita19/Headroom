@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T12:39:17.807Z",
+  "generatedAt": "2026-10-31T21:39:38.827Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,45 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.14.2",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.14.2",
+      "date": "2026-10-31T17:56:02Z",
+      "summary": "@oh my pi/pi agent core Added The soft steering signal a tool sees as toolCall.steeringSignal now aborts with the source of the queued message ( \"user\" , \"irc\" , …) as its reason , so a tool can yield only to the sources it should ([ 17537](https://github.com/can1357/oh my pi/iss",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "mattpocock/skills: software-factory: glossary skill for designing a factory (#1316)",
+      "url": "https://github.com/mattpocock/skills/commit/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+      "date": "2026-10-31T14:23:30Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "mattpocock/skills: chief-of-staff: shared wiki first; retro and implement-spec as procedures (#1363)",
+      "url": "https://github.com/mattpocock/skills/commit/5ae481693d13b37d4d2c2c92d0b66d299c93e695",
+      "date": "2026-10-31T13:47:43Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.14.1",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.14.1",
@@ -266,19 +305,6 @@
       "title": "mattpocock/skills: chore: version skills (#1161)",
       "url": "https://github.com/mattpocock/skills/commit/d1478fcb140db0b93c0c8df17bcfd311844749d0",
       "date": "2026-10-29T10:27:29Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "mattpocock/skills: Start subagents with a fresh context window, not a fork (#1341)",
-      "url": "https://github.com/mattpocock/skills/commit/7739eaed7f8f3915437a8def198a6d0d7206dbc7",
-      "date": "2026-10-29T10:24:04Z",
       "summary": "",
       "kind": "commit",
       "source": "mattpocock/skills commits",
@@ -576,19 +602,6 @@
       ]
     },
     {
-      "title": "mattpocock/skills: Close blank issues and route requests by kind (#1169)",
-      "url": "https://github.com/mattpocock/skills/commit/59db609eb1e18aaf59b63284d0e52255aff0c63c",
-      "date": "2026-10-27T07:44:12Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
       "date": "2026-10-27T07:00:00.000Z",
@@ -625,19 +638,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.13.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.13.0",
-      "date": "2026-10-26T20:29:17Z",
-      "summary": "@oh my pi/pi agent core Added Added SummaryOptions.remotePromptCacheKey and remoteCompactionPolicyModel() so remote compaction can carry a cache key gated against the request it actually sends ([ 16988](https://github.com/can1357/oh my pi/pull/16988) by [@rafalopilowski1](https:/",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
