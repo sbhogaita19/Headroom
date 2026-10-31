@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T22:24:49.962Z",
+  "generatedAt": "2026-10-31T05:49:39.077Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,32 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.14.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.14.1",
+      "date": "2026-10-31T01:13:19Z",
+      "summary": "@oh my pi/pi agent core Breaking Changes SentToolDefinitions.inactiveFor(messages, tools) is replaced by withInactiveTools(context) , which also clears a stale inactiveTools ; transformProviderContext now receives the request's inactiveTools ([ 17492](https://github.com/can1357/o",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.316",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "date": "2026-10-31T01:01:35Z",
+      "summary": "What's changed Added CLAUDE CODE DISABLE ULTRATHINK , which turns the ultrathink keyword off Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with pooled budget on the spend limits admin",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
     {
       "title": "dbreunig/nesformer",
       "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
@@ -651,32 +677,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.308",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
-      "date": "2026-10-22T04:34:55Z",
-      "summary": "What's changed Bug fixes and reliability improvements",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.12.6",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.12.6",
-      "date": "2026-10-21T21:02:53Z",
-      "summary": "@oh my pi/pi catalog Added Added the prompt cache persistent catalog axis ( isPromptCachePersistent ) for providers whose own endpoint never expires prompt caches; logged in OpenAI Codex declares it Changed Updated the bundled Yolo Auto catalog to its current models, qwen3.8 27b ",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
