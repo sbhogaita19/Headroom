@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T13:32:04.243Z",
+  "generatedAt": "2026-11-01T22:05:49.367Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -89,10 +89,36 @@
       "id": "hn-agents",
       "name": "Hacker News",
       "ok": true,
-      "count": 2
+      "count": 1
     }
   ],
   "items": [
+    {
+      "title": "Quoting Kyle Kingsbury",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+      "date": "2026-11-01T16:49:04.000Z",
+      "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to coun",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.15.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.15.0",
+      "date": "2026-11-01T14:17:08Z",
+      "summary": "@oh my pi/pi agent core Fixed Fixed OpenAI remote compaction ( /responses/compact ) replaying backend only internal chat message metadata passthrough metadata that Codex rejects as an unknown parameter ([ 17590](https://github.com/can1357/oh my pi/pull/17590) by [@briankeefe](htt",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.5",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.5",
@@ -485,19 +511,6 @@
       ]
     },
     {
-      "title": "The October inflection point for vibe game development",
-      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
-      "date": "2026-10-28T13:55:15.000Z",
-      "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflect",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
       "date": "2026-10-28T13:15:00.000Z",
@@ -615,19 +628,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.13.1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.13.1",
-      "date": "2026-10-27T00:56:37Z",
-      "summary": "@oh my pi/pi agent core Added Hosts can distinguish safely paused agents from turns still draining with Agent.isPaused ([ 17073](https://github.com/can1357/oh my pi/pull/17073) by [@anatoli tsinovoy](https://github.com/anatoli tsinovoy)). @oh my pi/pi ai Fixed Codex accounts whos",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.311",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
       "date": "2026-10-26T21:51:23Z",
@@ -684,19 +684,6 @@
       "url": "https://github.com/omnara-ai/omnara",
       "date": "2026-10-21T16:44:53Z",
       "summary": "114 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
-      "url": "https://github.com/finereli/whatsapp-mcp",
-      "date": "2026-10-18T21:36:10Z",
-      "summary": "157 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
