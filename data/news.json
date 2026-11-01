@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T21:39:38.827Z",
+  "generatedAt": "2026-11-01T06:12:55.547Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -89,10 +89,49 @@
       "id": "hn-agents",
       "name": "Hacker News",
       "ok": true,
-      "count": 3
+      "count": 2
     }
   ],
   "items": [
+    {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.5",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.5",
+      "date": "2026-11-01T03:59:58Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at db0e4e24a0d89b211b2a15f4af2be22adac71dfc What's Changed feat(managed): Add bounded SQL history queries by @doudouOUC in https://github.com/QwenLM/qwen code/pull/15839 feat(generated ui): keep chatting with a",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.26.5",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.5",
+      "date": "2026-11-01T03:22:50Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds bounded SQL history queries for Managed local H2 and Hosted MySQL, enabling paged recent messages, journal transactions, and exac",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "date": "2026-10-31T22:10:01.000Z",
+      "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasett",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.14.2",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.14.2",
@@ -355,32 +394,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.3",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.3",
-      "date": "2026-10-28T16:51:11Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at eeee1443a7e36ab22b2f1dcded8dec64b621a7ee What's Changed feat(managed): add session permission rules and Auto approval by @doudouOUC in https://github.com/QwenLM/qwen code/pull/15448 fix(cli): harden serve to",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.25",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.25",
-      "date": "2026-10-28T16:16:39Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "Route and orchestrate models with GitHub Copilot Fusion",
       "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
       "date": "2026-10-28T16:00:00.000Z",
@@ -563,19 +576,6 @@
       ]
     },
     {
-      "title": "Game Boy Color on My Conference Badge",
-      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
-      "date": "2026-10-27T19:34:18.000Z",
-      "summary": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NE",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "can1357/oh-my-pi v18.13.2",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.13.2",
       "date": "2026-10-27T18:07:53Z",
@@ -697,19 +697,6 @@
       "url": "https://github.com/finereli/whatsapp-mcp",
       "date": "2026-10-18T21:36:10Z",
       "summary": "157 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-      "url": "https://sphinx-six-theta.vercel.app/",
-      "date": "2026-10-18T04:33:49Z",
-      "summary": "253 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
