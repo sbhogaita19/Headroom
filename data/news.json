@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T16:56:27.030Z",
+  "generatedAt": "2026-11-03T01:01:49.161Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -89,10 +89,114 @@
       "id": "hn-agents",
       "name": "Hacker News",
       "ok": true,
-      "count": 1
+      "count": 3
     }
   ],
   "items": [
+    {
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "date": "2026-11-02T23:49:30.000Z",
+      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure ",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.16.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.16.0",
+      "date": "2026-11-02T19:49:20Z",
+      "summary": "@oh my pi/pi agent core Changed Deprecated createFileOps , computeFileLists , formatFileOperations , upsertFileOperations , isUrlSchemePath and FileOperations in @oh my pi/pi agent core/compaction ; they now re export @oh my pi/snapcompact , which callers should import directly F",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.27",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.27",
+      "date": "2026-11-02T19:09:07Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.6 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.4 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.26.6",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.6",
+      "date": "2026-11-02T18:22:40Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds a Web Shell sidebar activity view for trusted workspace conversations, showing approval/input/error states, unread completions, r",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "date": "2026-11-02T17:05:25Z",
+      "summary": "118 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
+      "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+      "date": "2026-11-02T16:25:26Z",
+      "summary": "208 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "date": "2026-11-02T15:30:00.000Z",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "date": "2026-11-02T00:00:00.000Z",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
     {
       "title": "Quoting Kyle Kingsbury",
       "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
@@ -315,19 +419,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.4",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.4",
-      "date": "2026-10-29T15:18:19Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at 715a550cfca0135e00d4015d1ca82a8167e81fff What's Changed fix(config): report controls that were silently dropped by @yiliang114 in https://github.com/QwenLM/qwen code/pull/15794 docs(managed): cite the shared",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code Release v0.26.4",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.4",
       "date": "2026-10-29T14:29:11Z",
@@ -390,19 +481,6 @@
       "tier": "official",
       "tags": [
         "openai"
-      ]
-    },
-    {
-      "title": "Quoting Ted Sanders",
-      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
-      "date": "2026-10-28T23:23:21.000Z",
-      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: ",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -498,19 +576,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code Release v0.26.3",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.3",
-      "date": "2026-10-28T14:36:14Z",
-      "summary": "<! qwen release notes:v1 Highlights Generated UI cards keep inputs and state across navigation and split views, show live views after initial calculation, and appear only for clients that can render MCP Apps. ([ 15611](https://github.com/QwenLM/qwen code/pull/15611), [ 15787](htt",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
       "date": "2026-10-28T13:15:00.000Z",
@@ -583,45 +648,6 @@
       "kind": "release",
       "source": "Codex CLI releases",
       "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.13.2",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.13.2",
-      "date": "2026-10-27T18:07:53Z",
-      "summary": "@oh my pi/pi agent core Added AgentTool gained the optional handlesToolInterrupt flag: an interruptible tool that sets it (such as wait ) still runs, without blocking, when a loop owned interrupt is already queued, so it can drain the queued wake event instead of being skipped; u",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "url": "https://openai.com/index/retell-ai",
-      "date": "2026-10-27T15:00:00.000Z",
-      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "date": "2026-10-27T07:00:00.000Z",
-      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
       "tier": "official",
       "tags": [
         "openai"
