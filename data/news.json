@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:01:49.161Z",
+  "generatedAt": "2026-11-03T14:22:13.355Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,45 @@
     }
   ],
   "items": [
+    {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "date": "2026-11-03T08:00:00.000Z",
+      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+      "date": "2026-11-03T05:28:59.000Z",
+      "summary": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.317",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+      "date": "2026-11-03T01:25:46Z",
+      "summary": "What's changed Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them Added a check that asks before a web or shell tool call sends your account email address to the network Added onFailure: \"block\" for Agent SDK ",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
     {
       "title": "llm 0.37",
       "url": "https://simonwillison.net/2026/Nov/2/llm/",
@@ -149,7 +188,7 @@
       "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
       "url": "https://momentic.ai/",
       "date": "2026-11-02T17:05:25Z",
-      "summary": "118 points on Hacker News",
+      "summary": "152 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -162,7 +201,7 @@
       "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
       "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
       "date": "2026-11-02T16:25:26Z",
-      "summary": "208 points on Hacker News",
+      "summary": "299 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -432,19 +471,6 @@
       ]
     },
     {
-      "title": "Quoting Ben Hylak",
-      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
-      "date": "2026-10-29T14:06:27.000Z",
-      "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. &mdash; Ben Hylak Tags: mode",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "mattpocock/skills: implement-spec: a fresh implementer subagent per ticket (#1342)",
       "url": "https://github.com/mattpocock/skills/commit/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa",
       "date": "2026-10-29T10:42:51Z",
@@ -563,19 +589,6 @@
       ]
     },
     {
-      "title": "Build shared workflows for your team with Copilot Automations",
-      "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
-      "date": "2026-10-28T15:35:00.000Z",
-      "summary": "Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the… The post Build shared workflows for your team with Copilot Automa",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
       "date": "2026-10-28T13:15:00.000Z",
@@ -599,19 +612,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora",
-      "date": "2026-10-28T09:30:00.000Z",
-      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -690,19 +690,6 @@
       "tier": "official",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.309",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
-      "date": "2026-10-22T22:18:57Z",
-      "summary": "What's changed Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command Fixed macOS sandbox denyWrite glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink Fixe",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
       ]
     },
     {
