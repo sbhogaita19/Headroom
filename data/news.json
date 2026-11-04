@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T23:26:27.799Z",
+  "generatedAt": "2026-11-04T06:31:18.971Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -89,10 +89,62 @@
       "id": "hn-agents",
       "name": "Hacker News",
       "ok": true,
-      "count": 4
+      "count": 5
     }
   ],
   "items": [
+    {
+      "title": "QwenLM/qwen-code Release v0.26.7",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7",
+      "date": "2026-11-04T04:03:01Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds an operator scoped model.catalogRefresh setting and lets privacy.usageStatisticsEnabled: false stop background catalog refreshes ",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "BYOK and enterprise custom models in the Copilot usage API",
+      "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+      "date": "2026-11-04T00:32:19.000Z",
+      "summary": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of… The post BYOK and enterprise custom models in the Copilot usage API appeared first on The GitHub Blog",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.318",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+      "date": "2026-11-04T00:01:03Z",
+      "summary": "What's changed Added a record of your answer when Claude Code asks to turn on the mods it writes in a session Added assume role on mantle upstreams of the Claude apps gateway, for a role in another AWS account and for per developer AWS cost attribution Added an effort option to a",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "url": "https://github.com/finic-ai/kairos",
+      "date": "2026-11-03T21:16:48Z",
+      "summary": "83 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "Dependabot version updates support Agent Package Manager",
       "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
@@ -110,7 +162,7 @@
       "title": "Gitbook Breached",
       "url": "https://news.ycombinator.com/item?id=50354336",
       "date": "2026-11-03T16:45:49Z",
-      "summary": "139 points on Hacker News",
+      "summary": "152 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -266,7 +318,7 @@
       "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
       "url": "https://momentic.ai/",
       "date": "2026-11-02T17:05:25Z",
-      "summary": "158 points on Hacker News",
+      "summary": "159 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -279,7 +331,7 @@
       "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
       "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
       "date": "2026-11-02T16:25:26Z",
-      "summary": "315 points on Hacker News",
+      "summary": "317 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -510,19 +562,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.26",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.26",
-      "date": "2026-10-29T15:29:54Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.4 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code Release v0.26.4",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.4",
       "date": "2026-10-29T14:29:11Z",
@@ -573,19 +612,6 @@
       "tags": [
         "claude",
         "open"
-      ]
-    },
-    {
-      "title": "Route and orchestrate models with GitHub Copilot Fusion",
-      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
-      "date": "2026-10-28T16:00:00.000Z",
-      "summary": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.… The post Route and orchestrate models with GitHub Copilot Fusion appeared first on The ",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -645,19 +671,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
       "date": "2026-10-26T21:51:23Z",
       "summary": "What's changed Added hold idle file and max hold min to self hosted runner , to keep an idle session while your host reports processes it left running Added a tip for the Explanatory output style, shown when you ask Claude for explanations Fixed long freezes at startup and after ",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.310",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
-      "date": "2026-10-23T23:39:00Z",
-      "summary": "What's changed Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too Fixed requests failing behind some gateways and compatible servers that reject the e",
       "kind": "release",
       "source": "Claude Code releases",
       "sourceId": "gh-claude-code",
