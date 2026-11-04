@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T06:31:18.971Z",
+  "generatedAt": "2026-11-04T19:48:53.652Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "id": "gh-gemini-cli",
@@ -89,10 +89,62 @@
       "id": "hn-agents",
       "name": "Hacker News",
       "ok": true,
-      "count": 5
+      "count": 4
     }
   ],
   "items": [
+    {
+      "title": "agentskills/agentskills: AAIF Donation: Add governance and maintainers (#648)",
+      "url": "https://github.com/agentskills/agentskills/commit/83021e2be457a9b6679148719c1f6074f0ad975e",
+      "date": "2026-11-04T19:47:24Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "agentskills/agentskills commits",
+      "sourceId": "gh-agentskills",
+      "tier": "official",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "agentskills/agentskills: AAIF Donation: Add LF Projects legal notice to site footer (#649)",
+      "url": "https://github.com/agentskills/agentskills/commit/d6dd4b71cee7a320ae7d52e1d8711b6806ac8201",
+      "date": "2026-11-04T19:47:03Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "agentskills/agentskills commits",
+      "sourceId": "gh-agentskills",
+      "tier": "official",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "date": "2026-11-04T15:26:02.000Z",
+      "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "date": "2026-11-04T14:30:00.000Z",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
     {
       "title": "QwenLM/qwen-code Release v0.26.7",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7",
@@ -120,6 +172,19 @@
       ]
     },
     {
+      "title": "datasette-apps 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+      "date": "2026-11-04T00:29:36.000Z",
+      "summary": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent . This release improves that integration: Apps can now be ta",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "anthropics/claude-code v2.1.318",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
       "date": "2026-11-04T00:01:03Z",
@@ -133,10 +198,36 @@
       ]
     },
     {
+      "title": "datasette-agent 0.5a0",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+      "date": "2026-11-03T23:13:45.000Z",
+      "summary": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this me",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "llm 0.37.1",
+      "url": "https://simonwillison.net/2026/Nov/3/llm/",
+      "date": "2026-11-03T21:41:42.000Z",
+      "summary": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
       "url": "https://github.com/finic-ai/kairos",
       "date": "2026-11-03T21:16:48Z",
-      "summary": "83 points on Hacker News",
+      "summary": "103 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -162,7 +253,7 @@
       "title": "Gitbook Breached",
       "url": "https://news.ycombinator.com/item?id=50354336",
       "date": "2026-11-03T16:45:49Z",
-      "summary": "152 points on Hacker News",
+      "summary": "162 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -263,19 +354,6 @@
       ]
     },
     {
-      "title": "llm 0.37",
-      "url": "https://simonwillison.net/2026/Nov/2/llm/",
-      "date": "2026-11-02T23:49:30.000Z",
-      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure ",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "can1357/oh-my-pi v18.16.0",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.16.0",
       "date": "2026-11-02T19:49:20Z",
@@ -318,7 +396,7 @@
       "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
       "url": "https://momentic.ai/",
       "date": "2026-11-02T17:05:25Z",
-      "summary": "159 points on Hacker News",
+      "summary": "161 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -331,7 +409,7 @@
       "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
       "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
       "date": "2026-11-02T16:25:26Z",
-      "summary": "317 points on Hacker News",
+      "summary": "320 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -364,19 +442,6 @@
       "tier": "official",
       "tags": [
         "openai"
-      ]
-    },
-    {
-      "title": "Quoting Kyle Kingsbury",
-      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
-      "date": "2026-11-01T16:49:04.000Z",
-      "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to coun",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -416,19 +481,6 @@
       "tier": "official",
       "tags": [
         "qwen"
-      ]
-    },
-    {
-      "title": "datasette-llm 0.1a9",
-      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
-      "date": "2026-10-31T22:10:01.000Z",
-      "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasett",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -497,19 +549,6 @@
       ]
     },
     {
-      "title": "dbreunig/nesformer",
-      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
-      "date": "2026-10-30T21:59:22.000Z",
-      "summary": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on H",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.314",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
       "date": "2026-10-30T01:06:26Z",
@@ -546,19 +585,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "url": "https://openai.com/index/updated-model-spec",
-      "date": "2026-10-29T17:00:00.000Z",
-      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -654,19 +680,6 @@
       ]
     },
     {
-      "title": "openai/codex 0.165.0",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
-      "date": "2026-10-27T20:09:38Z",
-      "summary": "New Features Added a built in Google Cloud Vertex AI provider, configured with model provider = \"gcp\" . ( 56265) Added GPT 6.1 Terra to the model catalogs. ( 57337) Added a repository filter to the session picker and directory grouping to the agent command center, making it easie",
-      "kind": "release",
-      "source": "Codex CLI releases",
-      "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.311",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
       "date": "2026-10-26T21:51:23Z",
@@ -688,19 +701,6 @@
       "source": "Hugging Face blog",
       "sourceId": "rss-hf",
       "tier": "official",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
-      "url": "https://github.com/omnara-ai/omnara",
-      "date": "2026-10-21T16:44:53Z",
-      "summary": "114 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
       "tags": [
         "open"
       ]
