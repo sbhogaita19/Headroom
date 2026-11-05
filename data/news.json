@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T19:48:53.652Z",
+  "generatedAt": "2026-11-05T06:53:41.252Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "id": "rss-hf",
@@ -89,10 +89,23 @@
       "id": "hn-agents",
       "name": "Hacker News",
       "ok": true,
-      "count": 4
+      "count": 6
     }
   ],
   "items": [
+    {
+      "title": "google-gemini/gemini-cli Release v0.67.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0",
+      "date": "2026-11-04T20:27:11Z",
+      "summary": "What's Changed Changelog for v0.65.0 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/29853 chore(release): bump version to 0.67.0 nightly.20261020.gb041de017 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/29854 Changelog for v0.6",
+      "kind": "release",
+      "source": "Gemini CLI releases",
+      "sourceId": "gh-gemini-cli",
+      "tier": "official",
+      "tags": [
+        "google"
+      ]
+    },
     {
       "title": "agentskills/agentskills: AAIF Donation: Add governance and maintainers (#648)",
       "url": "https://github.com/agentskills/agentskills/commit/83021e2be457a9b6679148719c1f6074f0ad975e",
@@ -120,6 +133,32 @@
       ]
     },
     {
+      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
+      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+      "date": "2026-11-04T19:10:40.000Z",
+      "summary": "You can now work with GitHub Copilot directly in Xcode’s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available starting with… The post GitHub Copilot is now available in Xcode’s coding assistant appeared f",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "url": "https://www.ricursive.com/ripple",
+      "date": "2026-11-04T18:53:29Z",
+      "summary": "274 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "datasette-llm 0.1a10",
       "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
       "date": "2026-11-04T15:26:02.000Z",
@@ -128,6 +167,19 @@
       "source": "Simon Willison",
       "sourceId": "rss-simon",
       "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "url": "https://news.ycombinator.com/item?id=50366117",
+      "date": "2026-11-04T14:37:22Z",
+      "summary": "259 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
       "tags": [
         "open"
       ]
@@ -198,6 +250,19 @@
       ]
     },
     {
+      "title": "Introducing Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "date": "2026-11-04T00:00:00.000Z",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "title": "datasette-agent 0.5a0",
       "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
       "date": "2026-11-03T23:13:45.000Z",
@@ -227,7 +292,7 @@
       "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
       "url": "https://github.com/finic-ai/kairos",
       "date": "2026-11-03T21:16:48Z",
-      "summary": "103 points on Hacker News",
+      "summary": "104 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -253,7 +318,7 @@
       "title": "Gitbook Breached",
       "url": "https://news.ycombinator.com/item?id=50354336",
       "date": "2026-11-03T16:45:49Z",
-      "summary": "162 points on Hacker News",
+      "summary": "163 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -396,7 +461,7 @@
       "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
       "url": "https://momentic.ai/",
       "date": "2026-11-02T17:05:25Z",
-      "summary": "161 points on Hacker News",
+      "summary": "165 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -409,7 +474,7 @@
       "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
       "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
       "date": "2026-11-02T16:25:26Z",
-      "summary": "320 points on Hacker News",
+      "summary": "323 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -423,19 +488,6 @@
       "url": "https://openai.com/index/scaling-git-at-openai",
       "date": "2026-11-02T15:30:00.000Z",
       "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "date": "2026-11-02T00:00:00.000Z",
-      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "kind": "post",
       "source": "OpenAI News",
       "sourceId": "rss-openai",
@@ -651,19 +703,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "google-gemini/gemini-cli Release v0.66.0",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0",
-      "date": "2026-10-27T20:26:28Z",
-      "summary": "What's Changed Update ROADMAP.md to no longer reference outdated 2025 roadmap by @DavidAPierce in https://github.com/google gemini/gemini cli/pull/29723 Changelog for v0.65.0 preview.0 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/29739 chore(release): ",
-      "kind": "release",
-      "source": "Gemini CLI releases",
-      "sourceId": "gh-gemini-cli",
-      "tier": "official",
-      "tags": [
-        "google"
       ]
     },
     {
