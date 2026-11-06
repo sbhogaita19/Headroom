@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T19:59:37.307Z",
+  "generatedAt": "2026-11-06T06:53:38.876Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "id": "gh-gemini-cli",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 4
+      "count": 6
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,71 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.17.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.17.0",
+      "date": "2026-11-06T05:12:54Z",
+      "summary": "@oh my pi/pi agent core Added Added Agent.queuedMessageGate to filter queued messages before delivery and observe claimed messages returned undelivered. Added wireToolsFingerprint() , returning a hash of the tool specs sent with a request. @oh my pi/pi ai Added Added opt in stand",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "openai/codex 0.167.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+      "date": "2026-11-06T01:40:00Z",
+      "summary": "New Features Open the agent command center with codex agents no daemon . The command center and session picker now mark unread results ( 58238, 58239, 58263, 58264). Switch between connected backends from the terminal session picker and keep your drafts when switching ( 58280, 58",
+      "kind": "release",
+      "source": "Codex CLI releases",
+      "sourceId": "gh-codex",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "Usage metrics API adds code review details and addressed rate",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+      "date": "2026-11-06T00:19:07.000Z",
+      "summary": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed… The post Usage metrics API adds code review details an",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Usage metrics API flags telemetry and version gaps",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+      "date": "2026-11-06T00:08:31.000Z",
+      "summary": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in… The post Usage metrics API flags telemetry and version gaps appeared first on The GitHub Blog",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "date": "2026-11-05T20:00:00.000Z",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
     {
       "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.8",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.8",
@@ -159,6 +224,19 @@
       ]
     },
     {
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "date": "2026-11-05T08:00:00.000Z",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "title": "google-gemini/gemini-cli Release v0.67.0",
       "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0",
       "date": "2026-11-04T20:27:11Z",
@@ -214,7 +292,20 @@
       "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
       "url": "https://www.ricursive.com/ripple",
       "date": "2026-11-04T18:53:29Z",
-      "summary": "329 points on Hacker News",
+      "summary": "334 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+      "url": "https://news.ycombinator.com/item?id=50368804",
+      "date": "2026-11-04T17:31:53Z",
+      "summary": "104 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -240,7 +331,7 @@
       "title": "Ask HN: What's your current AI agentic setup?",
       "url": "https://news.ycombinator.com/item?id=50366117",
       "date": "2026-11-04T14:37:22Z",
-      "summary": "491 points on Hacker News",
+      "summary": "517 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -354,19 +445,6 @@
       ]
     },
     {
-      "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
-      "url": "https://github.com/finic-ai/kairos",
-      "date": "2026-11-03T21:16:48Z",
-      "summary": "104 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Dependabot version updates support Agent Package Manager",
       "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
       "date": "2026-11-03T20:24:07.000Z",
@@ -383,7 +461,7 @@
       "title": "Gitbook Breached",
       "url": "https://news.ycombinator.com/item?id=50354336",
       "date": "2026-11-03T16:45:49Z",
-      "summary": "163 points on Hacker News",
+      "summary": "164 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -423,32 +501,6 @@
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "date": "2026-11-03T12:00:00.000Z",
       "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "How Cisco defends at machine speed with OpenAI",
-      "url": "https://openai.com/index/cisco-cyber",
-      "date": "2026-11-03T08:00:00.000Z",
-      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "url": "https://openai.com/index/heimstaden",
-      "date": "2026-11-03T08:00:00.000Z",
-      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "kind": "post",
       "source": "OpenAI News",
       "sourceId": "rss-openai",
@@ -689,19 +741,6 @@
       "tier": "official",
       "tags": [
         "claude",
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.13.3",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.13.3",
-      "date": "2026-10-28T12:49:52Z",
-      "summary": "@oh my pi/pi agent core Changed Updated Bun engine requirement to ≥1.4.4 Fixed Fixed chat completions context estimates counting past thinking that the request drops (no reasoning replay), which triggered compaction far below the threshold ([ 15797](https://github.com/can1357/oh ",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
         "open"
       ]
     },
