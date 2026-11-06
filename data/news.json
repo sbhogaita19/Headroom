@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T06:53:38.876Z",
+  "generatedAt": "2026-11-06T19:27:19.467Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,32 @@
   ],
   "items": [
     {
+      "title": "anthropics/claude-code v2.1.319",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "date": "2026-11-06T17:04:01Z",
+      "summary": "What's changed Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked about or denied, with no fallback to the built in classifier; set CLAUDE CODE AUTO MODE SERVER=0 to keep using it (Bedrock, Vertex and Found",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.26.9",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9",
+      "date": "2026-11-06T16:07:57Z",
+      "summary": "<! qwen release notes:v2 Highlights See the complete change list below. Breaking Changes No known breaking changes. Skill installation and activation Skill ZIP uploads, daemon APIs, TypeScript SDK support, bulk activation, and recovery protections make installing and managing Ski",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
       "title": "can1357/oh-my-pi v18.17.0",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.17.0",
       "date": "2026-11-06T05:12:54Z",
@@ -146,6 +172,19 @@
       ]
     },
     {
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "date": "2026-11-06T00:00:00.000Z",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "title": "Cult.fit builds operational muscle with Codex",
       "url": "https://openai.com/index/cultfit-builds-with-codex",
       "date": "2026-11-05T20:00:00.000Z",
@@ -182,6 +221,19 @@
       "tier": "official",
       "tags": [
         "qwen"
+      ]
+    },
+    {
+      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+      "url": "https://github.com/rivet-dev/rivet",
+      "date": "2026-11-05T17:17:42Z",
+      "summary": "117 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
       ]
     },
     {
@@ -292,20 +344,7 @@
       "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
       "url": "https://www.ricursive.com/ripple",
       "date": "2026-11-04T18:53:29Z",
-      "summary": "334 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
-      "url": "https://news.ycombinator.com/item?id=50368804",
-      "date": "2026-11-04T17:31:53Z",
-      "summary": "104 points on Hacker News",
+      "summary": "337 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -331,7 +370,7 @@
       "title": "Ask HN: What's your current AI agentic setup?",
       "url": "https://news.ycombinator.com/item?id=50366117",
       "date": "2026-11-04T14:37:22Z",
-      "summary": "517 points on Hacker News",
+      "summary": "537 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -497,19 +536,6 @@
       ]
     },
     {
-      "title": "Accelerating engineering for the physical world",
-      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "date": "2026-11-03T12:00:00.000Z",
-      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "October sponsors-only newsletter",
       "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
       "date": "2026-11-03T05:28:59.000Z",
@@ -549,19 +575,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.27",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.27",
-      "date": "2026-11-02T19:09:07Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.6 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.4 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code Release v0.26.6",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.6",
       "date": "2026-11-02T18:22:40Z",
@@ -591,7 +604,7 @@
       "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
       "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
       "date": "2026-11-02T16:25:26Z",
-      "summary": "324 points on Hacker News",
+      "summary": "325 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -749,19 +762,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
       "date": "2026-10-27T20:24:20Z",
       "summary": "What's changed Added oidc.user id claim to the Claude apps gateway, to identify people by an id token claim other than sub , such as Microsoft Entra ID's oid Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.311",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
-      "date": "2026-10-26T21:51:23Z",
-      "summary": "What's changed Added hold idle file and max hold min to self hosted runner , to keep an idle session while your host reports processes it left running Added a tip for the Explanatory output style, shown when you ask Claude for explanations Fixed long freezes at startup and after ",
       "kind": "release",
       "source": "Claude Code releases",
       "sourceId": "gh-claude-code",
