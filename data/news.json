@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T19:27:19.467Z",
+  "generatedAt": "2026-11-07T06:04:08.022Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,72 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.18.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.0",
+      "date": "2026-11-07T01:49:16Z",
+      "summary": "@oh my pi/pi catalog Fixed Fixed Mistral discovery listing embedding, OCR, moderation, transcription, and speech models as chat models; only rows with capabilities.completion chat are offered, with context, image input, and reasoning read from the row ([ 18244](https://github.com",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Copilot code review: API management and review overview updates",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+      "date": "2026-11-07T00:27:19.000Z",
+      "summary": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,… The post Copilot code review: API management and review overview updates appea",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "anthropics/skills: Move Office skills to the Apache 2.0 license (#2146)",
+      "url": "https://github.com/anthropics/skills/commit/2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+      "date": "2026-11-06T22:32:28Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "anthropics/skills commits",
+      "sourceId": "gh-anth-skills",
+      "tier": "official",
+      "tags": [
+        "claude",
+        "open"
+      ]
+    },
+    {
+      "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+      "date": "2026-11-06T22:17:28.000Z",
+      "summary": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption… The post Copilot impact dashboard adds chat and VS Code agent usage appeared first on The Git",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "GitHub Copilot weekly releases — November 2",
+      "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+      "date": "2026-11-06T21:00:26.000Z",
+      "summary": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge… The post GitHub Copilot weekly releases — November 2 appeared first on The GitHub Blog .",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
     {
       "title": "anthropics/claude-code v2.1.319",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
@@ -227,7 +293,7 @@
       "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
       "url": "https://github.com/rivet-dev/rivet",
       "date": "2026-11-05T17:17:42Z",
-      "summary": "117 points on Hacker News",
+      "summary": "118 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -344,7 +410,7 @@
       "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
       "url": "https://www.ricursive.com/ripple",
       "date": "2026-11-04T18:53:29Z",
-      "summary": "337 points on Hacker News",
+      "summary": "339 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -370,7 +436,7 @@
       "title": "Ask HN: What's your current AI agentic setup?",
       "url": "https://news.ycombinator.com/item?id=50366117",
       "date": "2026-11-04T14:37:22Z",
-      "summary": "537 points on Hacker News",
+      "summary": "544 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -403,19 +469,6 @@
       "tier": "official",
       "tags": [
         "qwen"
-      ]
-    },
-    {
-      "title": "BYOK and enterprise custom models in the Copilot usage API",
-      "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-      "date": "2026-11-04T00:32:19.000Z",
-      "summary": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of… The post BYOK and enterprise custom models in the Copilot usage API appeared first on The GitHub Blog",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -484,19 +537,6 @@
       ]
     },
     {
-      "title": "Dependabot version updates support Agent Package Manager",
-      "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
-      "date": "2026-11-03T20:24:07.000Z",
-      "summary": "You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported… The post Dependabot version updates support Agent Package Manager appeared first on The",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "Gitbook Breached",
       "url": "https://news.ycombinator.com/item?id=50354336",
       "date": "2026-11-03T16:45:49Z",
@@ -520,19 +560,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "GitHub Copilot is now available in JetBrains Air",
-      "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
-      "date": "2026-11-03T15:11:46.000Z",
-      "summary": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your… The post GitHub Copilot is now available in JetBrains Air appeared first on The GitHub Blo",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -591,7 +618,7 @@
       "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
       "url": "https://momentic.ai/",
       "date": "2026-11-02T17:05:25Z",
-      "summary": "166 points on Hacker News",
+      "summary": "167 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -702,19 +729,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.14.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.14.0",
-      "date": "2026-10-29T18:25:10Z",
-      "summary": "@oh my pi/pi agent core Breaking Changes Removed the Bun event loop workaround utilities from @oh my pi/pi agent core/utils/yield ; agent loops no longer insert cooperative sleeps while streaming or between tool calls. Added Added AgentTool.approvalRestrictionPaths so tools can r",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -853,20 +867,6 @@
       "title": "anthropics/skills: Update claude-api skill: Claude Haiku 5.5 as the current Haiku, Managed Agents and preserved-thinking fixes (#1991)",
       "url": "https://github.com/anthropics/skills/commit/9d630808e4add0a7146de4af9384155d5dee350a",
       "date": "2026-10-09T10:06:51Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "anthropics/skills commits",
-      "sourceId": "gh-anth-skills",
-      "tier": "official",
-      "tags": [
-        "claude",
-        "open"
-      ]
-    },
-    {
-      "title": "anthropics/skills: Update claude-api skill: managed-agents-onboard from a quickstart name or a URL (#1962)",
-      "url": "https://github.com/anthropics/skills/commit/683bc88e56f3e09ba94f7055977f3d3aa499f202",
-      "date": "2026-10-05T13:46:42Z",
       "summary": "",
       "kind": "commit",
       "source": "anthropics/skills commits",
