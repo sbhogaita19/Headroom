@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T13:09:26.353Z",
+  "generatedAt": "2026-11-07T21:54:52.212Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "QwenLM/qwen-code Release v0.27.0",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.0",
+      "date": "2026-11-07T20:45:25Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at release/v0.27.0 What's Changed test(interactive): poll the foreground shell frame instead of snapshotting it by @yiliang114 in https://github.com/QwenLM/qwen code/pull/16455 test(managed agent): retarget the",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.18.0",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.0",
@@ -293,7 +306,7 @@
       "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
       "url": "https://github.com/rivet-dev/rivet",
       "date": "2026-11-05T17:17:42Z",
-      "summary": "118 points on Hacker News",
+      "summary": "120 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -436,7 +449,7 @@
       "title": "Ask HN: What's your current AI agentic setup?",
       "url": "https://news.ycombinator.com/item?id=50366117",
       "date": "2026-11-04T14:37:22Z",
-      "summary": "548 points on Hacker News",
+      "summary": "553 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -540,7 +553,7 @@
       "title": "Gitbook Breached",
       "url": "https://news.ycombinator.com/item?id=50354336",
       "date": "2026-11-03T16:45:49Z",
-      "summary": "164 points on Hacker News",
+      "summary": "165 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -599,19 +612,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Release v0.26.6",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.6",
-      "date": "2026-11-02T18:22:40Z",
-      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds a Web Shell sidebar activity view for trusted workspace conversations, showing approval/input/error states, unread completions, r",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
