@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T13:30:12.076Z",
+  "generatedAt": "2026-11-08T22:10:49.573Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,19 @@
   ],
   "items": [
     {
+      "title": "can1357/oh-my-pi v18.18.2",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.2",
+      "date": "2026-11-08T18:07:14Z",
+      "summary": "@oh my pi/pi agent core Added Added canReplayRemoteCompactionFrom() to determine whether a model can replay provider native compaction produced by another model. Fixed Fixed GenAI message content capture configured in omp's own .env files so it continues to apply when those value",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "QwenLM/qwen-code Qwen Code Desktop v0.27.0",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.0",
       "date": "2026-11-08T01:06:39Z",
@@ -136,7 +149,7 @@
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "date": "2026-11-07T20:45:32Z",
-      "summary": "451 points on Hacker News",
+      "summary": "558 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -342,19 +355,6 @@
       ]
     },
     {
-      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
-      "url": "https://github.com/rivet-dev/rivet",
-      "date": "2026-11-05T17:17:42Z",
-      "summary": "120 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "date": "2026-11-05T17:00:00.000Z",
@@ -462,7 +462,7 @@
       "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
       "url": "https://www.ricursive.com/ripple",
       "date": "2026-11-04T18:53:29Z",
-      "summary": "340 points on Hacker News",
+      "summary": "341 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -488,7 +488,7 @@
       "title": "Ask HN: What's your current AI agentic setup?",
       "url": "https://news.ycombinator.com/item?id=50366117",
       "date": "2026-11-04T14:37:22Z",
-      "summary": "558 points on Hacker News",
+      "summary": "561 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -654,23 +654,23 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.15.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.15.0",
-      "date": "2026-11-01T14:17:08Z",
-      "summary": "@oh my pi/pi agent core Fixed Fixed OpenAI remote compaction ( /responses/compact ) replaying backend only internal chat message metadata passthrough metadata that Codex rejects as an unknown parameter ([ 17590](https://github.com/can1357/oh my pi/pull/17590) by [@briankeefe](htt",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
+      "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
+      "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+      "date": "2026-11-02T16:25:26Z",
+      "summary": "325 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
       "tags": [
         "open"
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.14.2",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.14.2",
-      "date": "2026-10-31T17:56:02Z",
-      "summary": "@oh my pi/pi agent core Added The soft steering signal a tool sees as toolCall.steeringSignal now aborts with the source of the queued message ( \"user\" , \"irc\" , …) as its reason , so a tool can yield only to the sources it should ([ 17537](https://github.com/can1357/oh my pi/iss",
+      "title": "can1357/oh-my-pi v18.15.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.15.0",
+      "date": "2026-11-01T14:17:08Z",
+      "summary": "@oh my pi/pi agent core Fixed Fixed OpenAI remote compaction ( /responses/compact ) replaying backend only internal chat message metadata passthrough metadata that Codex rejects as an unknown parameter ([ 17590](https://github.com/can1357/oh my pi/pull/17590) by [@briankeefe](htt",
       "kind": "release",
       "source": "omp releases",
       "sourceId": "gh-omp",
