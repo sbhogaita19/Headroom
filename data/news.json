@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T06:08:10.383Z",
+  "generatedAt": "2026-11-08T13:30:12.076Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -136,7 +136,7 @@
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "date": "2026-11-07T20:45:32Z",
-      "summary": "301 points on Hacker News",
+      "summary": "451 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -342,6 +342,19 @@
       ]
     },
     {
+      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+      "url": "https://github.com/rivet-dev/rivet",
+      "date": "2026-11-05T17:17:42Z",
+      "summary": "120 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "date": "2026-11-05T17:00:00.000Z",
@@ -475,7 +488,7 @@
       "title": "Ask HN: What's your current AI agentic setup?",
       "url": "https://news.ycombinator.com/item?id=50366117",
       "date": "2026-11-04T14:37:22Z",
-      "summary": "555 points on Hacker News",
+      "summary": "558 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -632,19 +645,6 @@
       "url": "https://momentic.ai/",
       "date": "2026-11-02T17:05:25Z",
       "summary": "167 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
-      "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
-      "date": "2026-11-02T16:25:26Z",
-      "summary": "325 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
