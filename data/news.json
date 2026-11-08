@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T21:54:52.212Z",
+  "generatedAt": "2026-11-08T06:08:10.383Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,10 +94,62 @@
   ],
   "items": [
     {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.27.0",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.0",
+      "date": "2026-11-08T01:06:39Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at 03b0c2435be1890a21b117860eaf389076787275 What's Changed fix(channels): keep GitHub inbound recovery armed after a failed read by @wenshao in https://github.com/QwenLM/qwen code/pull/16402 test(core): harden ",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.30",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.30",
+      "date": "2026-11-08T00:55:56Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.27.0 Source: CLI built from source (same branch/ref as SDK) See commit history for changes.",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.18.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.1",
+      "date": "2026-11-08T00:25:06Z",
+      "summary": "@oh my pi/pi ai Fixed Cursor exec frames keep tool batch order: a file mutation (native StrReplace and Write, write , delete , pi edit , pi write ) waits for the calls issued before it, and the calls issued after it wait until it lands, so a Shell sent in the same batch as a StrR",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "date": "2026-11-07T20:45:32Z",
+      "summary": "301 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "QwenLM/qwen-code Release v0.27.0",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.0",
       "date": "2026-11-07T20:45:25Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at release/v0.27.0 What's Changed test(interactive): poll the foreground shell frame instead of snapshotting it by @yiliang114 in https://github.com/QwenLM/qwen code/pull/16455 test(managed agent): retarget the",
+      "summary": "<! qwen release notes:v1 Highlights Managed agent sessions can hold multiple child questions at once, answer them in any order, and keep drafts and errors separated per child. ([ 16484](https://github.com/QwenLM/qwen code/pull/16484)) Web Shell adds a task Q&A heatmap and an Ask ",
       "kind": "release",
       "source": "Qwen Code releases",
       "sourceId": "gh-qwen-code",
@@ -277,19 +329,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.26.8",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.8",
-      "date": "2026-11-05T18:48:55Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at 21ed8f1efbb351b973d96e2bc9efa78f278df99c What's Changed refactor(managed agent): Share the session event delivery loop by @doudouOUC in https://github.com/QwenLM/qwen code/pull/15952 ci: route the classify p",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.28",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.28",
       "date": "2026-11-05T17:33:49Z",
@@ -300,19 +339,6 @@
       "tier": "official",
       "tags": [
         "qwen"
-      ]
-    },
-    {
-      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
-      "url": "https://github.com/rivet-dev/rivet",
-      "date": "2026-11-05T17:17:42Z",
-      "summary": "120 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -423,7 +449,7 @@
       "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
       "url": "https://www.ricursive.com/ripple",
       "date": "2026-11-04T18:53:29Z",
-      "summary": "339 points on Hacker News",
+      "summary": "340 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -449,7 +475,7 @@
       "title": "Ask HN: What's your current AI agentic setup?",
       "url": "https://news.ycombinator.com/item?id=50366117",
       "date": "2026-11-04T14:37:22Z",
-      "summary": "553 points on Hacker News",
+      "summary": "555 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -469,19 +495,6 @@
       "tier": "official",
       "tags": [
         "openai"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Release v0.26.7",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7",
-      "date": "2026-11-04T04:03:01Z",
-      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Adds an operator scoped model.catalogRefresh setting and lets privacy.usageStatisticsEnabled: false stop background catalog refreshes ",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
@@ -687,19 +700,6 @@
       "kind": "commit",
       "source": "mattpocock/skills commits",
       "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.14.1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.14.1",
-      "date": "2026-10-31T01:13:19Z",
-      "summary": "@oh my pi/pi agent core Breaking Changes SentToolDefinitions.inactiveFor(messages, tools) is replaced by withInactiveTools(context) , which also clears a stale inactiveTools ; transformProviderContext now receives the request's inactiveTools ([ 17492](https://github.com/can1357/o",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
       "tier": "author",
       "tags": [
         "open"
