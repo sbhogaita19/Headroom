@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:10:49.573Z",
+  "generatedAt": "2026-11-09T06:41:56.319Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,45 @@
   ],
   "items": [
     {
+      "title": "Hide your slop PR descriptions behind",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "date": "2026-11-09T04:25:05.000Z",
+      "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished res",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.18.3",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.3",
+      "date": "2026-11-09T03:59:10Z",
+      "summary": "@oh my pi/pi catalog Changed Added a balanced delegation bias between eager and restrained ; models without a delegation bias rule now resolve to it instead of eager @oh my pi/pi coding agent Breaking Changes The ask tool takes one HTML form ( { html } ) instead of questions[] : ",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.29",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.29",
+      "date": "2026-11-09T02:08:10Z",
+      "summary": "Backfilled release for npm published version 0.1.29 (original workflow run 42249484215 failed at the release branch push step after npm publish succeeded; see 16490). Bundled CLI Version This SDK release bundles CLI version: 0.26.9 Source: CLI built from source (same branch/ref a",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
       "title": "can1357/oh-my-pi v18.18.2",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.2",
       "date": "2026-11-08T18:07:14Z",
@@ -149,7 +188,7 @@
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "date": "2026-11-07T20:45:32Z",
-      "summary": "558 points on Hacker News",
+      "summary": "599 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -342,19 +381,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.28",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.28",
-      "date": "2026-11-05T17:33:49Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.26.8 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.26.6 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "date": "2026-11-05T17:00:00.000Z",
@@ -488,7 +514,7 @@
       "title": "Ask HN: What's your current AI agentic setup?",
       "url": "https://news.ycombinator.com/item?id=50366117",
       "date": "2026-11-04T14:37:22Z",
-      "summary": "561 points on Hacker News",
+      "summary": "564 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -602,19 +628,6 @@
       ]
     },
     {
-      "title": "October sponsors-only newsletter",
-      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
-      "date": "2026-11-03T05:28:59.000Z",
-      "summary": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.317",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
       "date": "2026-11-03T01:25:46Z",
@@ -662,19 +675,6 @@
       "source": "Hacker News",
       "sourceId": "hn-agents",
       "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.15.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.15.0",
-      "date": "2026-11-01T14:17:08Z",
-      "summary": "@oh my pi/pi agent core Fixed Fixed OpenAI remote compaction ( /responses/compact ) replaying backend only internal chat message metadata passthrough metadata that Codex rejects as an unknown parameter ([ 17590](https://github.com/can1357/oh my pi/pull/17590) by [@briankeefe](htt",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
       "tags": [
         "open"
       ]
