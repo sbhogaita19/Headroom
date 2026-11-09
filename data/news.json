@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T17:19:59.408Z",
+  "generatedAt": "2026-11-09T22:25:44.867Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,45 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.18.5",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.5",
+      "date": "2026-11-09T19:35:34Z",
+      "summary": "@oh my pi/pi catalog Added Added Claude Fable 5.2 and Claude Mythos 5.2 ($8/$40 per MTok, $0.20 cache reads, 1M context) Fixed Fixed newly discovered Anthropic Fable/Mythos models showing as text only, non reasoning, and mispriced before models.dev catalogs them Fixed Claude Myth",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.321",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+      "date": "2026-11-09T19:22:30Z",
+      "summary": "What's changed Added Claude Fable 5.2 ( claude fable 5 2 ), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added settings <file to claude remote control , which applies a settings file to every session it starts; if the file changes, no new ",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.18.4",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.4",
+      "date": "2026-11-09T18:57:58Z",
+      "summary": "@oh my pi/pi ai Added Added the base64SkipThoughtSignature compat flag so Gemini gateways that decode thoughtSignature as base64 (such as the Hyperspace AI LLM proxy) can receive the unsigned tool call bypass sentinel without rejecting the request with a 400 ([ 18586](https://git",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.31",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.31",
@@ -130,6 +169,45 @@
       "tier": "official",
       "tags": [
         "qwen"
+      ]
+    },
+    {
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "date": "2026-11-09T13:00:00.000Z",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "date": "2026-11-09T08:00:00.000Z",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "date": "2026-11-09T08:00:00.000Z",
+      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
       ]
     },
     {
@@ -214,7 +292,7 @@
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "date": "2026-11-07T20:45:32Z",
-      "summary": "620 points on Hacker News",
+      "summary": "622 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -316,19 +394,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.17.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.17.0",
-      "date": "2026-11-06T05:12:54Z",
-      "summary": "@oh my pi/pi agent core Added Added Agent.queuedMessageGate to filter queued messages before delivery and observe claimed messages returned undelivered. Added wireToolsFingerprint() , returning a hash of the tool specs sent with a request. @oh my pi/pi ai Added Added opt in stand",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "openai/codex 0.167.0",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
       "date": "2026-11-06T01:40:00Z",
@@ -420,19 +485,6 @@
       ]
     },
     {
-      "title": "Merge builds product and business tools with OpenAI technology",
-      "url": "https://openai.com/index/merge-builds-with-openai",
-      "date": "2026-11-05T08:00:00.000Z",
-      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "google-gemini/gemini-cli Release v0.67.0",
       "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0",
       "date": "2026-11-04T20:27:11Z",
@@ -472,19 +524,6 @@
       ]
     },
     {
-      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-      "date": "2026-11-04T19:10:40.000Z",
-      "summary": "You can now work with GitHub Copilot directly in Xcode’s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available starting with… The post GitHub Copilot is now available in Xcode’s coding assistant appeared f",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
       "url": "https://www.ricursive.com/ripple",
       "date": "2026-11-04T18:53:29Z",
@@ -514,26 +553,13 @@
       "title": "Ask HN: What's your current AI agentic setup?",
       "url": "https://news.ycombinator.com/item?id=50366117",
       "date": "2026-11-04T14:37:22Z",
-      "summary": "568 points on Hacker News",
+      "summary": "569 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
       "tier": "lead",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "date": "2026-11-04T14:30:00.000Z",
-      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -560,19 +586,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "Introducing Images 2.6",
-      "url": "https://openai.com/index/introducing-images-2-6",
-      "date": "2026-11-04T00:00:00.000Z",
-      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -638,19 +651,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.16.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.16.0",
-      "date": "2026-11-02T19:49:20Z",
-      "summary": "@oh my pi/pi agent core Changed Deprecated createFileOps , computeFileLists , formatFileOperations , upsertFileOperations , isUrlSchemePath and FileOperations in @oh my pi/pi agent core/compaction ; they now re export @oh my pi/snapcompact , which callers should import directly F",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -769,19 +769,6 @@
       "tags": [
         "claude",
         "open"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.312",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
-      "date": "2026-10-27T20:24:20Z",
-      "summary": "What's changed Added oidc.user id claim to the Claude apps gateway, to identify people by an id token claim other than sub , such as Microsoft Entra ID's oid Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
       ]
     },
     {
