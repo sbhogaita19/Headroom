@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T06:41:56.319Z",
+  "generatedAt": "2026-11-09T17:19:59.408Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,45 @@
   ],
   "items": [
     {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.31",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.31",
+      "date": "2026-11-09T14:50:08Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.27.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.0 Source: CLI built from source (same branch/ref as SDK) See commit history for changes.",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.27.1",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.1",
+      "date": "2026-11-09T14:24:08Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at c2eccf7459c8d6d4b2a5df3733d2f3833153763b What's Changed docs(providers): document Wally under OpenAI compatible providers by @sanchitmonga22 in https://github.com/QwenLM/qwen code/pull/16529 fix(core): share",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.27.1",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.1",
+      "date": "2026-11-09T13:30:44Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(core): name the active shell in the startup context ([ 16491](https://github.com/QwenLM/qwen code/pull/16491)) by @2SinceJuly fea",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
       "title": "Hide your slop PR descriptions behind",
       "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
       "date": "2026-11-09T04:25:05.000Z",
@@ -146,19 +185,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.27.0",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.0",
-      "date": "2026-11-08T01:06:39Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at 03b0c2435be1890a21b117860eaf389076787275 What's Changed fix(channels): keep GitHub inbound recovery armed after a failed read by @wenshao in https://github.com/QwenLM/qwen code/pull/16402 test(core): harden ",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.30",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.30",
       "date": "2026-11-08T00:55:56Z",
@@ -188,7 +214,7 @@
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "date": "2026-11-07T20:45:32Z",
-      "summary": "599 points on Hacker News",
+      "summary": "620 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -290,19 +316,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code Release v0.26.9",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9",
-      "date": "2026-11-06T16:07:57Z",
-      "summary": "<! qwen release notes:v2 Highlights See the complete change list below. Breaking Changes No known breaking changes. Skill installation and activation Skill ZIP uploads, daemon APIs, TypeScript SDK support, bulk activation, and recovery protections make installing and managing Ski",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "can1357/oh-my-pi v18.17.0",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.17.0",
       "date": "2026-11-06T05:12:54Z",
@@ -391,19 +404,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Release v0.26.8",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.8",
-      "date": "2026-11-05T16:23:57Z",
-      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(mods): run prompt.submit hooks in the OpenTUI terminal ([ 16195](https://github.com/QwenLM/qwen code/pull/16195)) by @qqqys feat(",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
@@ -514,7 +514,7 @@
       "title": "Ask HN: What's your current AI agentic setup?",
       "url": "https://news.ycombinator.com/item?id=50366117",
       "date": "2026-11-04T14:37:22Z",
-      "summary": "564 points on Hacker News",
+      "summary": "568 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -670,7 +670,7 @@
       "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
       "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
       "date": "2026-11-02T16:25:26Z",
-      "summary": "325 points on Hacker News",
+      "summary": "327 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
