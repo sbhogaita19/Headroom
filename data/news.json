@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T22:25:44.867Z",
+  "generatedAt": "2026-11-10T07:24:31.011Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,84 @@
     }
   ],
   "items": [
+    {
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "date": "2026-11-10T05:34:14.000Z",
+      "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure,",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Yonkers Rises",
+      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+      "date": "2026-11-10T03:53:04.000Z",
+      "summary": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed it's location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Make a three js animat",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.322",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "date": "2026-11-10T02:29:43Z",
+      "summary": "What's changed Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "llm-anthropic 0.31",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "date": "2026-11-09T23:58:46.000Z",
+      "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! ",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "date": "2026-11-09T23:57:21.000Z",
+      "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was f",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.18.6",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.6",
+      "date": "2026-11-09T23:30:49Z",
+      "summary": "@oh my pi/pi catalog Fixed LiteLLM lists only the models the configured key can call (its authenticated /v1/models ), keeping the proxy's metadata for them; a proxy whose /v1/models fails now lists no models instead of every model it serves ([ 18601](https://github.com/can1357/oh",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.18.5",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.5",
@@ -130,6 +208,19 @@
       "tier": "author",
       "tags": [
         "open"
+      ]
+    },
+    {
+      "title": "Claude Fable 5.2 in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+      "date": "2026-11-09T16:46:43.000Z",
+      "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first on The GitHub Blog .",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
       ]
     },
     {
@@ -292,7 +383,7 @@
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "date": "2026-11-07T20:45:32Z",
-      "summary": "622 points on Hacker News",
+      "summary": "623 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -312,19 +403,6 @@
       "tier": "official",
       "tags": [
         "qwen"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.18.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.0",
-      "date": "2026-11-07T01:49:16Z",
-      "summary": "@oh my pi/pi catalog Fixed Fixed Mistral discovery listing embedding, OCR, moderation, transcription, and speech models as chat models; only rows with capabilities.completion chat are offered, with context, image input, and reasoning read from the row ([ 18244](https://github.com",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -540,7 +618,7 @@
       "title": "datasette-llm 0.1a10",
       "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
       "date": "2026-11-04T15:26:02.000Z",
-      "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm",
+      "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: llm , datasette",
       "kind": "post",
       "source": "Simon Willison",
       "sourceId": "rss-simon",
@@ -563,19 +641,6 @@
       ]
     },
     {
-      "title": "datasette-apps 0.3a0",
-      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
-      "date": "2026-11-04T00:29:36.000Z",
-      "summary": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent . This release improves that integration: Apps can now be ta",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.318",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
       "date": "2026-11-04T00:01:03Z",
@@ -589,32 +654,6 @@
       ]
     },
     {
-      "title": "datasette-agent 0.5a0",
-      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
-      "date": "2026-11-03T23:13:45.000Z",
-      "summary": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this me",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "llm 0.37.1",
-      "url": "https://simonwillison.net/2026/Nov/3/llm/",
-      "date": "2026-11-03T21:41:42.000Z",
-      "summary": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Gitbook Breached",
       "url": "https://news.ycombinator.com/item?id=50354336",
       "date": "2026-11-03T16:45:49Z",
@@ -623,19 +662,6 @@
       "source": "Hacker News",
       "sourceId": "hn-agents",
       "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "date": "2026-11-03T16:29:48.000Z",
-      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
       "tags": [
         "open"
       ]
@@ -710,19 +736,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
       "date": "2026-10-31T01:01:35Z",
       "summary": "What's changed Added CLAUDE CODE DISABLE ULTRATHINK , which turns the ultrathink keyword off Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with pooled budget on the spend limits admin",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.314",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-      "date": "2026-10-30T01:06:26Z",
-      "summary": "What's changed Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode Added an optional groups list to Claude apps gateway upstreams: only developers in the listed IdP groups are ",
       "kind": "release",
       "source": "Claude Code releases",
       "sourceId": "gh-claude-code",
