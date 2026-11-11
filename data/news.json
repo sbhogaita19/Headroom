@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T06:31:53.944Z",
+  "generatedAt": "2026-11-11T19:39:15.463Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "id": "gh-gemini-cli",
@@ -65,7 +65,7 @@
       "id": "rss-google",
       "name": "Google AI blog",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "id": "rss-ghchangelog",
@@ -93,6 +93,45 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.18.9",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.9",
+      "date": "2026-11-11T19:06:16Z",
+      "summary": "@oh my pi/pi agent core Added Tool calls get ctx.toolCall.earlierEffectsSettled , which settles once the earlier calls of their message that run beside them and may write files (their approval, asked with their arguments, is not read ) have finished; speculative results wait for ",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "date": "2026-11-11T18:00:00.000Z",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "kind": "post",
+      "source": "Google AI blog",
+      "sourceId": "rss-google",
+      "tier": "official",
+      "tags": [
+        "google"
+      ]
+    },
+    {
+      "title": "llm 0.37.2",
+      "url": "https://simonwillison.net/2026/Nov/11/llm/",
+      "date": "2026-11-11T17:19:52.000Z",
+      "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
       "url": "https://huggingface.co/blog/qvac/botpsy",
@@ -240,7 +279,7 @@
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "date": "2026-11-10T18:01:15Z",
-      "summary": "330 points on Hacker News",
+      "summary": "421 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -286,6 +325,19 @@
       "tier": "official",
       "tags": [
         "google"
+      ]
+    },
+    {
+      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "url": "https://openai.com/index/singapore-airlines-travel-work",
+      "date": "2026-11-10T08:00:00.000Z",
+      "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
       ]
     },
     {
@@ -358,19 +410,6 @@
       "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
       "date": "2026-11-09T23:58:46.000Z",
       "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! ",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Locating the source of a mysterious beep with Claude",
-      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-      "date": "2026-11-09T23:57:21.000Z",
-      "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was f",
       "kind": "post",
       "source": "Simon Willison",
       "sourceId": "rss-simon",
@@ -523,19 +562,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.18.3",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.3",
-      "date": "2026-11-09T03:59:10Z",
-      "summary": "@oh my pi/pi catalog Changed Added a balanced delegation bias between eager and restrained ; models without a delegation bias rule now resolve to it instead of eager @oh my pi/pi coding agent Breaking Changes The ask tool takes one HTML form ( { html } ) instead of questions[] : ",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.29",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.29",
       "date": "2026-11-09T02:08:10Z",
@@ -552,7 +578,7 @@
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "date": "2026-11-07T20:45:32Z",
-      "summary": "624 points on Hacker News",
+      "summary": "626 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -615,36 +641,10 @@
       ]
     },
     {
-      "title": "openai/codex 0.167.0",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
-      "date": "2026-11-06T01:40:00Z",
-      "summary": "New Features Open the agent command center with codex agents no daemon . The command center and session picker now mark unread results ( 58238, 58239, 58263, 58264). Switch between connected backends from the terminal session picker and keep your drafts when switching ( 58280, 58",
-      "kind": "release",
-      "source": "Codex CLI releases",
-      "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "Measuring how AI agents handle everyday wet-lab science",
       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
       "date": "2026-11-06T00:00:00.000Z",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "Cult.fit builds operational muscle with Codex",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "date": "2026-11-05T20:00:00.000Z",
-      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "kind": "post",
       "source": "OpenAI News",
       "sourceId": "rss-openai",
