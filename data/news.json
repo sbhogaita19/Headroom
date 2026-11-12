@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T19:39:15.463Z",
+  "generatedAt": "2026-11-12T07:16:42.961Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 1
+      "count": 2
     },
     {
       "id": "gh-gemini-cli",
@@ -94,6 +94,58 @@
   ],
   "items": [
     {
+      "title": "can1357/oh-my-pi v18.19.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.19.0",
+      "date": "2026-11-12T03:35:49Z",
+      "summary": "@oh my pi/pi ai Added Added the liquid systemone judgment API for Liquid AI decision models, including validation that rejects image sets exceeding Liquid’s 10,000 32×32 patch request limit before submission. Fixed Fixed Gemini CLI and Antigravity responses losing or misordering ",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "openai/codex 0.167.2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
+      "date": "2026-11-11T22:44:46Z",
+      "summary": "New Features Codex now sends tool updates incrementally by default on Google Cloud Vertex AI. To opt out, set incremental tools legacy gcp = false under [features] in config.toml . ([ 60617](https://github.com/openai/codex/pull/60617), [ 60848](https://github.com/openai/codex/pul",
+      "kind": "release",
+      "source": "Codex CLI releases",
+      "sourceId": "gh-codex",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "Gemini Decisions API",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "date": "2026-11-11T22:03:25.000Z",
+      "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/n",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "aws-emulator",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "date": "2026-11-11T21:18:30.000Z",
+      "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Sw",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "can1357/oh-my-pi v18.18.9",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.9",
       "date": "2026-11-11T19:06:16Z",
@@ -128,6 +180,19 @@
       "source": "Simon Willison",
       "sourceId": "rss-simon",
       "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "date": "2026-11-11T15:33:06Z",
+      "summary": "224 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
       "tags": [
         "open"
       ]
@@ -279,7 +344,7 @@
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "date": "2026-11-10T18:01:15Z",
-      "summary": "421 points on Hacker News",
+      "summary": "429 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -357,20 +422,7 @@
       "title": "Quoting Prompting Claude Fable 5.2",
       "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
       "date": "2026-11-10T05:34:14.000Z",
-      "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure,",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Yonkers Rises",
-      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
-      "date": "2026-11-10T03:53:04.000Z",
-      "summary": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Make a three js animati",
+      "summary": "Claude Fable 5.2 pays close attention to who owns the code it works on. In Anthropic’s testing on small coding tasks, the model tended to add to the existing structure when the prompt said nothing about ownership or presented the code base as someone else’s, even when that duplic",
       "kind": "post",
       "source": "Simon Willison",
       "sourceId": "rss-simon",
@@ -403,19 +455,6 @@
       "tier": "official",
       "tags": [
         "openai"
-      ]
-    },
-    {
-      "title": "llm-anthropic 0.31",
-      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-      "date": "2026-11-09T23:58:46.000Z",
-      "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! ",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -455,19 +494,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.18.4",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.4",
-      "date": "2026-11-09T18:57:58Z",
-      "summary": "@oh my pi/pi ai Added Added the base64SkipThoughtSignature compat flag so Gemini gateways that decode thoughtSignature as base64 (such as the Hyperspace AI LLM proxy) can receive the unsigned tool call bypass sentinel without rejecting the request with a 400 ([ 18586](https://git",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -755,19 +781,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
-      "url": "https://momentic.ai/",
-      "date": "2026-11-02T17:05:25Z",
-      "summary": "167 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
       ]
     },
     {
