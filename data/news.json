@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T19:59:00.117Z",
+  "generatedAt": "2026-11-13T06:50:50.026Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,110 @@
   ],
   "items": [
     {
+      "title": "openai/codex 0.168.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
+      "date": "2026-11-13T03:54:29Z",
+      "summary": "New Features Browse model providers under Sessions → Model providers and choose the default for new chats. ( 59541, 59722) Enable features.tui workspace to view a side conversation beside the main chat. Drag the divider to resize the panes or press leader z to zoom the focused pa",
+      "kind": "release",
+      "source": "Codex CLI releases",
+      "sourceId": "gh-codex",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.27.3",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.3",
+      "date": "2026-11-13T01:18:29Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at ddeba2fd3436d86780dc90cf621e46e67542656e What's Changed fix(ci): read prettier's whole ignore set at the base tip by @wenshao in https://github.com/QwenLM/qwen code/pull/16729 fix(cli,core): let an Agent Hos",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.33",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.33",
+      "date": "2026-11-13T01:14:28Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.27.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.27.3",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.3",
+      "date": "2026-11-13T00:24:34Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Added chips above the Web Shell composer for unfinished background workflows, shells, monitors, and local agents, replacing the status",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.20.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.20.0",
+      "date": "2026-11-12T23:40:30Z",
+      "summary": "@oh my pi/pi agent core Changed prepareCompaction() runs as the compaction.prepare loop phase, so a ui.loop blocked stall from a cold token walk over a long branch names compaction instead of \"unknown\" ([ 15027](https://github.com/can1357/oh my pi/issues/15027), [ 18867](https://",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "llm-gemini 0.37",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "date": "2026-11-12T22:55:19.000Z",
+      "summary": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Mod",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.323",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "date": "2026-11-12T22:12:13Z",
+      "summary": "What's changed Added Code Mode, an experimental opt in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code mode to turn it on, or to turn it off for an organization Added engines[\"claude code\"] to plugin.json : plugins outside their state",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "date": "2026-11-12T20:00:00.000Z",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
       "date": "2026-11-12T18:00:00.000Z",
@@ -104,6 +208,19 @@
       "tier": "official",
       "tags": [
         "google"
+      ]
+    },
+    {
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "date": "2026-11-12T12:00:00.000Z",
+      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
       ]
     },
     {
@@ -240,7 +357,7 @@
       "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
       "url": "https://github.com/FrigadeHQ/yogurt",
       "date": "2026-11-11T15:33:06Z",
-      "summary": "282 points on Hacker News",
+      "summary": "290 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -299,19 +416,6 @@
       "tier": "official",
       "tags": [
         "tools"
-      ]
-    },
-    {
-      "title": "openai/codex 0.167.1",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.1",
-      "date": "2026-11-10T21:32:01Z",
-      "summary": "Changelog Full Changelog: https://github.com/openai/codex/compare/rust v0.167.0...rust v0.167.1",
-      "kind": "release",
-      "source": "Codex CLI releases",
-      "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -409,7 +513,7 @@
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "date": "2026-11-10T18:01:15Z",
-      "summary": "434 points on Hacker News",
+      "summary": "436 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -461,7 +565,7 @@
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "date": "2026-11-10T10:18:22Z",
-      "summary": "604 points on Hacker News",
+      "summary": "665 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -488,19 +592,6 @@
       "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
       "date": "2026-11-10T07:28:21.000Z",
       "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat ",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Quoting Prompting Claude Fable 5.2",
-      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
-      "date": "2026-11-10T05:34:14.000Z",
-      "summary": "Claude Fable 5.2 pays close attention to who owns the code it works on. In Anthropic’s testing on small coding tasks, the model tended to add to the existing structure when the prompt said nothing about ownership or presented the code base as someone else’s, even when that duplic",
       "kind": "post",
       "source": "Simon Willison",
       "sourceId": "rss-simon",
@@ -549,19 +640,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.18.5",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.5",
-      "date": "2026-11-09T19:35:34Z",
-      "summary": "@oh my pi/pi catalog Added Added Claude Fable 5.2 and Claude Mythos 5.2 ($8/$40 per MTok, $0.20 cache reads, 1M context) Fixed Fixed newly discovered Anthropic Fable/Mythos models showing as text only, non reasoning, and mispriced before models.dev catalogs them Fixed Claude Myth",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.321",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
       "date": "2026-11-09T19:22:30Z",
@@ -588,75 +666,10 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.31",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.31",
-      "date": "2026-11-09T14:50:08Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.27.1 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.0 Source: CLI built from source (same branch/ref as SDK) See commit history for changes.",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.27.1",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.1",
-      "date": "2026-11-09T14:24:08Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at c2eccf7459c8d6d4b2a5df3733d2f3833153763b What's Changed docs(providers): document Wally under OpenAI compatible providers by @sanchitmonga22 in https://github.com/QwenLM/qwen code/pull/16529 fix(core): share",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code Release v0.27.1",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.1",
       "date": "2026-11-09T13:30:44Z",
       "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(core): name the active shell in the startup context ([ 16491](https://github.com/QwenLM/qwen code/pull/16491)) by @2SinceJuly fea",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "url": "https://openai.com/index/control-room",
-      "date": "2026-11-09T13:00:00.000Z",
-      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "url": "https://openai.com/index/coderabbit-codex-daybreak",
-      "date": "2026-11-09T08:00:00.000Z",
-      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.29",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.29",
-      "date": "2026-11-09T02:08:10Z",
-      "summary": "Backfilled release for npm published version 0.1.29 (original workflow run 42249484215 failed at the release branch push step after npm publish succeeded; see 16490). Bundled CLI Version This SDK release bundles CLI version: 0.26.9 Source: CLI built from source (same branch/ref a",
       "kind": "release",
       "source": "Qwen Code releases",
       "sourceId": "gh-qwen-code",
@@ -833,19 +846,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.316",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
-      "date": "2026-10-31T01:01:35Z",
-      "summary": "What's changed Added CLAUDE CODE DISABLE ULTRATHINK , which turns the ultrathink keyword off Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with pooled budget on the spend limits admin",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
       ]
     },
     {
