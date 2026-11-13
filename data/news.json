@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T06:50:50.026Z",
+  "generatedAt": "2026-11-13T19:46:44.357Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "id": "gh-gemini-cli",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,58 @@
     }
   ],
   "items": [
+    {
+      "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "date": "2026-11-13T18:27:13.000Z",
+      "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This… The post GitHub Enterprise Server support in the GitHub Copilot app appeared first on The GitHub Bl",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Gemini 4 Hydrogen in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "date": "2026-11-13T18:23:48.000Z",
+      "summary": "Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction… The post Gemini 4 Hydrogen in GitHub Copilot appeared first on The GitHub",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "date": "2026-11-13T15:00:00.000Z",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "openai/codex 0.169.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+      "date": "2026-11-13T08:37:05Z",
+      "summary": "New Features The opt in terminal workspace supports multiple side chat tabs. Switch between them with the keyboard or mouse, and reopen saved local side chats after restarting Codex. ( 59784, 60152, 60181) Search older tasks from the agent command center by name, prompt preview, ",
+      "kind": "release",
+      "source": "Codex CLI releases",
+      "sourceId": "gh-codex",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
     {
       "title": "openai/codex 0.168.0",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
@@ -357,7 +409,7 @@
       "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
       "url": "https://github.com/FrigadeHQ/yogurt",
       "date": "2026-11-11T15:33:06Z",
-      "summary": "290 points on Hacker News",
+      "summary": "296 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -513,7 +565,7 @@
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "date": "2026-11-10T18:01:15Z",
-      "summary": "436 points on Hacker News",
+      "summary": "442 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -565,7 +617,7 @@
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "date": "2026-11-10T10:18:22Z",
-      "summary": "665 points on Hacker News",
+      "summary": "693 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -614,19 +666,6 @@
       ]
     },
     {
-      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-      "url": "https://openai.com/index/cogent-security",
-      "date": "2026-11-10T00:00:00.000Z",
-      "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "can1357/oh-my-pi v18.18.6",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.6",
       "date": "2026-11-09T23:30:49Z",
@@ -650,19 +689,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "Claude Fable 5.2 in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
-      "date": "2026-11-09T16:46:43.000Z",
-      "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first on The GitHub Blog .",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -774,7 +800,7 @@
       "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
       "url": "https://www.ricursive.com/ripple",
       "date": "2026-11-04T18:53:29Z",
-      "summary": "341 points on Hacker News",
+      "summary": "342 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -959,45 +985,6 @@
       "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "date": "2026-10-02T04:01:31.000Z",
-      "summary": "",
-      "kind": "post",
-      "source": "Hugging Face blog",
-      "sourceId": "rss-hf",
-      "tier": "official",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "ogulcancelik/herdr v0.9.3",
-      "url": "https://github.com/herdrdev/herdr/releases/tag/v0.9.3",
-      "date": "2026-09-29T19:29:23Z",
-      "summary": "This is a hotfix release for v0.9.2. See the v0.9.2 notes for the full feature release: https://github.com/herdrdev/herdr/releases/tag/v0.9.2 Fixed Terminal shortcuts that send Escape followed by a key work again in panes. On macOS, Option+Left/Right and Option+Backspace from Gho",
-      "kind": "release",
-      "source": "herdr releases",
-      "sourceId": "gh-herdr",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "ogulcancelik/herdr v0.9.2",
-      "url": "https://github.com/herdrdev/herdr/releases/tag/v0.9.2",
-      "date": "2026-09-29T13:19:42Z",
-      "summary": "Breaking Changes The Herdr specific pane graphics API is gone. pane.graphics.info , set , clear , and stream now return unknown method . Apps show images by writing standard Kitty graphics to their terminal, which Herdr renders natively. ( 4561) Added Agents can report their own ",
-      "kind": "release",
-      "source": "herdr releases",
-      "sourceId": "gh-herdr",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "date": "2026-09-29T13:07:00.000Z",
       "summary": "",
       "kind": "post",
       "source": "Hugging Face blog",
