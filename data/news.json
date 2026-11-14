@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:09:55.048Z",
+  "generatedAt": "2026-11-14T22:29:20.227Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,19 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.20.2",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.20.2",
+      "date": "2026-11-14T20:08:51Z",
+      "summary": "@oh my pi/pi ai Added Added the Antigravity CLI ACP provider with managed installation, Google sign in, refreshable distributed credentials, host tools, and retained conversations across tool steps and history changes. @oh my pi/pi catalog Added Added Antigravity CLI models for G",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.20.1",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.20.1",
@@ -475,7 +488,7 @@
       "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
       "url": "https://github.com/FrigadeHQ/yogurt",
       "date": "2026-11-11T15:33:06Z",
-      "summary": "301 points on Hacker News",
+      "summary": "303 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -547,19 +560,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.18.7",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.7",
-      "date": "2026-11-10T20:23:32Z",
-      "summary": "@oh my pi/pi ai Added LiteLLM usage adapter ( @oh my pi/pi ai/usage/litellm ) reporting a gateway's key and user USD budgets ([ 17873](https://github.com/can1357/oh my pi/pull/17873) by [@maykonmichel](https://github.com/maykonmichel)) UsageApi.replaceConfiguredProviders register",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -670,7 +670,7 @@
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "date": "2026-11-10T10:18:22Z",
-      "summary": "707 points on Hacker News",
+      "summary": "708 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
