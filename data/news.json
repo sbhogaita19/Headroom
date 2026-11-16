@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T18:54:04.590Z",
+  "generatedAt": "2026-11-16T06:37:04.531Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "id": "gh-gemini-cli",
@@ -94,6 +94,45 @@
   ],
   "items": [
     {
+      "title": "can1357/oh-my-pi v18.20.3",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.20.3",
+      "date": "2026-11-16T01:38:21Z",
+      "summary": "@oh my pi/pi ai Breaking Changes Removed the public isXdDevicePath export from providers/cursor pi args . Ranged reads of xd:// documents now use the standard line selector behavior. Fixed Fixed rate limit handling for Mistral and other OpenAI compatible providers so requests wit",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "date": "2026-11-15T23:20:27.000Z",
+      "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this ",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "date": "2026-11-15T22:00:01.000Z",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.34",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.34",
       "date": "2026-11-15T08:54:48Z",
@@ -130,6 +169,32 @@
       "tier": "official",
       "tags": [
         "qwen"
+      ]
+    },
+    {
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "date": "2026-11-15T04:02:45.000Z",
+      "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "date": "2026-11-15T03:49:47.000Z",
+      "summary": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and querie",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
       ]
     },
     {
@@ -446,49 +511,10 @@
       ]
     },
     {
-      "title": "Supporting research on AI and children’s safety",
-      "url": "https://openai.com/index/children-first-declaration",
-      "date": "2026-11-12T00:00:00.000Z",
-      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "openai/codex 0.167.2",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
-      "date": "2026-11-11T22:44:46Z",
-      "summary": "New Features Codex now sends tool updates incrementally by default on Google Cloud Vertex AI. To opt out, set incremental tools legacy gcp = false under [features] in config.toml . ([ 60617](https://github.com/openai/codex/pull/60617), [ 60848](https://github.com/openai/codex/pul",
-      "kind": "release",
-      "source": "Codex CLI releases",
-      "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "Gemini Decisions API",
       "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
       "date": "2026-11-11T22:03:25.000Z",
       "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/n",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "aws-emulator",
-      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
-      "date": "2026-11-11T21:18:30.000Z",
-      "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Sw",
       "kind": "post",
       "source": "Simon Willison",
       "sourceId": "rss-simon",
@@ -524,19 +550,6 @@
       ]
     },
     {
-      "title": "llm 0.37.2",
-      "url": "https://simonwillison.net/2026/Nov/11/llm/",
-      "date": "2026-11-11T17:19:52.000Z",
-      "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "mattpocock/skills: software-factory: \"job\" is the CI vendor's word; explore leaves findings",
       "url": "https://github.com/mattpocock/skills/commit/d18183fe9d96e1240105a8534e53591e9b49afd7",
       "date": "2026-11-11T14:40:16Z",
@@ -558,19 +571,6 @@
       "source": "Hugging Face blog",
       "sourceId": "rss-hf",
       "tier": "official",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.18.8",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.8",
-      "date": "2026-11-11T03:31:40Z",
-      "summary": "@oh my pi/pi ai Fixed Fixed concurrent OAuth requests rejected as claude code version too old failing instead of retrying with the required version ([ 18651](https://github.com/can1357/oh my pi/issues/18651)) Chat Completions gateway requests preserve explicit tool strict mode ch",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
       "tags": [
         "open"
       ]
@@ -599,19 +599,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "llm-gemini 0.36",
-      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
-      "date": "2026-11-10T20:09:44.000Z",
-      "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -683,7 +670,7 @@
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "date": "2026-11-10T10:18:22Z",
-      "summary": "712 points on Hacker News",
+      "summary": "714 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -722,7 +709,7 @@
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "date": "2026-11-07T20:45:32Z",
-      "summary": "626 points on Hacker News",
+      "summary": "627 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -972,19 +959,6 @@
       "title": "The Agent Said It Was Done. The Database Disagreed.",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox",
       "date": "2026-10-03T22:56:48.000Z",
-      "summary": "",
-      "kind": "post",
-      "source": "Hugging Face blog",
-      "sourceId": "rss-hf",
-      "tier": "official",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "date": "2026-10-02T04:01:31.000Z",
       "summary": "",
       "kind": "post",
       "source": "Hugging Face blog",
