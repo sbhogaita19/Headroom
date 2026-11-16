@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T06:37:04.531Z",
+  "generatedAt": "2026-11-16T16:53:24.771Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,72 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v18.21.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.21.0",
+      "date": "2026-11-16T15:27:57Z",
+      "summary": "@oh my pi/pi ai Added Added automatic detection of thinking capabilities for previously unknown models, with persistent results and support for alternate effort and token budget request formats. @oh my pi/pi catalog Added Added Modal as a hosted inference provider. Changed Change",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Take GitHub Mobile with you on iPhone Duo",
+      "url": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
+      "date": "2026-11-16T14:30:07.000Z",
+      "summary": "GitHub Mobile now supports iPhone Duo, with a layout that adapts when unfolded and vertical tabs to help you move between key areas like Copilot, Pull Requests, Issues, and Notifications.… The post Take GitHub Mobile with you on iPhone Duo appeared first on The GitHub Blog .",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "anthropics/skills: Update docx, pptx and xlsx skills: zipfile unpack, zip -y, validate.py and soffice.py fixes (#2221)",
+      "url": "https://github.com/anthropics/skills/commit/e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "date": "2026-11-16T14:22:47Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "anthropics/skills commits",
+      "sourceId": "gh-anth-skills",
+      "tier": "official",
+      "tags": [
+        "claude",
+        "open"
+      ]
+    },
+    {
+      "title": "Advancing computer-use agents for healthcare teams",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "date": "2026-11-16T06:00:00.000Z",
+      "summary": "",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "date": "2026-11-16T06:00:00.000Z",
+      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
     {
       "title": "can1357/oh-my-pi v18.20.3",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.20.3",
@@ -459,32 +525,6 @@
       ]
     },
     {
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "url": "https://openai.com/business/customer-stories/gondola",
-      "date": "2026-11-12T12:00:00.000Z",
-      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "date": "2026-11-12T09:30:00.000Z",
-      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "mattpocock/skills: Merge pull request #1416 from mattpocock/software-factory-task-wording",
       "url": "https://github.com/mattpocock/skills/commit/5863806dd4e15c63174bee4e7515a4256792ecfa",
       "date": "2026-11-12T08:42:38Z",
@@ -524,19 +564,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.18.9",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.9",
-      "date": "2026-11-11T19:06:16Z",
-      "summary": "@oh my pi/pi agent core Added Tool calls get ctx.toolCall.earlierEffectsSettled , which settles once the earlier calls of their message that run beside them and may write files (their approval, asked with their arguments, is not read ) have finished; speculative results wait for ",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
       "date": "2026-11-11T18:00:00.000Z",
@@ -547,6 +574,19 @@
       "tier": "official",
       "tags": [
         "google"
+      ]
+    },
+    {
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "date": "2026-11-11T15:33:06Z",
+      "summary": "305 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
       ]
     },
     {
@@ -576,19 +616,6 @@
       ]
     },
     {
-      "title": "GitHub App support for Enterprise Copilot seat management",
-      "url": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
-      "date": "2026-11-11T00:10:31.000Z",
-      "summary": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible… The post GitHub App support for Enterprise Copilot seat management appear",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "google-gemini/gemini-cli Release v0.68.0",
       "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0",
       "date": "2026-11-10T21:17:07Z",
@@ -599,19 +626,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "Gemini 4 Carbon in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
-      "date": "2026-11-10T19:26:51.000Z",
-      "summary": "Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation… The post Gemini 4 Carbon in GitHub Copilot appeared first on The GitHub Blog .",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -631,7 +645,7 @@
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "date": "2026-11-10T18:01:15Z",
-      "summary": "447 points on Hacker News",
+      "summary": "448 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -670,7 +684,7 @@
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "date": "2026-11-10T10:18:22Z",
-      "summary": "714 points on Hacker News",
+      "summary": "716 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -837,19 +851,6 @@
       ]
     },
     {
-      "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
-      "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
-      "date": "2026-11-02T16:25:26Z",
-      "summary": "328 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "mattpocock/skills: software-factory: glossary skill for designing a factory (#1316)",
       "url": "https://github.com/mattpocock/skills/commit/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
       "date": "2026-10-31T14:23:30Z",
@@ -938,20 +939,6 @@
       "sourceId": "gh-herdr",
       "tier": "author",
       "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "anthropics/skills: Update claude-api skill: dynamic workflows and the four workflow quickstarts (#1995)",
-      "url": "https://github.com/anthropics/skills/commit/dbd4588f9e1033efb41dad4bef2f7947c8993d44",
-      "date": "2026-10-09T18:45:49Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "anthropics/skills commits",
-      "sourceId": "gh-anth-skills",
-      "tier": "official",
-      "tags": [
-        "claude",
         "open"
       ]
     },
