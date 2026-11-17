@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T07:59:05.259Z",
+  "generatedAt": "2026-11-17T20:59:12.476Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,149 @@
   ],
   "items": [
     {
+      "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
+      "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
+      "date": "2026-11-17T20:20:29.000Z",
+      "summary": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6… The post OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available appeared first on The",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
+      "date": "2026-11-17T18:04:48.000Z",
+      "summary": "Today, we’re expanding GitHub Copilot Fusion with new models, available on more Copilot surfaces, and results on two public Terminal-Bench leaderboards, giving you more ways to use Fusion and compare… The post GitHub Copilot Fusion updates: more availability, benchmarks, and mode",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "GitHub Copilot app, Microsoft Ignite releases",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+      "date": "2026-11-17T18:03:42.000Z",
+      "summary": "Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re… The post GitHub Copilot app, Microsoft Ignite releases appeared first on The GitHub Blog .",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Copilot code review: Adaptive effort, secret detection, and more",
+      "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
+      "date": "2026-11-17T18:02:05.000Z",
+      "summary": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and… The post Copilot code review: Adaptive effort, secret detection, and more appeared first on The GitHu",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
+      "date": "2026-11-17T18:01:45.000Z",
+      "summary": "The next generation of Microsoft AI (MAI) coding models has arrived in GitHub Copilot. Introducing MAI Code 2 and MAI Code 2 Flash, two new models that represent a major… The post MAI Code 2 and MAI Code 2 Flash in GitHub Copilot appeared first on The GitHub Blog .",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "GitHub Copilot in JetBrains, Ignite releases",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases",
+      "date": "2026-11-17T18:00:59.000Z",
+      "summary": "This update brings remote access, on-device voice dictation, and browser use controls to GitHub Copilot for JetBrains. Copilot users in JetBrains IDEs also get context usage shortcuts, historical diffs, simpler… The post GitHub Copilot in JetBrains, Ignite releases appeared first",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "date": "2026-11-17T17:45:00.000Z",
+      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "date": "2026-11-17T17:00:00.000Z",
+      "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+      "kind": "post",
+      "source": "Google AI blog",
+      "sourceId": "rss-google",
+      "tier": "official",
+      "tags": [
+        "google"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.28.0",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.0",
+      "date": "2026-11-17T12:31:07Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at 895dfca8ff125ac0e16372edacd4653322c02147 What's Changed feat(web shell): add sidebar workspace filter by @callmeYe in https://github.com/QwenLM/qwen code/pull/17244 feat(managed agent): add the DingTalk adap",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.35",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.35",
+      "date": "2026-11-17T12:07:45Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.28.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.4 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.28.0",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.0",
+      "date": "2026-11-17T11:17:50Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(web shell): add sidebar workspace filter ([ 17244](https://github.com/QwenLM/qwen code/pull/17244)) by @callmeYe feat(managed age",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
       "title": "llm 0.37.3",
       "url": "https://simonwillison.net/2026/Nov/16/llm/",
       "date": "2026-11-16T23:57:26.000Z",
@@ -107,10 +250,10 @@
       ]
     },
     {
-      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
       "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
       "date": "2026-11-16T22:58:20Z",
-      "summary": "530 points on Hacker News",
+      "summary": "699 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -143,58 +286,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "GitHub Copilot weekly releases — November 9",
-      "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
-      "date": "2026-11-16T21:34:53.000Z",
-      "summary": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude… The post GitHub Copilot weekly releases — November 9 appeared first on The GitHub Blog .",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
-      "title": "GitHub Copilot models deprecated on November 16, 2026",
-      "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
-      "date": "2026-11-16T20:25:20.000Z",
-      "summary": "As of today, November 16, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note… The post GitHub Copilot models deprecated on November 16, 2026 appeared first on",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
-      "title": "Control where GitHub Copilot customizations come from",
-      "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
-      "date": "2026-11-16T19:48:33.000Z",
-      "summary": "As an enterprise administrator, you can now require selected GitHub Copilot customizations to come from plugins or managed settings, rather than standalone user or project configuration. Combined with marketplace restrictions,… The post Control where GitHub Copilot customizations",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
-      "title": "VS Code retires the Local harness in February 2027",
-      "url": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
-      "date": "2026-11-16T19:22:56.000Z",
-      "summary": "Visual Studio Code 1.146 deprecates the Local harness, the older software that coordinates the model, context, and tools for GitHub Copilot agent sessions in the editor. The Local harness will… The post VS Code retires the Local harness in February 2027 appeared first on The GitH",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -237,19 +328,6 @@
       ]
     },
     {
-      "title": "Take GitHub Mobile with you on iPhone Duo",
-      "url": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
-      "date": "2026-11-16T14:30:07.000Z",
-      "summary": "GitHub Mobile now supports iPhone Duo, with a layout that adapts when unfolded and vertical tabs to help you move between key areas like Copilot, Pull Requests, Issues, and Notifications.… The post Take GitHub Mobile with you on iPhone Duo appeared first on The GitHub Blog .",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "anthropics/skills: Update docx, pptx and xlsx skills: zipfile unpack, zip -y, validate.py and soffice.py fixes (#2221)",
       "url": "https://github.com/anthropics/skills/commit/e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
       "date": "2026-11-16T14:22:47Z",
@@ -281,19 +359,6 @@
       "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
       "date": "2026-11-16T08:00:00.000Z",
       "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "date": "2026-11-16T06:00:00.000Z",
-      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
       "kind": "post",
       "source": "OpenAI News",
       "sourceId": "rss-openai",
@@ -460,19 +525,6 @@
       ]
     },
     {
-      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
-      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
-      "date": "2026-11-13T20:40:05.000Z",
-      "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in December",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.325",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
       "date": "2026-11-13T20:40:01Z",
@@ -496,45 +548,6 @@
       "tier": "official",
       "tags": [
         "openai"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.27.3",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.3",
-      "date": "2026-11-13T01:18:29Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at ddeba2fd3436d86780dc90cf621e46e67542656e What's Changed fix(ci): read prettier's whole ignore set at the base tip by @wenshao in https://github.com/QwenLM/qwen code/pull/16729 fix(cli,core): let an Agent Hos",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.33",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.33",
-      "date": "2026-11-13T01:14:28Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.27.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.2 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Release v0.27.3",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.3",
-      "date": "2026-11-13T00:24:34Z",
-      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features Added chips above the Web Shell composer for unfinished background workflows, shells, monitors, and local agents, replacing the status",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
@@ -710,7 +723,7 @@
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "date": "2026-11-10T10:18:22Z",
-      "summary": "719 points on Hacker News",
+      "summary": "721 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -749,7 +762,7 @@
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "date": "2026-11-07T20:45:32Z",
-      "summary": "627 points on Hacker News",
+      "summary": "628 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -783,19 +796,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "date": "2026-11-05T17:00:00.000Z",
-      "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
-      "kind": "post",
-      "source": "Google AI blog",
-      "sourceId": "rss-google",
-      "tier": "official",
-      "tags": [
-        "google"
       ]
     },
     {
