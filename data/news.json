@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T22:10:06.201Z",
+  "generatedAt": "2026-11-17T07:59:05.259Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "id": "gh-gemini-cli",
@@ -94,6 +94,45 @@
   ],
   "items": [
     {
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "date": "2026-11-16T23:57:26.000Z",
+      "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: ",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "date": "2026-11-16T22:58:20Z",
+      "summary": "530 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.326",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+      "date": "2026-11-16T22:11:05Z",
+      "summary": "What's changed Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode Added a startup warning when an allowedTools , disallowedTools or tools value has an entry that doesn't look like a comp",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
       "title": "can1357/oh-my-pi v18.22.0",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.22.0",
       "date": "2026-11-16T21:54:22Z",
@@ -124,6 +163,32 @@
       "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
       "date": "2026-11-16T20:25:20.000Z",
       "summary": "As of today, November 16, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note… The post GitHub Copilot models deprecated on November 16, 2026 appeared first on",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Control where GitHub Copilot customizations come from",
+      "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+      "date": "2026-11-16T19:48:33.000Z",
+      "summary": "As an enterprise administrator, you can now require selected GitHub Copilot customizations to come from plugins or managed settings, rather than standalone user or project configuration. Combined with marketplace restrictions,… The post Control where GitHub Copilot customizations",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "VS Code retires the Local harness in February 2027",
+      "url": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
+      "date": "2026-11-16T19:22:56.000Z",
+      "summary": "Visual Studio Code 1.146 deprecates the Local harness, the older software that coordinates the model, context, and tools for GitHub Copilot agent sessions in the editor. The Local harness will… The post VS Code retires the Local harness in February 2027 appeared first on The GitH",
       "kind": "post",
       "source": "GitHub Changelog",
       "sourceId": "rss-ghchangelog",
@@ -199,6 +264,19 @@
       ]
     },
     {
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "date": "2026-11-16T09:30:00.000Z",
+      "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "title": "Our first phase of embedded assessments",
       "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
       "date": "2026-11-16T08:00:00.000Z",
@@ -212,10 +290,10 @@
       ]
     },
     {
-      "title": "Advancing computer-use agents for healthcare teams",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "date": "2026-11-16T06:00:00.000Z",
-      "summary": "",
+      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
       "kind": "post",
       "source": "OpenAI News",
       "sourceId": "rss-openai",
@@ -225,10 +303,10 @@
       ]
     },
     {
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
       "date": "2026-11-16T06:00:00.000Z",
-      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "summary": "",
       "kind": "post",
       "source": "OpenAI News",
       "sourceId": "rss-openai",
@@ -261,19 +339,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "A step toward defining the Standard Model on a lattice",
-      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-      "date": "2026-11-15T22:00:01.000Z",
-      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -421,49 +486,10 @@
       ]
     },
     {
-      "title": "GitHub Enterprise Server support in the GitHub Copilot app",
-      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
-      "date": "2026-11-13T18:27:13.000Z",
-      "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This… The post GitHub Enterprise Server support in the GitHub Copilot app appeared first on The GitHub Bl",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
-      "title": "Gemini 4 Hydrogen in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
-      "date": "2026-11-13T18:23:48.000Z",
-      "summary": "Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction… The post Gemini 4 Hydrogen in GitHub Copilot appeared first on The GitHub",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "openai/codex 0.169.0",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
       "date": "2026-11-13T08:37:05Z",
       "summary": "New Features The opt in terminal workspace supports multiple side chat tabs. Switch between them with the keyboard or mouse, and reopen saved local side chats after restarting Codex. ( 59784, 60152, 60181) Search older tasks from the agent command center by name, prompt preview, ",
-      "kind": "release",
-      "source": "Codex CLI releases",
-      "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "openai/codex 0.168.0",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
-      "date": "2026-11-13T03:54:29Z",
-      "summary": "New Features Browse model providers under Sessions → Model providers and choose the default for new chats. ( 59541, 59722) Enable features.tui workspace to view a side conversation beside the main chat. Drag the divider to resize the panes or press leader z to zoom the focused pa",
       "kind": "release",
       "source": "Codex CLI releases",
       "sourceId": "gh-codex",
@@ -577,19 +603,6 @@
       ]
     },
     {
-      "title": "Gemini Decisions API",
-      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
-      "date": "2026-11-11T22:03:25.000Z",
-      "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/n",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
       "date": "2026-11-11T18:00:00.000Z",
@@ -600,19 +613,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
-      "url": "https://github.com/FrigadeHQ/yogurt",
-      "date": "2026-11-11T15:33:06Z",
-      "summary": "305 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -710,7 +710,7 @@
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "date": "2026-11-10T10:18:22Z",
-      "summary": "718 points on Hacker News",
+      "summary": "719 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -861,19 +861,6 @@
       "tier": "lead",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.318",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
-      "date": "2026-11-04T00:01:03Z",
-      "summary": "What's changed Added a record of your answer when Claude Code asks to turn on the mods it writes in a session Added assume role on mantle upstreams of the Claude apps gateway, for a role in another AWS account and for per developer AWS cost attribution Added an effort option to a",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
       ]
     },
     {
