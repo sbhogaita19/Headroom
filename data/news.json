@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T20:59:12.476Z",
+  "generatedAt": "2026-11-18T07:35:13.809Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 1
+      "count": 2
     },
     {
       "id": "gh-gemini-cli",
@@ -93,6 +93,97 @@
     }
   ],
   "items": [
+    {
+      "title": "openai/codex 0.170.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+      "date": "2026-11-18T03:40:48Z",
+      "summary": "New Features Added WebRTC negotiation for realtime voice calls in the TUI. ( 61172) Added automatically refreshed authentication headers for OpenTelemetry HTTP exporters. ( 61028) Added experimental support for using identically named MCP servers across environments. ( 60905) Bug",
+      "kind": "release",
+      "source": "Codex CLI releases",
+      "sourceId": "gh-codex",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.22.2",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.22.2",
+      "date": "2026-11-18T01:19:59Z",
+      "summary": "@oh my pi/pi ai Added Added the native Kiro provider: sign in with AWS IAM Identity Center, AWS Builder ID, Google, GitHub, or a Kiro API key ( KIRO API KEY ), stream responses with reasoning, tool calls, and images, and report Kiro credits in /usage ([ 18955](https://github.com/",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.327",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+      "date": "2026-11-17T23:17:45Z",
+      "summary": "What's changed Added a confirmation before /install github app changes a repository Added claude mcp add json <name to read the server's JSON from stdin, so tokens can stay off the command line; not available inside a Claude Code session Added a line when a resumed session's earl",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "External sandboxes for coding agents",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "date": "2026-11-17T22:52:29.000Z",
+      "summary": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "date": "2026-11-17T22:38:52.000Z",
+      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with supp",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "openai/codex 0.169.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.1",
+      "date": "2026-11-17T22:21:10Z",
+      "summary": "Chores No verified release highlights available. Changelog Full Changelog: https://github.com/openai/codex/compare/rust v0.169.0...rust v0.169.1",
+      "kind": "release",
+      "source": "Codex CLI releases",
+      "sourceId": "gh-codex",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v18.22.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.22.1",
+      "date": "2026-11-17T21:05:23Z",
+      "summary": "@oh my pi/pi agent core Added A model on an extension's custom api can take the Anthropic on demand compaction lane by declaring remoteCompaction: { api: \"anthropic messages\", enabled: true } ; the request goes through its own stream like any turn ([ 19580](https://github.com/can",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
       "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
@@ -253,7 +344,7 @@
       "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
       "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
       "date": "2026-11-16T22:58:20Z",
-      "summary": "699 points on Hacker News",
+      "summary": "718 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -368,10 +459,10 @@
       ]
     },
     {
-      "title": "Advancing computer-use agents for healthcare teams",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "date": "2026-11-16T06:00:00.000Z",
-      "summary": "",
+      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
       "kind": "post",
       "source": "OpenAI News",
       "sourceId": "rss-openai",
@@ -472,36 +563,10 @@
       ]
     },
     {
-      "title": "datasette-llm 0.1a11",
-      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-      "date": "2026-11-14T23:59:28.000Z",
-      "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that t",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "can1357/oh-my-pi v18.20.2",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.20.2",
       "date": "2026-11-14T20:08:51Z",
       "summary": "@oh my pi/pi ai Added Added the Antigravity CLI ACP provider with managed installation, Google sign in, refreshable distributed credentials, host tools, and retained conversations across tool steps and history changes. @oh my pi/pi catalog Added Added Antigravity CLI models for G",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.20.1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.20.1",
-      "date": "2026-11-14T17:29:17Z",
-      "summary": "@oh my pi/pi agent core Fixed Corrected context cost estimates for requests that omit reasoning history, so billing estimates now include thinking text only when it is sent or reconstructed for a tool call. @oh my pi/pi ai Added Added setUnpausedProviders() to @oh my pi/pi ai/oau",
       "kind": "release",
       "source": "omp releases",
       "sourceId": "gh-omp",
@@ -535,45 +600,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "openai/codex 0.169.0",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
-      "date": "2026-11-13T08:37:05Z",
-      "summary": "New Features The opt in terminal workspace supports multiple side chat tabs. Switch between them with the keyboard or mouse, and reopen saved local side chats after restarting Codex. ( 59784, 60152, 60181) Search older tasks from the agent command center by name, prompt preview, ",
-      "kind": "release",
-      "source": "Codex CLI releases",
-      "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.20.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.20.0",
-      "date": "2026-11-12T23:40:30Z",
-      "summary": "@oh my pi/pi agent core Changed prepareCompaction() runs as the compaction.prepare loop phase, so a ui.loop blocked stall from a cold token walk over a long branch names compaction instead of \"unknown\" ([ 15027](https://github.com/can1357/oh my pi/issues/15027), [ 18867](https://",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "llm-gemini 0.37",
-      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
-      "date": "2026-11-12T22:55:19.000Z",
-      "summary": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Mod",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -786,19 +812,6 @@
       ]
     },
     {
-      "title": "anthropics/claude-code v2.1.319",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
-      "date": "2026-11-06T17:04:01Z",
-      "summary": "What's changed Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked about or denied, with no fallback to the built in classifier; set CLAUDE CODE AUTO MODE SERVER=0 to keep using it (Bedrock, Vertex and Found",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
       "title": "google-gemini/gemini-cli Release v0.67.0",
       "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0",
       "date": "2026-11-04T20:27:11Z",
@@ -951,19 +964,6 @@
       "source": "herdr releases",
       "sourceId": "gh-herdr",
       "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "date": "2026-10-03T22:56:48.000Z",
-      "summary": "",
-      "kind": "post",
-      "source": "Hugging Face blog",
-      "sourceId": "rss-hf",
-      "tier": "official",
       "tags": [
         "open"
       ]
