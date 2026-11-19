@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T20:36:54.969Z",
+  "generatedAt": "2026-11-19T07:31:24.920Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -17,7 +17,7 @@
       "id": "gh-gemini-cli",
       "name": "Gemini CLI releases",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "id": "gh-qwen-code",
@@ -94,6 +94,97 @@
   ],
   "items": [
     {
+      "title": "google-gemini/gemini-cli Release v0.69.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0",
+      "date": "2026-11-19T01:45:47Z",
+      "summary": "What's Changed fix(core,cli): preserve literal $ characters during template placeholder replacement by @jesussamuel byte in https://github.com/google gemini/gemini cli/pull/30136 feat(cli): add /stats heatmap subcommand for daily token usage by @jvargassanchez dot in https://gith",
+      "kind": "release",
+      "source": "Gemini CLI releases",
+      "sourceId": "gh-gemini-cli",
+      "tier": "official",
+      "tags": [
+        "google"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.328",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+      "date": "2026-11-19T01:14:04Z",
+      "summary": "What's changed Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permission mode start in it Added \"onFailure\": \"block\" for mcp tool hooks, as for command an",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v19.0.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v19.0.0",
+      "date": "2026-11-19T00:02:14Z",
+      "summary": "@oh my pi/pi agent core Added Added support for excluding custom messages from model context and compaction or branch summaries, while allowing queued steering and follow up messages to continue correctly after excluded messages. @oh my pi/pi ai Added Added a prewarm stream optio",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Wait for pull request events with GitHub CLI",
+      "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
+      "date": "2026-11-19T00:00:13.000Z",
+      "summary": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it… The post Wait for pull request events with GitHub CLI appeared first on The GitHub Blog .",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "llm-gemini 0.38",
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "date": "2026-11-18T23:59:20.000Z",
+      "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the ",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+      "date": "2026-11-18T22:04:50.000Z",
+      "summary": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like… The post Connect Supabase, Box, Calendly, and more to Copilot appeared first on The Git",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Gemini 4 Neon in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+      "date": "2026-11-18T21:49:21.000Z",
+      "summary": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality… The post Gemini 4 Neon in GitHub Copilot appeared first on The GitHub Blog .",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
       "title": "The Gemini app is now available on lower-memory Android devices.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
       "date": "2026-11-18T17:00:00.000Z",
@@ -130,6 +221,19 @@
       "tier": "author",
       "tags": [
         "open"
+      ]
+    },
+    {
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "date": "2026-11-18T08:00:00.000Z",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
       ]
     },
     {
@@ -253,7 +357,7 @@
       "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
       "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
       "date": "2026-11-17T21:16:12Z",
-      "summary": "309 points on Hacker News",
+      "summary": "320 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -293,45 +397,6 @@
       "url": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
       "date": "2026-11-17T18:04:48.000Z",
       "summary": "Today, we’re expanding GitHub Copilot Fusion with new models, available on more Copilot surfaces, and results on two public Terminal-Bench leaderboards, giving you more ways to use Fusion and compare… The post GitHub Copilot Fusion updates: more availability, benchmarks, and mode",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
-      "title": "GitHub Copilot app, Microsoft Ignite releases",
-      "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
-      "date": "2026-11-17T18:03:42.000Z",
-      "summary": "Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re… The post GitHub Copilot app, Microsoft Ignite releases appeared first on The GitHub Blog .",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
-      "title": "Copilot code review: Adaptive effort, secret detection, and more",
-      "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
-      "date": "2026-11-17T18:02:05.000Z",
-      "summary": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and… The post Copilot code review: Adaptive effort, secret detection, and more appeared first on The GitHu",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
-      "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
-      "date": "2026-11-17T18:01:45.000Z",
-      "summary": "The next generation of Microsoft AI (MAI) coding models has arrived in GitHub Copilot. Introducing MAI Code 2 and MAI Code 2 Flash, two new models that represent a major… The post MAI Code 2 and MAI Code 2 Flash in GitHub Copilot appeared first on The GitHub Blog .",
       "kind": "post",
       "source": "GitHub Changelog",
       "sourceId": "rss-ghchangelog",
@@ -422,7 +487,7 @@
       "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
       "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
       "date": "2026-11-16T22:58:20Z",
-      "summary": "726 points on Hacker News",
+      "summary": "728 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -462,19 +527,6 @@
       "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "date": "2026-11-16T17:00:00.000Z",
       "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "url": "https://openai.com/index/strengthening-online-child-safety",
-      "date": "2026-11-16T17:00:00.000Z",
-      "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
       "kind": "post",
       "source": "OpenAI News",
       "sourceId": "rss-openai",
@@ -573,32 +625,6 @@
       "tier": "official",
       "tags": [
         "qwen"
-      ]
-    },
-    {
-      "title": "datasette-apps 0.4a0",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
-      "date": "2026-11-15T04:02:45.000Z",
-      "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.20.2",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.20.2",
-      "date": "2026-11-14T20:08:51Z",
-      "summary": "@oh my pi/pi ai Added Added the Antigravity CLI ACP provider with managed installation, Google sign in, refreshable distributed credentials, host tools, and retained conversations across tool steps and history changes. @oh my pi/pi catalog Added Added Antigravity CLI models for G",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -789,19 +815,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
       "date": "2026-11-10T02:29:43Z",
       "summary": "What's changed Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.321",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
-      "date": "2026-11-09T19:22:30Z",
-      "summary": "What's changed Added Claude Fable 5.2 ( claude fable 5 2 ), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added settings <file to claude remote control , which applies a settings file to every session it starts; if the file changes, no new ",
       "kind": "release",
       "source": "Claude Code releases",
       "sourceId": "gh-claude-code",
