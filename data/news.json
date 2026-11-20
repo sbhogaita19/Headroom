@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T20:42:06.356Z",
+  "generatedAt": "2026-11-20T07:22:04.518Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,13 +11,13 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "id": "gh-gemini-cli",
       "name": "Gemini CLI releases",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "id": "gh-qwen-code",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,58 @@
     }
   ],
   "items": [
+    {
+      "title": "openai/codex 0.171.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+      "date": "2026-11-20T00:44:47Z",
+      "summary": "New Features Added GPT 6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection. ( 62106) Enabled the TUI workspace by default, with searchable document previews, image previews, and subagent transcripts alongside the main conversation. ( 61352, 61888, 61889",
+      "kind": "release",
+      "source": "Codex CLI releases",
+      "sourceId": "gh-codex",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v19.0.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v19.0.1",
+      "date": "2026-11-19T22:54:41Z",
+      "summary": "@oh my pi/pi ai Fixed Fixed GIF images failing Liquid AI judgments with HTTP 422; they are now sent as PNG ([ 19757](https://github.com/can1357/oh my pi/pull/19757) by [@alphastorm](https://github.com/alphastorm)) Anthropic strict tool fallback now treats a Vertex org policy reje",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.329",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "date": "2026-11-19T22:14:41Z",
+      "summary": "What's changed Added a trust dialog warning that says where a folder's hooks are declared Added a warning in the conversation, in Claude Desktop and other non interactive hosts, when hooks in managed settings fail to load Added this session's scheduled tasks, /loop wakeups, the g",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "google-gemini/gemini-cli Release v0.70.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0",
+      "date": "2026-11-19T21:08:05Z",
+      "summary": "What's Changed Changelog for v0.69.0 preview.0 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/30222 Changelog for v0.68.0 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/30224 chore(release): bump version to 0.70.0 nightly.202611",
+      "kind": "release",
+      "source": "Gemini CLI releases",
+      "sourceId": "gh-gemini-cli",
+      "tier": "official",
+      "tags": [
+        "google"
+      ]
+    },
     {
       "title": "Introducing Tool Retrieval in the Gemini API",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
@@ -221,6 +273,19 @@
       "tier": "official",
       "tags": [
         "tools"
+      ]
+    },
+    {
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
       ]
     },
     {
@@ -435,7 +500,7 @@
       "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
       "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
       "date": "2026-11-17T21:16:12Z",
-      "summary": "322 points on Hacker News",
+      "summary": "325 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -468,32 +533,6 @@
       "tier": "official",
       "tags": [
         "tools"
-      ]
-    },
-    {
-      "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
-      "url": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
-      "date": "2026-11-17T18:04:48.000Z",
-      "summary": "Today, we’re expanding GitHub Copilot Fusion with new models, available on more Copilot surfaces, and results on two public Terminal-Bench leaderboards, giving you more ways to use Fusion and compare… The post GitHub Copilot Fusion updates: more availability, benchmarks, and mode",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "date": "2026-11-17T17:45:00.000Z",
-      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -565,7 +604,7 @@
       "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
       "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
       "date": "2026-11-16T22:58:20Z",
-      "summary": "729 points on Hacker News",
+      "summary": "733 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -624,19 +663,6 @@
       "tier": "official",
       "tags": [
         "claude",
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.20.3",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.20.3",
-      "date": "2026-11-16T01:38:21Z",
-      "summary": "@oh my pi/pi ai Breaking Changes Removed the public isXdDevicePath export from providers/cursor pi args . Ranged reads of xd:// documents now use the standard line selector behavior. Fixed Fixed rate limit handling for Mistral and other OpenAI compatible providers so requests wit",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
         "open"
       ]
     },
@@ -834,19 +860,6 @@
       "tier": "lead",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.322",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
-      "date": "2026-11-10T02:29:43Z",
-      "summary": "What's changed Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
       ]
     },
     {
