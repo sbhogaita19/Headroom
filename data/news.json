@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T07:22:04.518Z",
+  "generatedAt": "2026-11-20T20:26:02.507Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "id": "gh-omp",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 5
+      "count": 3
     },
     {
       "id": "rss-hf",
@@ -94,6 +94,32 @@
   ],
   "items": [
     {
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "date": "2026-11-20T16:30:48.000Z",
+      "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also ",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "date": "2026-11-20T10:00:00.000Z",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "title": "openai/codex 0.171.0",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
       "date": "2026-11-20T00:44:47Z",
@@ -101,6 +127,19 @@
       "kind": "release",
       "source": "Codex CLI releases",
       "sourceId": "gh-codex",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
       "tier": "official",
       "tags": [
         "openai"
@@ -341,19 +380,6 @@
       ]
     },
     {
-      "title": "Customize GitHub Copilot for your team",
-      "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
-      "date": "2026-11-18T16:00:13.000Z",
-      "summary": "You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup. Team customizations are generally available for organization teams. Team… The post Customize GitHub Copilot for your team appeared first on The GitHub Blog .",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "Quoting Daniel Stenberg",
       "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
       "date": "2026-11-18T15:58:27.000Z",
@@ -393,19 +419,6 @@
       ]
     },
     {
-      "title": "Managing frontier AI risk: From training to deployment",
-      "url": "https://openai.com/index/managing-frontier-ai-risk",
-      "date": "2026-11-18T06:00:00.000Z",
-      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "openai/codex 0.170.0",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
       "date": "2026-11-18T03:40:48Z",
@@ -429,19 +442,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "Advancing chip design with OpenAI models",
-      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-      "date": "2026-11-18T00:00:00.000Z",
-      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -500,7 +500,7 @@
       "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
       "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
       "date": "2026-11-17T21:16:12Z",
-      "summary": "325 points on Hacker News",
+      "summary": "327 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -520,19 +520,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
-      "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
-      "date": "2026-11-17T20:20:29.000Z",
-      "summary": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6… The post OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available appeared first on The",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -604,7 +591,7 @@
       "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
       "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
       "date": "2026-11-16T22:58:20Z",
-      "summary": "733 points on Hacker News",
+      "summary": "736 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -667,36 +654,10 @@
       ]
     },
     {
-      "title": "datasette 1.0a43",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
-      "date": "2026-11-15T23:20:27.000Z",
-      "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this ",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.34",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.34",
       "date": "2026-11-15T08:54:48Z",
       "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.27.4 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.27.4",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.4",
-      "date": "2026-11-15T08:43:29Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at f35dde84157f992bc324c0a3f59b1119344a683d What's Changed feat(managed agent): register client filesystems into managed sessions by @wenshao in https://github.com/QwenLM/qwen code/pull/16844 test(web shell): o",
       "kind": "release",
       "source": "Qwen Code releases",
       "sourceId": "gh-qwen-code",
@@ -853,7 +814,7 @@
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "date": "2026-11-10T10:18:22Z",
-      "summary": "722 points on Hacker News",
+      "summary": "723 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
