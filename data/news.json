@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T20:26:02.507Z",
+  "generatedAt": "2026-11-21T07:15:21.023Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -11,7 +11,7 @@
       "id": "gh-codex",
       "name": "Codex CLI releases",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "id": "gh-gemini-cli",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,32 @@
     }
   ],
   "items": [
+    {
+      "title": "QwenLM/qwen-code Release v0.28.3",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.3",
+      "date": "2026-11-21T01:45:48Z",
+      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(web shell): explain background tasks from the composer chips ([ 17398](https://github.com/QwenLM/qwen code/pull/17398)) by @wensh",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.330",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "date": "2026-11-20T22:32:56Z",
+      "summary": "What's changed Added sign in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login , Claude Code applies the organization's settings and uses its cloud provider or gateway Added easel, a built in mod that draws charts when asked and under MCP m",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
     {
       "title": "Quoting Levent Alpöge",
       "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
@@ -354,19 +380,6 @@
       ]
     },
     {
-      "title": "Gemini 4 Neon in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
-      "date": "2026-11-18T21:49:21.000Z",
-      "summary": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality… The post Gemini 4 Neon in GitHub Copilot appeared first on The GitHub Blog .",
-      "kind": "post",
-      "source": "GitHub Changelog",
-      "sourceId": "rss-ghchangelog",
-      "tier": "official",
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "title": "The Gemini app is now available on lower-memory Android devices.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
       "date": "2026-11-18T17:00:00.000Z",
@@ -481,19 +494,6 @@
       "tier": "author",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "openai/codex 0.169.1",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.1",
-      "date": "2026-11-17T22:21:10Z",
-      "summary": "Chores No verified release highlights available. Changelog Full Changelog: https://github.com/openai/codex/compare/rust v0.169.0...rust v0.169.1",
-      "kind": "release",
-      "source": "Codex CLI releases",
-      "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -654,19 +654,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.34",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.34",
-      "date": "2026-11-15T08:54:48Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.27.4 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.3 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code Release v0.27.4",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4",
       "date": "2026-11-15T07:04:40Z",
@@ -698,19 +685,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
       "date": "2026-11-13T20:40:01Z",
       "summary": "What's changed Fixed a security issue in how zstd compressed responses are decoded Added a spinner tip in VS Code and similar integrated terminals about re running a notebook cell, shown once Claude has read or edited a Jupyter notebook Added a line under the error shown when you",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.323",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
-      "date": "2026-11-12T22:12:13Z",
-      "summary": "What's changed Added Code Mode, an experimental opt in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code mode to turn it on, or to turn it off for an organization Added engines[\"claude code\"] to plugin.json : plugins outside their state",
       "kind": "release",
       "source": "Claude Code releases",
       "sourceId": "gh-claude-code",
