@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T07:15:21.023Z",
+  "generatedAt": "2026-11-21T19:20:57.666Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,19 @@
   ],
   "items": [
     {
+      "title": "can1357/oh-my-pi v19.1.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v19.1.0",
+      "date": "2026-11-21T14:32:16Z",
+      "summary": "@oh my pi/pi agent core Added Added standby tools support through Agent.setStandbyTools() and AgentContext.standbyTools , allowing tools to remain inactive until a request explicitly enables tool use. @oh my pi/pi ai Added Added provider hooks ( setProviderHooks in @oh my pi/pi a",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "QwenLM/qwen-code Release v0.28.3",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.3",
       "date": "2026-11-21T01:45:48Z",
@@ -143,6 +156,19 @@
       "tier": "official",
       "tags": [
         "openai"
+      ]
+    },
+    {
+      "title": "llm-gemini 0.38.1",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+      "date": "2026-11-20T03:01:57.000Z",
+      "summary": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release. The ",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
       ]
     },
     {
@@ -500,7 +526,7 @@
       "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
       "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
       "date": "2026-11-17T21:16:12Z",
-      "summary": "327 points on Hacker News",
+      "summary": "328 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -575,23 +601,10 @@
       ]
     },
     {
-      "title": "llm 0.37.3",
-      "url": "https://simonwillison.net/2026/Nov/16/llm/",
-      "date": "2026-11-16T23:57:26.000Z",
-      "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: ",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
       "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
       "date": "2026-11-16T22:58:20Z",
-      "summary": "736 points on Hacker News",
+      "summary": "737 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -618,19 +631,6 @@
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.22.0",
       "date": "2026-11-16T21:54:22Z",
       "summary": "@oh my pi/pi ai Fixed Fixed slow streaming of Gemma tool calls with large arguments. @oh my pi/pi coding agent Breaking Changes Moved binary analysis from the standalone ida and ghidra tools into the backend neutral dsm namespace ( xd://eval/dsm ). Replaced the ida.enabled , ida.",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.21.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.21.0",
-      "date": "2026-11-16T15:27:57Z",
-      "summary": "@oh my pi/pi ai Added Added automatic detection of thinking capabilities for previously unknown models, with persistent results and support for alternate effort and token budget request formats. @oh my pi/pi catalog Added Added Modal as a hosted inference provider. Changed Change",
       "kind": "release",
       "source": "omp releases",
       "sourceId": "gh-omp",
