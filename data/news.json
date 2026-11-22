@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T06:56:06.757Z",
+  "generatedAt": "2026-11-22T19:44:48.184Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "id": "gh-omp",
@@ -94,6 +94,45 @@
   ],
   "items": [
     {
+      "title": "QwenLM/qwen-code Qwen Code Desktop v0.28.4",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.4",
+      "date": "2026-11-22T12:52:42Z",
+      "summary": "<! Release notes generated using configuration in .github/release.yml at e8424c88ddd463c56602063efde57c328b917cd4 What's Changed test(managed agent): observe a real scheduled /loop fire in the full stack E2E by @wenshao in https://github.com/QwenLM/qwen code/pull/17506 fix(verify",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.28.4",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.4",
+      "date": "2026-11-22T12:04:21Z",
+      "summary": "<! qwen release notes:v2 Highlights Web Shell local daemon mode adds a workspace artifact library page with progressive scanning and streaming updates. ([ 18071](https://github.com/QwenLM/qwen code/pull/18071)) Web Shell chat adds a shared ChatSurface, Continue badges, suggestion",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "date": "2026-11-22T00:00:00.000Z",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "title": "can1357/oh-my-pi v19.1.0",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v19.1.0",
       "date": "2026-11-21T14:32:16Z",
@@ -110,7 +149,7 @@
       "title": "ClawDOS – An AI coding agent for DOS",
       "url": "http://ricapar.net/ClawDOS/",
       "date": "2026-11-21T05:38:01Z",
-      "summary": "162 points on Hacker News",
+      "summary": "170 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -458,19 +497,6 @@
       ]
     },
     {
-      "title": "Inside the Codex sandbox",
-      "url": "https://openai.com/index/inside-the-codex-sandbox",
-      "date": "2026-11-18T08:00:00.000Z",
-      "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "openai/codex 0.170.0",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
       "date": "2026-11-18T03:40:48Z",
@@ -539,7 +565,7 @@
       "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
       "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
       "date": "2026-11-17T21:16:12Z",
-      "summary": "328 points on Hacker News",
+      "summary": "331 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -572,19 +598,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Qwen Code Desktop v0.28.0",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.0",
-      "date": "2026-11-17T12:31:07Z",
-      "summary": "<! Release notes generated using configuration in .github/release.yml at 895dfca8ff125ac0e16372edacd4653322c02147 What's Changed feat(web shell): add sidebar workspace filter by @callmeYe in https://github.com/QwenLM/qwen code/pull/17244 feat(managed agent): add the DingTalk adap",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
