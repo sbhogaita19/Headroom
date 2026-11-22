@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T19:20:57.666Z",
+  "generatedAt": "2026-11-22T06:56:06.757Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -17,13 +17,13 @@
       "id": "gh-gemini-cli",
       "name": "Gemini CLI releases",
       "ok": true,
-      "count": 4
+      "count": 3
     },
     {
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "id": "gh-omp",
@@ -102,6 +102,19 @@
       "source": "omp releases",
       "sourceId": "gh-omp",
       "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
+      "date": "2026-11-21T05:38:01Z",
+      "summary": "162 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
       "tags": [
         "open"
       ]
@@ -654,19 +667,6 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code Release v0.27.4",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4",
-      "date": "2026-11-15T07:04:40Z",
-      "summary": "<! qwen release notes:v1 Highlights Managed Agent sessions can access granted local directories and open an interactive Managed Web Terminal without persisting credentials or paths. ([ 16844](https://github.com/QwenLM/qwen code/pull/16844), [ 16866](https://github.com/QwenLM/qwen",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "title": "anthropics/skills: Update docx, pptx, xlsx, and pdf skills (#2217)",
       "url": "https://github.com/anthropics/skills/commit/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
       "date": "2026-11-14T15:16:42Z",
@@ -798,19 +798,6 @@
       ]
     },
     {
-      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "date": "2026-11-07T20:45:32Z",
-      "summary": "629 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "anthropics/skills: Move Office skills to the Apache 2.0 license (#2146)",
       "url": "https://github.com/anthropics/skills/commit/2c5958ecac7cee2b583967a2c4981d0f4a75c579",
       "date": "2026-11-06T22:32:28Z",
@@ -822,19 +809,6 @@
       "tags": [
         "claude",
         "open"
-      ]
-    },
-    {
-      "title": "google-gemini/gemini-cli Release v0.67.0",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0",
-      "date": "2026-11-04T20:27:11Z",
-      "summary": "What's Changed Changelog for v0.65.0 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/29853 chore(release): bump version to 0.67.0 nightly.20261020.gb041de017 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/29854 Changelog for v0.6",
-      "kind": "release",
-      "source": "Gemini CLI releases",
-      "sourceId": "gh-gemini-cli",
-      "tier": "official",
-      "tags": [
-        "google"
       ]
     },
     {
