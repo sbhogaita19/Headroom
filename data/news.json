@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T19:07:29.546Z",
+  "generatedAt": "2026-11-23T23:57:25.131Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "id": "rss-hf",
@@ -94,6 +94,32 @@
   ],
   "items": [
     {
+      "title": "anthropics/claude-code v2.1.331",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "date": "2026-11-23T21:34:41Z",
+      "summary": "What's changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a s",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "Issue statuses and repository boards are in public preview",
+      "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+      "date": "2026-11-23T20:37:11.000Z",
+      "summary": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight… The post Issue statuses and repository boards are in public preview appeared first on The GitHub Blog .",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
       "title": "A more tailored Google Search that’s uniquely yours",
       "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
       "date": "2026-11-23T17:00:00.000Z",
@@ -107,6 +133,19 @@
       ]
     },
     {
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "date": "2026-11-23T08:00:00.000Z",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "title": "can1357/oh-my-pi v19.1.1",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v19.1.1",
       "date": "2026-11-23T05:37:29Z",
@@ -114,6 +153,19 @@
       "kind": "release",
       "source": "omp releases",
       "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "datasette-charts 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+      "date": "2026-11-23T00:37:20.000Z",
+      "summary": "Release: datasette-charts 0.1a0 I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin. You can try it out in Datasette Lite here . It lo",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
       "tier": "author",
       "tags": [
         "open"
@@ -510,19 +562,6 @@
       ]
     },
     {
-      "title": "Research acceleration: The jagged frontier",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "date": "2026-11-18T08:00:00.000Z",
-      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "title": "openai/codex 0.170.0",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
       "date": "2026-11-18T03:40:48Z",
@@ -559,19 +598,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "External sandboxes for coding agents",
-      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
-      "date": "2026-11-17T22:52:29.000Z",
-      "summary": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -643,7 +669,7 @@
       "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
       "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
       "date": "2026-11-16T22:58:20Z",
-      "summary": "737 points on Hacker News",
+      "summary": "738 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -691,19 +717,6 @@
       "tags": [
         "claude",
         "open"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.325",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
-      "date": "2026-11-13T20:40:01Z",
-      "summary": "What's changed Fixed a security issue in how zstd compressed responses are decoded Added a spinner tip in VS Code and similar integrated terminals about re running a notebook cell, shown once Claude has read or edited a Jupyter notebook Added a line under the error shown when you",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
       ]
     },
     {
