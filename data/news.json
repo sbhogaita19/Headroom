@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T19:44:48.184Z",
+  "generatedAt": "2026-11-23T07:45:26.420Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,32 @@
   ],
   "items": [
     {
+      "title": "can1357/oh-my-pi v19.1.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v19.1.1",
+      "date": "2026-11-23T05:37:29Z",
+      "summary": "@oh my pi/pi agent core Fixed Prevented oversized handoffs from reaching the provider by detecting when prepared context exceeds the target model’s context window. Preserved provider error status, error identifiers, retry classification, and cancellation markers on failed or canc",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "date": "2026-11-22T19:45:06.000Z",
+      "summary": "Tool: Select Styling Specimens I got frustrated at how HTML &lt;select&gt; boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of the ways they can be styled: Build an HTML page",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "QwenLM/qwen-code Qwen Code Desktop v0.28.4",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.4",
       "date": "2026-11-22T12:52:42Z",
@@ -149,7 +175,7 @@
       "title": "ClawDOS – An AI coding agent for DOS",
       "url": "http://ricapar.net/ClawDOS/",
       "date": "2026-11-21T05:38:01Z",
-      "summary": "170 points on Hacker News",
+      "summary": "175 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -549,19 +575,6 @@
       ]
     },
     {
-      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-      "date": "2026-11-17T22:38:52.000Z",
-      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with supp",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
       "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
       "date": "2026-11-17T21:16:12Z",
@@ -650,19 +663,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "can1357/oh-my-pi v18.22.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.22.0",
-      "date": "2026-11-16T21:54:22Z",
-      "summary": "@oh my pi/pi ai Fixed Fixed slow streaming of Gemma tool calls with large arguments. @oh my pi/pi coding agent Breaking Changes Moved binary analysis from the standalone ida and ghidra tools into the backend neutral dsm namespace ( xd://eval/dsm ). Replaced the ida.enabled , ida.",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
