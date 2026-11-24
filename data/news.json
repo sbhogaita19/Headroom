@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T23:57:25.131Z",
+  "generatedAt": "2026-11-24T09:58:30.071Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -93,6 +93,84 @@
     }
   ],
   "items": [
+    {
+      "title": "datasette-charts 0.2a0",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+      "date": "2026-11-24T04:24:29.000Z",
+      "summary": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools.",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "google-gemini/gemini-cli Release v0.71.1",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1",
+      "date": "2026-11-24T03:50:24Z",
+      "summary": "What's Changed fix(patch): cherry pick aafdfdf to release/v0.71.0 pr 30420 to patch version v0.71.0 and create version 0.71.1 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/30429 Full Changelog : https://github.com/google gemini/gemini cli/compare/v0.71.",
+      "kind": "release",
+      "source": "Gemini CLI releases",
+      "sourceId": "gh-gemini-cli",
+      "tier": "official",
+      "tags": [
+        "google"
+      ]
+    },
+    {
+      "title": "datasette-agent 0.7a1",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+      "date": "2026-11-24T03:45:57.000Z",
+      "summary": "Release: datasette-agent 0.7a1 I small improvement to Datasette Agent : chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that ",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "google-gemini/gemini-cli Release v0.71.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0",
+      "date": "2026-11-24T01:16:44Z",
+      "summary": "What's Changed Changelog for v0.70.0 preview.0 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/30361 chore(release): bump version to 0.71.0 nightly.20261118.g615d6bc8c by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/30366 Changelo",
+      "kind": "release",
+      "source": "Gemini CLI releases",
+      "sourceId": "gh-gemini-cli",
+      "tier": "official",
+      "tags": [
+        "google"
+      ]
+    },
+    {
+      "title": "openai/codex 0.172.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+      "date": "2026-11-24T00:03:55Z",
+      "summary": "New Features Follow thread links from search results and transcripts to open saved conversations and nested agents in the terminal. ( 62332) Press Tab to complete arguments for supported slash commands. For example, /mcp lo completes to /mcp login . ( 62343) Jump between task gro",
+      "kind": "release",
+      "source": "Codex CLI releases",
+      "sourceId": "gh-codex",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "date": "2026-11-23T23:40:49.000Z",
+      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. ",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "anthropics/claude-code v2.1.331",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
@@ -315,19 +393,6 @@
       ]
     },
     {
-      "title": "llm-gemini 0.38.1",
-      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
-      "date": "2026-11-20T03:01:57.000Z",
-      "summary": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release. The ",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "openai/codex 0.171.0",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
       "date": "2026-11-20T00:44:47Z",
@@ -471,19 +536,6 @@
       ]
     },
     {
-      "title": "google-gemini/gemini-cli Release v0.69.0",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0",
-      "date": "2026-11-19T01:45:47Z",
-      "summary": "What's Changed fix(core,cli): preserve literal $ characters during template placeholder replacement by @jesussamuel byte in https://github.com/google gemini/gemini cli/pull/30136 feat(cli): add /stats heatmap subcommand for daily token usage by @jvargassanchez dot in https://gith",
-      "kind": "release",
-      "source": "Gemini CLI releases",
-      "sourceId": "gh-gemini-cli",
-      "tier": "official",
-      "tags": [
-        "google"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.328",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
       "date": "2026-11-19T01:14:04Z",
@@ -523,19 +575,6 @@
       ]
     },
     {
-      "title": "llm-gemini 0.38",
-      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
-      "date": "2026-11-18T23:59:20.000Z",
-      "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the ",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "The Gemini app is now available on lower-memory Android devices.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
       "date": "2026-11-18T17:00:00.000Z",
@@ -546,32 +585,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "Quoting Daniel Stenberg",
-      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
-      "date": "2026-11-18T15:58:27.000Z",
-      "summary": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfi",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "openai/codex 0.170.0",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
-      "date": "2026-11-18T03:40:48Z",
-      "summary": "New Features Added WebRTC negotiation for realtime voice calls in the TUI. ( 61172) Added automatically refreshed authentication headers for OpenTelemetry HTTP exporters. ( 61028) Added experimental support for using identically named MCP servers across environments. ( 60905) Bug",
-      "kind": "release",
-      "source": "Codex CLI releases",
-      "sourceId": "gh-codex",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -604,7 +617,7 @@
       "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
       "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
       "date": "2026-11-17T21:16:12Z",
-      "summary": "331 points on Hacker News",
+      "summary": "332 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -772,19 +785,6 @@
       ]
     },
     {
-      "title": "google-gemini/gemini-cli Release v0.68.0",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0",
-      "date": "2026-11-10T21:17:07Z",
-      "summary": "What's Changed Changelog for v0.67.0 preview.0 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/29990 Changelog for v0.66.0 by @gemini cli robot in https://github.com/google gemini/gemini cli/pull/29992 docs(readme): clarify Gemini CLI scope, limitations, ",
-      "kind": "release",
-      "source": "Gemini CLI releases",
-      "sourceId": "gh-gemini-cli",
-      "tier": "official",
-      "tags": [
-        "google"
-      ]
-    },
-    {
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "date": "2026-11-10T18:01:15Z",
@@ -801,7 +801,7 @@
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "date": "2026-11-10T10:18:22Z",
-      "summary": "724 points on Hacker News",
+      "summary": "726 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
