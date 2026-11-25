@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T08:41:46.387Z",
+  "generatedAt": "2026-11-25T21:45:05.154Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,71 @@
   ],
   "items": [
     {
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "date": "2026-11-25T18:52:55.000Z",
+      "summary": "",
+      "kind": "post",
+      "source": "Hugging Face blog",
+      "sourceId": "rss-hf",
+      "tier": "official",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "can1357/oh-my-pi v19.2.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v19.2.1",
+      "date": "2026-11-25T17:10:03Z",
+      "summary": "@oh my pi/pi agent core Added Added Agent.peekDeliveringMessages(queue?) for queued input on its way into the next request that the transcript has not recorded yet; queue listeners hear when it lands. Added Agent.continue(signal, { queuedOnly: true }) to start an idle turn using ",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "mattpocock/skills: Merge pull request #1485 from mattpocock/glossary-bold-terms",
+      "url": "https://github.com/mattpocock/skills/commit/6f7f7831a625f040a8e06a0e7954826b87ce775a",
+      "date": "2026-11-25T12:08:23Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "mattpocock/skills: domain-modeling: express term relationships inside definitions",
+      "url": "https://github.com/mattpocock/skills/commit/2b7ab8c9471fad3fca0a9c0c9e1f52153408172b",
+      "date": "2026-11-25T12:07:02Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "An Indic Voice Agent with CUGA",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "date": "2026-11-25T10:22:09.000Z",
+      "summary": "",
+      "kind": "post",
+      "source": "Hugging Face blog",
+      "sourceId": "rss-hf",
+      "tier": "official",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "can1357/oh-my-pi v19.2.0",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v19.2.0",
       "date": "2026-11-25T08:32:28Z",
@@ -175,32 +240,6 @@
       "title": "mattpocock/skills: chief-of-staff: delegate the work, offer convention fixes",
       "url": "https://github.com/mattpocock/skills/commit/742afa6b936d17c8dcc790748840e4992edd42fa",
       "date": "2026-11-24T14:42:00Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "mattpocock/skills: chief-of-staff: relay target, friction-only offers, keep conversation",
-      "url": "https://github.com/mattpocock/skills/commit/419dac71f1dfe95e378bc1009f0b0fad2a3cb6ed",
-      "date": "2026-11-24T14:38:57Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "mattpocock/skills: Merge pull request #1473 from mattpocock/chief-of-staff-delegate-remember",
-      "url": "https://github.com/mattpocock/skills/commit/6bb33ef4dd4f12cec18a1a4b7f1446508e624bb2",
-      "date": "2026-11-24T14:30:48Z",
       "summary": "",
       "kind": "commit",
       "source": "mattpocock/skills commits",
@@ -523,6 +562,19 @@
       ]
     },
     {
+      "title": "Show HN: OpenComputer – an open source alternative to Devin",
+      "url": "https://github.com/diggerhq/opencomputer",
+      "date": "2026-11-20T20:19:56Z",
+      "summary": "131 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "can1357/oh-my-pi v19.0.1",
       "url": "https://github.com/can1357/oh-my-pi/releases/tag/v19.0.1",
       "date": "2026-11-19T22:54:41Z",
@@ -627,19 +679,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.22.2",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.22.2",
-      "date": "2026-11-18T01:19:59Z",
-      "summary": "@oh my pi/pi ai Added Added the native Kiro provider: sign in with AWS IAM Identity Center, AWS Builder ID, Google, GitHub, or a Kiro API key ( KIRO API KEY ), stream responses with reasoning, tool calls, and images, and report Kiro credits in /usage ([ 18955](https://github.com/",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.327",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
       "date": "2026-11-17T23:17:45Z",
@@ -656,7 +695,7 @@
       "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
       "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
       "date": "2026-11-17T21:16:12Z",
-      "summary": "333 points on Hacker News",
+      "summary": "334 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -756,19 +795,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
-      "url": "https://github.com/FrigadeHQ/yogurt",
-      "date": "2026-11-11T15:33:06Z",
-      "summary": "308 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
       ]
     },
     {
