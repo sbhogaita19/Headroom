@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T22:29:54.350Z",
+  "generatedAt": "2026-11-25T08:41:46.387Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "id": "gh-omp",
@@ -93,6 +93,45 @@
     }
   ],
   "items": [
+    {
+      "title": "can1357/oh-my-pi v19.2.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v19.2.0",
+      "date": "2026-11-25T08:32:28Z",
+      "summary": "@oh my pi/pi agent core Added Added customizable notices for unmet soft tool requirements, allowing hosts to specify the text shown when a required tool call does not satisfy its requirement. Added AgentLoopError and turn level error metadata so hosts can distinguish an agent loo",
+      "kind": "release",
+      "source": "omp releases",
+      "sourceId": "gh-omp",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "anthropics/claude-code v2.1.332",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "date": "2026-11-25T01:32:14Z",
+      "summary": "What's changed Added skills from MCP servers (beta). They show as server:skill in the / menu; other skills keep their names Added a PreSkillShellCommand hook event that can refuse a skill or command's inline shell commands as it loads; on 2.1.331 and older, a settings file naming",
+      "kind": "release",
+      "source": "Claude Code releases",
+      "sourceId": "gh-claude-code",
+      "tier": "official",
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "date": "2026-11-24T23:02:07.000Z",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going t",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
     {
       "title": "GPT 6.2 Astra Solves a Historical Mystery",
       "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
@@ -276,6 +315,19 @@
       ]
     },
     {
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "date": "2026-11-24T00:00:00.000Z",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "kind": "post",
+      "source": "OpenAI News",
+      "sourceId": "rss-openai",
+      "tier": "official",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
       "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
       "date": "2026-11-23T23:40:49.000Z",
@@ -380,19 +432,6 @@
       ]
     },
     {
-      "title": "Select Styling Specimens",
-      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
-      "date": "2026-11-22T19:45:06.000Z",
-      "summary": "Tool: Select Styling Specimens I got frustrated at how HTML &lt;select&gt; boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of the ways they can be styled: Build an HTML page",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "QwenLM/qwen-code Qwen Code Desktop v0.28.4",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.4",
       "date": "2026-11-22T12:52:42Z",
@@ -481,19 +520,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "date": "2026-11-20T10:00:00.000Z",
-      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "kind": "post",
-      "source": "OpenAI News",
-      "sourceId": "rss-openai",
-      "tier": "official",
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -640,19 +666,6 @@
       ]
     },
     {
-      "title": "can1357/oh-my-pi v18.22.1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.22.1",
-      "date": "2026-11-17T21:05:23Z",
-      "summary": "@oh my pi/pi agent core Added A model on an extension's custom api can take the Anthropic on demand compaction lane by declaring remoteCompaction: { api: \"anthropic messages\", enabled: true } ; the request goes through its own stream like any turn ([ 19580](https://github.com/can",
-      "kind": "release",
-      "source": "omp releases",
-      "sourceId": "gh-omp",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "Put Gemini to work for you",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
       "date": "2026-11-17T17:00:00.000Z",
@@ -663,19 +676,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.35",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.35",
-      "date": "2026-11-17T12:07:45Z",
-      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.28.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.27.4 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
@@ -715,19 +715,6 @@
       "tier": "lead",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "anthropics/claude-code v2.1.326",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
-      "date": "2026-11-16T22:11:05Z",
-      "summary": "What's changed Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode Added a startup warning when an allowedTools , disallowedTools or tools value has an entry that doesn't look like a comp",
-      "kind": "release",
-      "source": "Claude Code releases",
-      "sourceId": "gh-claude-code",
-      "tier": "official",
-      "tags": [
-        "claude"
       ]
     },
     {
