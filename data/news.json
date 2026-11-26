@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T08:26:41.164Z",
+  "generatedAt": "2026-11-26T21:38:24.988Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "id": "gh-omp",
@@ -94,6 +94,45 @@
   ],
   "items": [
     {
+      "title": "QwenLM/qwen-code Release v0.28.7",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.7",
+      "date": "2026-11-26T18:04:26Z",
+      "summary": "<! qwen release notes:v2 Highlights Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ([ 18351](https://github.com/QwenLM/qwen code/pull/18351)) Repeated tool call rejections now explain the c",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "date": "2026-11-26T15:09:31.000Z",
+      "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostens",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "date": "2026-11-26T09:44:23Z",
+      "summary": "156 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.36",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.36",
       "date": "2026-11-26T06:46:04Z",
@@ -117,6 +156,19 @@
       "tier": "official",
       "tags": [
         "qwen"
+      ]
+    },
+    {
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "",
+      "kind": "post",
+      "source": "Hugging Face blog",
+      "sourceId": "rss-hf",
+      "tier": "official",
+      "tags": [
+        "open"
       ]
     },
     {
@@ -484,19 +536,6 @@
       ]
     },
     {
-      "title": "datasette-charts 0.1a0",
-      "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
-      "date": "2026-11-23T00:37:20.000Z",
-      "summary": "Release: datasette-charts 0.1a0 I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin. You can try it out in Datasette Lite here . It lo",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "How to build and maintain an agentic evaluation",
       "url": "https://huggingface.co/blog/agentic-evals",
       "date": "2026-11-23T00:00:00.000Z",
@@ -598,19 +637,6 @@
       "tier": "official",
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "title": "Show HN: OpenComputer – an open source alternative to Devin",
-      "url": "https://github.com/diggerhq/opencomputer",
-      "date": "2026-11-20T20:19:56Z",
-      "summary": "131 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -912,19 +938,6 @@
       "source": "herdr releases",
       "sourceId": "gh-herdr",
       "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "date": "2026-10-13T17:05:48.000Z",
-      "summary": "",
-      "kind": "post",
-      "source": "Hugging Face blog",
-      "sourceId": "rss-hf",
-      "tier": "official",
       "tags": [
         "open"
       ]
