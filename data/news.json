@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T21:45:05.154Z",
+  "generatedAt": "2026-11-26T08:26:41.164Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -23,7 +23,7 @@
       "id": "gh-qwen-code",
       "name": "Qwen Code releases",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "id": "gh-omp",
@@ -71,7 +71,7 @@
       "id": "rss-ghchangelog",
       "name": "GitHub Changelog",
       "ok": true,
-      "count": 1
+      "count": 2
     },
     {
       "id": "rss-hf",
@@ -93,6 +93,45 @@
     }
   ],
   "items": [
+    {
+      "title": "QwenLM/qwen-code SDK TypeScript Release v0.1.36",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.36",
+      "date": "2026-11-26T06:46:04Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.28.6 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.28.0 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "QwenLM/qwen-code Release v0.28.6",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.6",
+      "date": "2026-11-26T05:51:04Z",
+      "summary": "<! qwen release notes:v2 Highlights Managed sessions can now suspend while awaiting tool approvals, questions, or background work, and resume after Harness crashes via cold recovery. ([ 17953](https://github.com/QwenLM/qwen code/pull/17953), [ 18115](https://github.com/QwenLM/qwe",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "title": "Copilot code review billing will default to the organization",
+      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "date": "2026-11-25T22:18:03.000Z",
+      "summary": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep… The post Copilot code review billing will default to the organization appeared first on The GitHub Blog",
+      "kind": "post",
+      "source": "GitHub Changelog",
+      "sourceId": "rss-ghchangelog",
+      "tier": "official",
+      "tags": [
+        "tools"
+      ]
+    },
     {
       "title": "Where scientists draw the line on AI agents",
       "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
@@ -715,19 +754,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Release v0.28.0",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.0",
-      "date": "2026-11-17T11:17:50Z",
-      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(web shell): add sidebar workspace filter ([ 17244](https://github.com/QwenLM/qwen code/pull/17244)) by @callmeYe feat(managed age",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
