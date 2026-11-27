@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T08:41:08.097Z",
+  "generatedAt": "2026-11-27T21:22:12.820Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,45 @@
   ],
   "items": [
     {
+      "title": "mattpocock/skills: Merge pull request #1495 from mattpocock/to-tickets-parent-title",
+      "url": "https://github.com/mattpocock/skills/commit/bbadaa631c37af594e5a05c9cefacd9956136b18",
+      "date": "2026-11-27T17:07:41Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "mattpocock/skills: Apply suggestion from @mattpocock",
+      "url": "https://github.com/mattpocock/skills/commit/70c7fbbbe3a8cdf2cc193aa29f0a1b3a0f852c2d",
+      "date": "2026-11-27T17:07:29Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
+      "title": "mattpocock/skills: to-tickets: name the parent issue's title in a ticket's Parent section",
+      "url": "https://github.com/mattpocock/skills/commit/9223538ac5d57e33b35e5a5198168c59b12f7fa4",
+      "date": "2026-11-27T17:06:15Z",
+      "summary": "",
+      "kind": "commit",
+      "source": "mattpocock/skills commits",
+      "sourceId": "gh-pocock",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "QwenLM/qwen-code SDK TypeScript Release sdk-typescript-v0.1.39",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.39",
       "date": "2026-11-27T08:06:02Z",
@@ -136,7 +175,7 @@
       "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
       "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
       "date": "2026-11-26T09:44:23Z",
-      "summary": "323 points on Hacker News",
+      "summary": "417 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -237,19 +276,6 @@
       ]
     },
     {
-      "title": "mattpocock/skills: domain-modeling: express term relationships inside definitions",
-      "url": "https://github.com/mattpocock/skills/commit/2b7ab8c9471fad3fca0a9c0c9e1f52153408172b",
-      "date": "2026-11-25T12:07:02Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "An Indic Voice Agent with CUGA",
       "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
       "date": "2026-11-25T10:22:09.000Z",
@@ -325,32 +351,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "mattpocock/skills: Merge pull request #1474 from mattpocock/chief-of-staff-soften",
-      "url": "https://github.com/mattpocock/skills/commit/d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
-      "date": "2026-11-24T14:43:03Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "mattpocock/skills: chief-of-staff: delegate the work, offer convention fixes",
-      "url": "https://github.com/mattpocock/skills/commit/742afa6b936d17c8dcc790748840e4992edd42fa",
-      "date": "2026-11-24T14:42:00Z",
-      "summary": "",
-      "kind": "commit",
-      "source": "mattpocock/skills commits",
-      "sourceId": "gh-pocock",
-      "tier": "author",
-      "tags": [
-        "open"
       ]
     },
     {
@@ -934,19 +934,6 @@
       "url": "https://github.com/herdrdev/herdr/releases/tag/v0.9.5",
       "date": "2026-10-14T16:07:28Z",
       "summary": "This is a hotfix release for v0.9.4. See the v0.9.4 notes for the full feature release: https://github.com/herdrdev/herdr/releases/tag/v0.9.4 Fixed Prefix shortcuts work again when the terminal sends the next key as plain text. This affected Tern, Chinese, Japanese and Korean inp",
-      "kind": "release",
-      "source": "herdr releases",
-      "sourceId": "gh-herdr",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "title": "ogulcancelik/herdr v0.9.4",
-      "url": "https://github.com/herdrdev/herdr/releases/tag/v0.9.4",
-      "date": "2026-10-13T15:41:22Z",
-      "summary": "Added herdr plugin update updates plugins installed from GitHub, all at once or by name. Running plugin panes keep working on their old files, and new runs pick up the update without a config reload. Locally linked plugins are left alone. ( 4245, thanks @JJLiebig) Windows notific",
       "kind": "release",
       "source": "herdr releases",
       "sourceId": "gh-herdr",
