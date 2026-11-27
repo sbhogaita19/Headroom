@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T21:38:24.988Z",
+  "generatedAt": "2026-11-27T08:41:08.097Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,19 @@
   ],
   "items": [
     {
+      "title": "QwenLM/qwen-code SDK TypeScript Release sdk-typescript-v0.1.39",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.39",
+      "date": "2026-11-27T08:06:02Z",
+      "summary": "Bundled CLI Version This SDK release bundles CLI version: 0.28.7 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bundles CLI version: 0.28.6 Source: CLI built from source (same branch/ref as SDK) Bundled CLI Version This SDK release bun",
+      "kind": "release",
+      "source": "Qwen Code releases",
+      "sourceId": "gh-qwen-code",
+      "tier": "official",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
       "title": "QwenLM/qwen-code Release v0.28.7",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.7",
       "date": "2026-11-26T18:04:26Z",
@@ -123,7 +136,7 @@
       "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
       "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
       "date": "2026-11-26T09:44:23Z",
-      "summary": "156 points on Hacker News",
+      "summary": "323 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -611,19 +624,6 @@
       "tier": "lead",
       "tags": [
         "open"
-      ]
-    },
-    {
-      "title": "QwenLM/qwen-code Release v0.28.3",
-      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.3",
-      "date": "2026-11-21T01:45:48Z",
-      "summary": "<! qwen release notes:v1 Highlights See the complete change list below. Breaking Changes No known breaking changes. Complete Change List Features feat(web shell): explain background tasks from the composer chips ([ 17398](https://github.com/QwenLM/qwen code/pull/17398)) by @wensh",
-      "kind": "release",
-      "source": "Qwen Code releases",
-      "sourceId": "gh-qwen-code",
-      "tier": "official",
-      "tags": [
-        "qwen"
       ]
     },
     {
