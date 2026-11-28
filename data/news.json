@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T21:22:12.820Z",
+  "generatedAt": "2026-11-28T07:54:46.198Z",
   "sources": [
     {
       "id": "gh-claude-code",
@@ -94,6 +94,19 @@
   ],
   "items": [
     {
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "date": "2026-11-27T23:57:17.000Z",
+      "summary": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up wi",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "mattpocock/skills: Merge pull request #1495 from mattpocock/to-tickets-parent-title",
       "url": "https://github.com/mattpocock/skills/commit/bbadaa631c37af594e5a05c9cefacd9956136b18",
       "date": "2026-11-27T17:07:41Z",
@@ -146,6 +159,19 @@
       ]
     },
     {
+      "title": "datasette-mcp 0.4",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+      "date": "2026-11-27T00:26:17.000Z",
+      "summary": "Release: datasette-mcp 0.4 Fixed for compatibility with Datasette 1.0a44 . Tags: model-context-protocol , datasette",
+      "kind": "post",
+      "source": "Simon Willison",
+      "sourceId": "rss-simon",
+      "tier": "author",
+      "tags": [
+        "open"
+      ]
+    },
+    {
       "title": "QwenLM/qwen-code Release v0.28.7",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.7",
       "date": "2026-11-26T18:04:26Z",
@@ -175,7 +201,7 @@
       "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
       "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
       "date": "2026-11-26T09:44:23Z",
-      "summary": "417 points on Hacker News",
+      "summary": "420 points on Hacker News",
       "kind": "discussion",
       "source": "Hacker News",
       "sourceId": "hn-agents",
@@ -406,19 +432,6 @@
       ]
     },
     {
-      "title": "datasette-agent 0.7a1",
-      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
-      "date": "2026-11-24T03:45:57.000Z",
-      "summary": "Release: datasette-agent 0.7a1 A small improvement to Datasette Agent : chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "google-gemini/gemini-cli Release v0.71.0",
       "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0",
       "date": "2026-11-24T01:16:44Z",
@@ -471,19 +484,6 @@
       ]
     },
     {
-      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
-      "date": "2026-11-23T23:40:49.000Z",
-      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. ",
-      "kind": "post",
-      "source": "Simon Willison",
-      "sourceId": "rss-simon",
-      "tier": "author",
-      "tags": [
-        "open"
-      ]
-    },
-    {
       "title": "anthropics/claude-code v2.1.331",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
       "date": "2026-11-23T21:34:41Z",
@@ -520,6 +520,19 @@
       "tier": "official",
       "tags": [
         "google"
+      ]
+    },
+    {
+      "title": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
+      "url": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
+      "date": "2026-11-23T14:02:15Z",
+      "summary": "136 points on Hacker News",
+      "kind": "discussion",
+      "source": "Hacker News",
+      "sourceId": "hn-agents",
+      "tier": "lead",
+      "tags": [
+        "open"
       ]
     },
     {
@@ -780,19 +793,6 @@
       "tier": "official",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "title": "Running coding agents without handing them my credentials",
-      "url": "https://blog.antonio.cx/running-agents-with-lend",
-      "date": "2026-11-17T01:18:56Z",
-      "summary": "134 points on Hacker News",
-      "kind": "discussion",
-      "source": "Hacker News",
-      "sourceId": "hn-agents",
-      "tier": "lead",
-      "tags": [
-        "open"
       ]
     },
     {
